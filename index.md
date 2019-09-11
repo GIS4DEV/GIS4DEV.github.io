@@ -5,6 +5,7 @@ The [Q&A respository](https://github.com/GIS4DEV/Q-and-A) hosts content from pre
 Members of Fall 2019:
 
 [pdickson2](https://pdickson2.github.io)
+
 [bendohan](https://bendohan.github.io)
 [chriskgernon](https://chriskgernon.github.io)
 [sarahhaedrich](https://sarahhaedrich.github.io)

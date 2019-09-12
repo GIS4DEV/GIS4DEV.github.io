@@ -20,3 +20,5 @@ Members of Fall 2019:
 - [tori-koontz](https://tori-koontz.github.io)
 - [kgrantsasson](https://kgrantsasson.github.io)
 - [rebeccawishnie](https://rebeccawishnie.github.io)
+
+[My First QGIS Model](qgisModel.md)

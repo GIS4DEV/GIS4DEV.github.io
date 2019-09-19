@@ -20,4 +20,6 @@ Members of Fall 2019:
 - [tori-koontz](https://tori-koontz.github.io)
 - [kgrantsasson](https://kgrantsasson.github.io)
 
-[My First QGIS Model](qgisModel.md)
+Worked Examples:
+- [My First QGIS Model](qgisModel.md)
+- [Plotly Graph of Distance and Rent in Chicago 2010](distancePlot.html)

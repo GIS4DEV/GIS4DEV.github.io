@@ -2,6 +2,9 @@
 
 The [Q&A respository](https://github.com/GIS4DEV/Q-and-A) hosts content from previous editions of Open Source GIS for Development, including the previous [course manual](https://www.josephholler.com/files/GIS4DEV.pdf)
 
+The [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki/Wiki-Home) contains FAQ's for open source GIS work.
+
+
 Members of Fall 2019:
 
 - [pdickson2](https://pdickson2.github.io)

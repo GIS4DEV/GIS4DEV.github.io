@@ -27,4 +27,4 @@ Members of Fall 2019:
 Worked Examples:
 - [My First QGIS Model](qgisModel.md)
 - [Plotly Graph of Distance and Rent in Chicago 2010](distancePlot.html)
-- [Leaflet map of pharmacies in Dar es Salaam](leaflet_test/index.html)
+- [Leaflet map of pharmacies in Dar es Salaam](dsmmap/index.html)

@@ -20,8 +20,8 @@ Members of Fall 2019:
 - [tianshengs](https://tianshengs.github.io)
 - [kufreu](https://kufreu.github.io)
 - [marcovg](https://marcovg.github.io)
-- [cameronw-16](https://cameronw-16.github.io)
 - [tori-koontz](https://tori-koontz.github.io)
+- [cameronw-16](https://cameronw-16.github.io)
 - [kgrantsasson](https://kgrantsasson.github.io)
 
 Worked Examples:

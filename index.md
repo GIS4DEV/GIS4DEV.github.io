@@ -28,3 +28,5 @@ Worked Examples:
 - [My First QGIS Model](qgisModel.md)
 - [Plotly Graph of Distance and Rent in Chicago 2010](distancePlot.html)
 - [Leaflet map of pharmacies in Dar es Salaam](dsmmap/index.html)
+- [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
+- [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)

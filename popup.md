@@ -4,7 +4,7 @@ The QGIS2WEB plugin automatically creates plain Jane popups with all of the attr
 
 The content itself is a table with a series of rows, including one row for each attribute. The beginning of a row is flagged by a '<tr>' tag and ended by a '</tr>' tag. The beginning of a row cell is flagged by a '<td>' tag and ended by a '</td>' tag.
 
-'''js
+```js
 function pop_SubwardsbyPercentBuildingsFlooded_1(feature, layer) {
  var popupContent = '<table>\
    <tr>\
@@ -25,13 +25,13 @@ function pop_SubwardsbyPercentBuildingsFlooded_1(feature, layer) {
    </table>';
 layer.bindPopup(popupContent, {maxHeight: 400});
 }
-'''
+```
 
 To remove rows, delete everything from the beginning '<tr>' tag to the ending '</tr>' tag.
 To add a label, insert text before the feature.properties() function calling for the attribute content by adding it with + operators.
 In the example below, I've removed the FID from the popup content and inserted a label for pctflood:
 
-'''js
+```js
 function pop_SubwardsbyPercentBuildingsFlooded_1(feature, layer) {
  var popupContent = '<table>\
   
@@ -49,5 +49,4 @@ function pop_SubwardsbyPercentBuildingsFlooded_1(feature, layer) {
    </tr>\
    </table>';
 layer.bindPopup(popupContent, {maxHeight: 400});
-}
-'''
+}```

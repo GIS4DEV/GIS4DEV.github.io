@@ -30,3 +30,4 @@ Worked Examples:
 - [Leaflet map of pharmacies in Dar es Salaam](dsmmap/index.html)
 - [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
+- [Revising Leaflet popup content](popup.md)

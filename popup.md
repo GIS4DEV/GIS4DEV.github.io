@@ -2,7 +2,7 @@
 
 The QGIS2WEB plugin automatically creates plain Jane popups with all of the attributes of your layer(s) and no labels. The popup is created in the bindPopup() function, which first creates a popupContent text string with some code for the popup's content.
 
-The content itself is a table with a series of rows, including one row for each attribute. The beginning of a row is flagged by a '<tr>' tag and ended by a '</tr>' tag. The beginning of a row cell is flagged by a '<td>' tag and ended by a '</td>' tag.
+The content itself is a table with a series of rows, including one row for each attribute. The beginning of a row is flagged by a `<tr>` tag and ended by a '</tr>' tag. The beginning of a row cell is flagged by a '<td>' tag and ended by a '</td>' tag.
 
 ```js
 function pop_SubwardsbyPercentBuildingsFlooded_1(feature, layer) {

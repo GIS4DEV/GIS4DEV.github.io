@@ -4,6 +4,8 @@ The [Q&A respository](https://github.com/GIS4DEV/Q-and-A) hosts content from pre
 
 Here is the last version of [course syllabus and materials](OpenSourceGIScience2019.pdf).
 
+UCGIS 2020 [Presentation](teachingReproducibility.pdf)
+
 The [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki/) contains FAQ's for open source GIS work.
 You can also post a question about open source GIS in the form of an [Issue](https://github.com/GIS4DEV/GIS4DEV.github.io/issues).
 

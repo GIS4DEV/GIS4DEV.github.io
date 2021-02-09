@@ -40,6 +40,7 @@ Worked Examples:
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
 - [Revising Leaflet popup content](popup.md)
 
+Blog Posts Demo:
 <ul>
   {% for post in site.posts %}
     <li>

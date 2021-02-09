@@ -9,6 +9,9 @@ UCGIS 2020 [Presentation](teachingReproducibility.pdf)
 The [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki/) contains FAQ's for open source GIS work.
 You can also post a question about open source GIS in the form of an [Issue](https://github.com/GIS4DEV/GIS4DEV.github.io/issues).
 
+Members of Spring 2021:
+- new student1
+- new student2
 
 Members of Fall 2019:
 
@@ -36,3 +39,11 @@ Worked Examples:
 - [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
 - [Revising Leaflet popup content](popup.md)
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

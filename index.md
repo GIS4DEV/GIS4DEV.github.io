@@ -33,9 +33,9 @@ Members of Fall 2019:
 - [derrickburt](https://derrickburt.github.io)
 
 Worked Examples and Notes:
-- [My First QGIS Model](qgisModel.md)
+- [My First QGIS Model](example1/qgisModel.md)
 - [Plotly Graph of Distance and Rent in Chicago 2010](distancePlot.html)
 - [Leaflet map of pharmacies in Dar es Salaam](dsmmap/index.html)
 - [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
-- [Revising Leaflet popup content](popup.md)
+- [Revising Leaflet popup content](leaflet/popup.md)

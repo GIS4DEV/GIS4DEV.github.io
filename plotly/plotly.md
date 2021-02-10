@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Plotly Distance Scatterplot
+title: Data Plotly Scatterplot Example
 ---
 
 {% include_relative distancePlot.html %}

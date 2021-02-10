@@ -34,7 +34,7 @@ Members of Fall 2019:
 
 Worked Examples and Notes:
 - [My First QGIS Model](example1/qgisModel.md)
-- [Plotly Graph of Distance and Rent in Chicago 2010](plotly/plotly.md)
+- [Plotly Graph of Distance and Rent in Chicago 2010](plotly/plotly.md) html?
 - [Leaflet map of pharmacies in Dar es Salaam](dsmmap/index.html)
 - [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)

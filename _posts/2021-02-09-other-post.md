@@ -1,6 +1,12 @@
+---
+layout: post
+author: Joe
+title: A Post Attempt
+---
+
 Where did the title come from on the main page?
 
-# Welcome
+# Welcome to my post attempt
 
 **Hello world**, this is my first Jekyll blog post.
 

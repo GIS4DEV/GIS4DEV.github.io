@@ -2,11 +2,11 @@
 layout: default
 title: Open Source GIScience
 ---
-## Welcome to the GitHub Page for Open Source GIScience
+## Welcome to Open Source GIScience
 
-The [Q&A respository](https://github.com/GIS4DEV/Q-and-A) hosts content from previous editions of Open Source GIS for Development, including the previous [course manual](https://www.josephholler.com/files/GIS4DEV.pdf)
+Content for Open Source GIS for Development (Spring 2014, Spring 2015, and Spring 2018) can be found in the [Q&A respository](https://github.com/GIS4DEV/Q-and-A) and [course manual](https://www.josephholler.com/files/GIS4DEV.pdf)
 
-Here is the last version of [course syllabus and materials](OpenSourceGIScience2019.pdf).
+[Fall 2019 course syllabus and materials](OpenSourceGIScience2019.pdf).
 
 UCGIS 2020 [Presentation](teachingReproducibility.pdf)
 
@@ -15,10 +15,9 @@ You can also post a question about open source GIS in the form of an [Issue](htt
 
 Members of Spring 2021:
 - new student1
-- new student2
+- [majacannavo](https://majacannavo.github.io)
 
 Members of Fall 2019:
-
 - [pdickson2](https://pdickson2.github.io)
 - [bendohan](https://bendohan.github.io)
 - [chriskgernon](https://chriskgernon.github.io)
@@ -36,7 +35,7 @@ Members of Fall 2019:
 - [kgrantsasson](https://kgrantsasson.github.io)
 - [derrickburt](https://derrickburt.github.io)
 
-Worked Examples:
+Worked Examples and Notes:
 - [My First QGIS Model](qgisModel.md)
 - [Plotly Graph of Distance and Rent in Chicago 2010](distancePlot.html)
 - [Leaflet map of pharmacies in Dar es Salaam](dsmmap/index.html)

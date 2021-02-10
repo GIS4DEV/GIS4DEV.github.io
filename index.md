@@ -35,7 +35,7 @@ Members of Fall 2019:
 Worked Examples and Notes:
 - [My First QGIS Model](example1/qgisModel.md)
 - [Data Plotly Scatterplot Example](plotly/plotly.md)
-- [Leaflet map of pharmacies in Dar es Salaam](dsmmap/dsmmap.md) ok?
+- [Leaflet map of pharmacies in Dar es Salaam](dsmmap/dsmmap.md)
 - [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
 - [Revising Leaflet popup content](leaflet/popup.md)

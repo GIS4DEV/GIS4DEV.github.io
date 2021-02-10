@@ -1,3 +1,8 @@
+---
+layout: post
+title: How to edit Leaflet popups
+---
+
 ## How to edit Leaflet popups.
 
 The QGIS2WEB plugin automatically creates plain Jane popups with all of the attributes of your layer(s) and no labels. The popup is created in the `bindPopup()` function, which first creates a popupContent text string with some code for the popup's content.

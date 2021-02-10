@@ -3,8 +3,9 @@ layout: page
 title: My First QGIS Model
 ---
 
-## My First QGIS Model
-In the first lab, we created a model to calculate direction and distance from a point.
+Just a sample page, to illustrate the idea.
+
+In the first lab in Spring 2019, we created a model to calculate direction and distance from a point.
 
 ```bat
 :: testing representation of Batch code in GitHub pages

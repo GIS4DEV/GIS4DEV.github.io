@@ -5,6 +5,8 @@ title: My First QGIS Model
 
 Just a sample page, to illustrate the idea.
 
+Be aware, when you commit changes to your .md documents using GitHub sites with Jekyll themes, it can take several minutes before your changes are reflected in the rendered .html pages.
+
 In the first lab in Spring 2019, we created a model to calculate direction and distance from a point.
 
 ```bat

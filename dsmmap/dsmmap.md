@@ -10,7 +10,7 @@ This map was created with the QGIS Plugin <a href="https://github.com/tomchadwin
 
 The code below should be a qgis2web leaflet map, and I think that it is not working because the CSS files need to be included in the HTML page header. This is going to take some more work, as explained [here](https://dieghernan.github.io/201905_Leaflet_R_Jekyll/)
 
-Until next time...
+Until next next time...
 
 {% include_relative pharm.html %}
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: leaflet
 title: Leaflet Map Example
 ---
 

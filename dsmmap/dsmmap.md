@@ -2,8 +2,8 @@
 layout: page
 title: Leaflet Map Example
 ---
-
-![Static Image of Dar es Salaam Pharmacies Map](dsmpharm.png)
+<a href="index.html" target="_blank">
+![Static Image of Dar es Salaam Pharmacies Map](dsmpharm.png)</a>
 
 <a href="index.html" target="_blank">View full-size interactive map</a>
 

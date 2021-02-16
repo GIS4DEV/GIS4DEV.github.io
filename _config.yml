@@ -2,4 +2,5 @@ theme: jekyll-theme-dinky
 title: Open Source GIScience
 description: Joseph Holler's Open Source GIScience Resources at Middlebury College
 collections:
-  - lessons
+  lessons:
+    output: true

@@ -1,8 +1,17 @@
 ---
-layout: page
+layout: lesson
 ---
 <h1>{{ page.title }}</h1>
 
 {{ content }}
 
-<p align=center><a href="https://GIS4DEV.github.io">Main Page</a></p>
+<p align=center>
+{% if page.previous.url %}
+    <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+{% endif %}
+&nbsp;
+{% if page.next.url %}
+    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+{% endif %}
+<br>
+<a href="https://GIS4DEV.github.io">Main Page</a></p>

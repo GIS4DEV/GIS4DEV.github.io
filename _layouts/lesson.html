@@ -7,11 +7,14 @@ layout: default
 
 <p align=center>
 {% if page.previous.url %}
-    <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+    <a href="{{page.previous.url}}">&#9754;&nbsp;{{page.previous.title}}</a>
 {% endif %}
-&nbsp;
+{% if page.previous.url and page.next.url %}
+    &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
+{% endif %}
 {% if page.next.url %}
-    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#9755;</a>
 {% endif %}
-<br>
-<a href="https://GIS4DEV.github.io">Main Page</a></p>
+</p>
+
+<p align=center><a href="https://GIS4DEV.github.io">Main Page</a></p>

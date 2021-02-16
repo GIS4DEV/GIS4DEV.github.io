@@ -5,6 +5,11 @@ title: Publishing GitHub Pages
 
 In this lesson, we will learn how to publish to a website using GitHub pages with Jekyll themes.
 
+Lost documents, collaboration mishaps, go on [Git: git-scm.com](https://git-scm.com/).
+
+https://desktop.github.com/ GitHub software to run Git on with a GUI on your Desktop
+https://pages.github.com/
+https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
 https://guides.github.com/features/mastering-markdown/
 https://jekyllrb.com/
 

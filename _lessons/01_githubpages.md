@@ -6,7 +6,7 @@ purpose: Git version control, website publishing with GitHub pages and Jekyll th
 
 ## Git
 
-Lost documents? Collaboration mishaps? Having multitudes of documents named things like `thesis_final_final_final2_noreallytrulythefinaldraft.docx`? GO ON, [GIT!](https://git-scm.com/) rediculously outdated and unreliable file systems for managing projects and false sense of recycle bin security, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way outta here. [#FallonTonight](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
+Lost documents? Collaboration mishaps? Proliferating documents with names like `thesis_final_final2_final3_soseriouslythefinaldraft.docx`? GO ON, [GIT!](https://git-scm.com/) rediculously outdated and unreliable file systems for managing projects and false sense of recycle bin security, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way outta here. [#FallonTonight](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
 
 - Git is open-source software code for using version control for digital repositories and facilitating collaboration.
 - Git can be run from the command line or from a simple GUI (graphical user interface) 

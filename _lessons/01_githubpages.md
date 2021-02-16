@@ -6,12 +6,13 @@ purpose: Git version control, website publishing with GitHub pages and Jekyll th
 
 ## Git
 
-Lost documents? Collaboration mishaps? Go on, [Git: git-scm.com](https://git-scm.com/).
+Lost documents? Collaboration mishaps? Having multitudes of documents named things like `thesis_final_final_final2_noreallytrulythefinaldraft.docx`? GO ON, [GIT!](https://git-scm.com/) rediculously outdated and unreliable file systems for managing projects and false sense of recycle bin security, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way outta here. [#FallonTonight](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
 
 - Git is open-source software code for using version control for digital repositories and facilitating collaboration.
 - Git can be run from the command line or from a simple GUI (graphical user interface) 
 - [GitHub](https://github.com) is one of many proprietary companies offering services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
-- The GitHub web application provides many of Git's  editing and version control features without downloading any sofware.
+  - The [GitHub](https://github.com) web application provides many of Git's  editing and version control features without downloading any sofware.
+  - GitHub is a popular platform for hositng open-source software projects, including [QGIS](https://github.com/qgis/QGIS).
 
 ## GitHub Pages
 

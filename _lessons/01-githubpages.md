@@ -5,7 +5,7 @@ title: Publishing GitHub Pages
 
 In this lesson, we will learn how to publish to a website using GitHub pages with Jekyll themes.
 
-Lost documents, collaboration mishaps, go on [Git: git-scm.com](https://git-scm.com/).
+Lost documents, collaboration mishaps, go on [Git: git-scm.com](https://git-scm.com/). Git is open-source software code for version controlling digital repositories. GitHub is one of many proprietary companies offering services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
 
 https://desktop.github.com/ GitHub software to run Git on with a GUI on your Desktop
 https://pages.github.com/

@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: page
 title: Publishing GitHub Pages
 ---
 

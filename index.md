@@ -4,17 +4,16 @@ title: Open Source GIScience
 ---
 # Welcome to Open Source GIScience
 
+- Post open source GIS questions in the form of an [Issue](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
+- Common issues and solutions are migrated to the [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki/), along with some collective notes and reflections from previous courses
 - Content for Open Source GIS for Development (Spring 2014, Spring 2015, and Spring 2018) can be found in the [Q&A respository](https://github.com/GIS4DEV/Q-and-A) and [course manual](https://www.josephholler.com/files/GIS4DEV.pdf)
-- [Fall 2019 course syllabus and materials](OpenSourceGIScience2019.pdf).
-- [UCGIS 2020 Presentation](teachingReproducibility.pdf)
-- The [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki/) contains FAQ's for open source GIS work.
-You can also post a question about open source GIS in the form of an [Issue](https://github.com/GIS4DEV/GIS4DEV.github.io/issues).
+- Fall 2019 [course syllabus and materials](OpenSourceGIScience2019.pdf).
+- University Consortium for GIS (UCGIS) 2020 Symposium [Presentation Slides](teachingReproducibility.pdf)
 
-## Members of Spring 2021:
-- new student1
+## Members of Spring 2021
 - [majacannavo](https://majacannavo.github.io)
 
-## Members of Fall 2019:
+## Members of Fall 2019
 - [pdickson2](https://pdickson2.github.io)
 - [bendohan](https://bendohan.github.io)
 - [chriskgernon](https://chriskgernon.github.io)
@@ -32,15 +31,7 @@ You can also post a question about open source GIS in the form of an [Issue](htt
 - [kgrantsasson](https://kgrantsasson.github.io)
 - [derrickburt](https://derrickburt.github.io)
 
-## Worked Examples and Notes:
-- [My First QGIS Model](example1/qgisModel.md)
-- [Data Plotly Scatterplot Example](plotly/plotly.md)
-- [Leaflet map of pharmacies in Dar es Salaam](dsmmap/dsmmap.md)
-- [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
-- [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
-- [Revising Leaflet popup content](leafletpop/popup.md)
-
-## Lessons:
+## Lessons
 <ul>
   {% for lesson in site.lessons %}
     <li>
@@ -48,3 +39,11 @@ You can also post a question about open source GIS in the form of an [Issue](htt
     </li>
   {% endfor %}
 </ul>
+
+## Worked Examples and Notes
+- [My First QGIS Model](example1/qgisModel.md)
+- [Data Plotly Scatterplot Example](plotly/plotly.md)
+- [Leaflet map of pharmacies in Dar es Salaam](dsmmap/dsmmap.md)
+- [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
+- [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
+- [Revising Leaflet popup content](leafletpop/popup.md)

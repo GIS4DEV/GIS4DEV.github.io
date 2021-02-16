@@ -40,15 +40,6 @@ You can also post a question about open source GIS in the form of an [Issue](htt
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
 - [Revising Leaflet popup content](leafletpop/popup.md)
 
-## Pages:
-<ul>
-  {% for page in site.pages %}
-    <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
 ## Lessons:
 <ul>
   {% for lesson in site.lessons %}

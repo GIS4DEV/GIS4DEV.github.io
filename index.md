@@ -8,7 +8,7 @@ title: Open Source GIScience
 - Common issues and solutions are migrated to the [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki/)
 - Content for Open Source GIS for Development (Spring 2014, Spring 2015, and Spring 2018) can be found in the [Q&A respository](https://github.com/GIS4DEV/Q-and-A) and [course manual](https://www.josephholler.com/files/GIS4DEV.pdf)
 - Fall 2019 [course syllabus and materials](OpenSourceGIScience2019.pdf).
-- University Consortium for GIS (UCGIS) 2020 Symposium [Presentation Slides](teachingReproducibility.pdf)
+- University Consortium for GIS (UCGIS) [2020 Symposium](https://www.ucgis.org/symposium-2020) [Presentation Slides](teachingReproducibility.pdf)
 
 ## Members of Spring 2021
 - [majacannavo](https://majacannavo.github.io)

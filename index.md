@@ -44,8 +44,7 @@ You can also post a question about open source GIS in the form of an [Issue](htt
 <ul>
   {% for page in site.pages %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      <a href="{{ page.url }}">{{ page.title }}</a>
     </li>
   {% endfor %}
 </ul>

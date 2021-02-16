@@ -26,6 +26,7 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
   - Here is GitHub's documentation on [Working with GitHub Pages](https://docs.github.com/en/github/working-with-github-pages)
 - GitHub pages are formatted into websites using [Jekyll](https://jekyllrb.com/) themes
   - Here's a [list of themes](https://github.com/pages-themes) supported by GitHub without even copying the theme's files to your own repository. Each theme has a repository with additional documentation on how to use and customize the theme.
+- **FYI:** GitHub's servers rebuild your website every time you commit changes to your `.github.io` repository. This usually happens very quickly, but sometimes takes *up to ten minutes*. GitHub Pages makes it very easy to publish websites, but it does take some patience to see your commits reflected in the website.
 
 ## Fancier Options
 

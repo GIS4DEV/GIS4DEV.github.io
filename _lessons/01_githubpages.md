@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Publishing GitHub Pages
-purpose: Git version control, website publishing with GitHub pages and Jekyll themes
+purpose: Git version control, GitHub, Markdown, Publishing websites with GitHub pages and Jekyll themes
 ---
 
 ## Git

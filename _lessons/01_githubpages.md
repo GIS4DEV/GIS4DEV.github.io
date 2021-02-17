@@ -35,4 +35,4 @@ You can develop a more advanced sites customized for portfolios, blogging, docum
 - https://jekyllrb.com/ home of the Jekyll project, with good documentation and tutorials
 - https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/ a quick introduction and start-up guide
 - https://github.com/barryclark/jekyll-now this theme is easy to fork to start your own pages repository, and the readme contains step-by-step instructions for doing so
-- https://bookdown.org/yihui/blogdown/ Yihui Xie's book explains the R Blogdown / Hugo / Netlify stack for GitHub pages using R-Studio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating publications with your research in R.
+- https://bookdown.org/yihui/blogdown/ Yihui Xie's book explains the R Blogdown / Hugo / Netlify stack for GitHub pages using RStudio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating publications with your research in R.

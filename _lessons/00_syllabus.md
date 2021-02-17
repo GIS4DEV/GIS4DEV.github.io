@@ -10,7 +10,7 @@ purpose: introductions and course syllabus
 ## Contact and Availability
 
 - Email: josephh@middlebury.edu
-- Office: McCardell Bicentennial Hall 6th Floor in the conference room, GIS lab, or room 634
+- Office: McCardell Bicentennial Hall 6th Floor: conference room, GIS lab, or room 634
 - Zoom Meetings: Please find this information on the secure CourseHub site
 - Availability: W 2pm&ndash;4pm F 11am&ndash;12pm
 

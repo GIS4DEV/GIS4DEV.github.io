@@ -4,8 +4,8 @@ title: Syllabus
 purpose: introductions and course syllabus
 ---
 
-### Welcome to Open Source Geographic Information Science!
-A [Middlebury College](http://www.middlebury.edu) [Geography](http://www.middlebury.edu/academics/geog) [Course](http://www.middlebury.edu/academics/geog/courses) [GEOG0323](https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FGEOG0323)
+## Welcome to Open Source Geographic Information Science!
+[Middlebury College](http://www.middlebury.edu) [Geography](http://www.middlebury.edu/academics/geog) [Course](http://www.middlebury.edu/academics/geog/courses) [GEOG0323](https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FGEOG0323)
 
 ## Contact and Availability
 

@@ -58,7 +58,7 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 - **Final GitHub Profile**: ...
 - **Self-reflection & evaluation**: ...
 
-## Rhythm
+## Typical Rhythm
 
 - **Monday Lecture**: Learn and practice new GIScience techniques or review/revise techniques from previous challenges.
 - **Wednesday Lecture/Discussion**: Set up a lab problem by discussing the problem and its context, significance, implications, etc. This may include assigned reading or research tasks in preparation of a lab problem.

@@ -17,7 +17,7 @@ For assistance outside of office hours, your resources include:
 3. Documentation, Issues, or Forums for the data or software we are using
 4. Stack Exchange or similar
 5. Post a new [course issue](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
-6. Only private/confidential concerns should be sent to email 
+8. Only private/confidential concerns should be sent to email 
 
 ## Course Description
 

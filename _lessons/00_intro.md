@@ -11,7 +11,7 @@ Welcome to Open Source Geographic Information Science!
 - Email: josephh@middlebury.edu
 - Office: McCardell Bicentennial Hall 6th Floor (conference room or lab)
 - Zoom Meetings: Please find this information on the secure CourseHub site
-- Availability: W 2pm&endash;4pm F 11am&endash;12pm
+- Availability: W 2pm&ndash;4pm F 11am&ndash;12pm
 
 For assistance outside of office hours, your resources include:
 1. See the course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)

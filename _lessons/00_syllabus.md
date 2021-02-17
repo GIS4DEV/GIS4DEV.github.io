@@ -23,7 +23,7 @@ For assistance outside of office hours, your resources include:
 
 ## Course Description
 
-In this course we will study geographic information science (GIS) with open-source software and critical GIS scholarship. In labs, we will practice techniques to include: data acquisition and preparation for analysis, spatial SQL database queries, automating analysis, spatial interpolation, testing sensitivity to error and uncertainty, and data visualization. We will read and apply critical research of GIS as a subject and with GIS as a methodology. Spatial data sources for labs and independent research projects may include remote sensing, micro-data, smart cities and open government data, and volunteered geographic information (e.g. OpenStreetMap and social media). 
+In this course we will study geographic information science (GIS) with open-source software and critical GIS scholarship. In labs, we will practice techniques to include: data acquisition and preparation for analysis, spatial SQL database queries, automating analysis, spatial interpolation, testing sensitivity to error and uncertainty, and data visualization. We will read and apply critical research of GIS as a subject and with GIS as a methodology. Spatial data sources for labs and independent research projects may include remote sensing, micro-data, smart cities and open government data, and volunteered geographic information (e.g. OpenStreetMap and social media). Prerequisite: GEOG0120 *Human Geography with GIS*
 
 ## Learning Goals
 

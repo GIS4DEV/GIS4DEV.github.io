@@ -15,9 +15,9 @@ Welcome to Open Source Geographic Information Science!
 
 For assistance outside of office hours, your resources include:
 1. See the course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
-2. Each Other
-3. Documentation, Issues, or Forums for the data or software we are using
-4. Stack Exchange or similar
+2. Classmates
+3. Documentation, Issues, Forums, or Support/FAQs for the data or software we are using
+4. [Stack Exchange](https://gis.stackexchange.com/) or similar
 5. Post a new [course issue](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
 8. Only private/confidential concerns should be sent to email 
 

@@ -10,6 +10,8 @@ Welcome to Open Source Geographic Information Science!
 
 - Email: josephh@middlebury.edu
 - Office: McCardell Bicentennial Hall 6th Floor (conference room or lab)
+- Zoom Meetings: Please find this information on the secure CourseHub site
+- Availability: W 2pm&endash;4pm F 11am&endash;12pm
 
 For assistance outside of office hours, your resources include:
 1. See the course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
@@ -56,7 +58,16 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 - **Final GitHub Profile**: ...
 - **Self-reflection & evaluation**: ...
 
+## Rhythm
+
+- **Monday Lecture**: Learn and practice new GIScience techniques or review/revise techniques from previous challenges.
+- **Wednesday Lecture/Discussion**: Set up a lab problem by discussing the problem and its context, significance, implications, etc. This may include assigned reading or research tasks in preparation of a lab problem.
+- **Wednesday Evening Lab**: Work together to solve GIScience problems.
+- **Friday Discussion**: Read and discuss GIScience research/literature and discuss findings from lab problems.
+
 ## Materials & Resources
+
+No required textbook.
 
 Due to health and safety restrictions this spring, you will need your own personal laptop computer to participate in the class. You will need **Windows** or **MacOS 10.13 (High Sierra)** or better. You must be willing to install a variety of free software and apply for/subscribe to a variety of free internet-based services, listed below. We will not install or sign up for all of these programs/services at once, but please attempt to get each one running quickly as you are prompted throughout the semester, so that we have ample time to troubleshoot or find alternative solutions.
 

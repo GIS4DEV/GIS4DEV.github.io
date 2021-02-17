@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Syllabus
-purpose: Open Source GIScience Syllabus
+purpose: introductions and course syllabus
 ---
 
 Welcome to Open Source Geographic Information Science!

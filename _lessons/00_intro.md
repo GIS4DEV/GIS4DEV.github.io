@@ -39,12 +39,14 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 
 ## Materials & Resources
 
-Due to health and safety restrictions, you will need your own personal laptop computer to participate in the class. You will need **Windows** or **MacOS 10.13 (High Sierra)** or better. You must be willing to install a variety of free software and apply for/subscribe to a variety of free internet-based services, including:
+Due to health and safety restrictions, you will need your own personal laptop computer to participate in the class. You will need **Windows** or **MacOS 10.13 (High Sierra)** or better. You must be willing to install a variety of free software and apply for/subscribe to a variety of free internet-based services, listed below. We will not install or sign up for all of these programs/services at once, but please attempt to get each one running quickly as you are prompted throughout the semester, so that we have ample time to troubleshoot or find alternative solutions.
 
-- QGIS Version 3.10.14 LTR (or optionally a newer version) with GRASS
-- GitHub
-- Anaconda
-- RStudio
-- pgAdmin
-
-
+- [QGIS Version 3.10.14 LTR (or optionally a newer version) with GRASS](https://qgis.org/)
+- [Git](https://git-scm.com/downloads)
+- [GitHub Account](https://github.com/)
+- [Anaconda](https://www.anaconda.com/)
+- [RStudio](https://rstudio.com/)
+- [pgAdmin](https://www.pgadmin.org/)
+- [Twitter Developer](https://developer.twitter.com/en/apply-for-access)
+- [CyberGISX](https://cybergisx.cigi.illinois.edu)
+- [Hour of Cyberinfrastructure](https://www.hourofci.org/)

@@ -15,7 +15,7 @@ purpose: introductions and course syllabus
 - Availability: W 2pm&ndash;4pm F 11am&ndash;12pm
 
 For assistance outside of office hours, your resources include:
-1. See the course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
+1. The course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
 2. Classmates
 3. Documentation, Issues, Forums, or Support/FAQs for the data or software we are using
 4. [Stack Exchange](https://gis.stackexchange.com/) or similar

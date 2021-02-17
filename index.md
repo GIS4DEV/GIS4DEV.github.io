@@ -35,7 +35,7 @@ title: Open Source GIScience
 <ul>
   {% for lesson in site.lessons %}
     <li>
-      <a href="{{ lesson.url }}">{{ lesson.title }}</a>: {{ lesson.purpose }}
+      <a href="{{ lesson.url }}">{{ lesson.title }}</a>{% if lesson.purpose %}: {{ lesson.purpose }} {% endif %}
     </li>
   {% endfor %}
 </ul>

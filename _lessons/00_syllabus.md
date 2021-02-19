@@ -49,22 +49,23 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 
 ## Evaluation
 
-- **Blog Posts & Active Participation**
+- **Blog Posts & Active Participation** `0.2`
+  - Maintain GitHub site & repositories 
   - Review or react to readings in a *personal* blog post.
   - *Collaboratively* take notes on discussions or while studying papers, software, or data sources.
   - Friday in-person discussions will be as lively as you make them as a group.
   - Working with an open science ethos means openly sharing your challenges and discoveries in person during lab and online using the course [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) and [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki).
   - Review & proofread of your peers' GitHub portfolios
   - Periodic self-reflection on your learning and participation
-- **GIScience Analyses**: ... 
+- **GIScience Analyses** `0.5`
   1. QGIS Spatial Interaction
   1. GRASS Hydrology
   1. PostGIS Urban Resiliency
   1. RStudio/PostGIS Climate Vulnerability
   1. RStudio Twitter Disasters
-  1. Python COVID-19 Health
-  1. Independent Project
-- **Final GitHub Profile**:
+  1. Python COVID-19 Access to Healthcare Resources
+  1. Independent Project (equivalent in duration, difficulty, and deliverables to any of the previous analyses, but self-directed)
+- **Final GitHub Profile** `0.3`
   - As the course concludes, you have a final opportunity to revise any of your GitHub portfolio content.
 
 ## Typical Rhythm

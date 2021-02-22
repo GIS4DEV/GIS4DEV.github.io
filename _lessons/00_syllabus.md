@@ -47,26 +47,26 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 - **Deadlines**: You must always commit the progress that you have made on assignments by the assignment deadline. In case unforseen challenges or delays have prevented full completion of an assignment, you are required to record the progress that you have made, describe the barrier(s) encountered and anything you have learned about it/them, and propose a solution.
 - **End of Semester**: With many seniors in a spring course, it is not possible to accept late assignment submissions during or after finals week. [Incomplete grades](http://www.middlebury.edu/about/handbook/iv.-policies-for-the-institute/a.-academic-policies/a.6.-grades-credits-and-academic-policies/a.6.e.-incomplete-grades) can only be considered if extreme/unexpected circumstances arise in the final weeks of the semester and if the the majority of assignments have already been satisfactorily completed.
 
-## Evaluation
+## Student Work & Evaluation
 
-- **Blog Posts & Active Participation** `0.2`
+- **Blog Posts & Active Participation** `0.2` (routine)
   - Maintain GitHub site & repositories 
   - Review or react to readings in a *personal* blog post.
   - *Collaboratively* take notes on discussions or while studying papers, software, or data sources.
   - Friday in-person discussions will be as lively as you make them as a group.
   - Working with an open science ethos means openly sharing your challenges and discoveries in person during lab and online using the course [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) and [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki).
-  - Review & proofread of your peers' GitHub portfolios
+  - Peer review of GitHub portfolios
   - Periodic self-reflection on your learning and participation
-- **GIScience Analyses** `0.5`
-  1. QGIS Spatial Interaction
-  1. GRASS Hydrology
-  1. PostGIS Urban Resiliency
-  1. RStudio/PostGIS Climate Vulnerability
-  1. RStudio Twitter Disasters
-  1. Python COVID-19 Access to Healthcare Resources
-  1. Independent Project (equivalent in duration, difficulty, and deliverables to any of the previous analyses, but self-directed)
+- **GIScience Analyses** `0.5` (each analysis will be our primary focus for one to two weeks)
+  1. QGIS Spatial Interaction `0.07`
+  1. GRASS Hydrology `0.07`
+  1. PostGIS Urban Resiliency `0.07`
+  1. RStudio/PostGIS Climate Vulnerability `0.07`
+  1. RStudio Twitter Disasters `0.07`
+  1. Python COVID-19 Access to Healthcare Resources `0.07`
+  1. Independent Project `0.08`(equivalent in duration, difficulty, and deliverables to any of the directed analyses)
 - **Final GitHub Profile** `0.3`
-  - As the course concludes, you have a final opportunity to revise any of your GitHub portfolio content.
+  - As the course concludes, you have a final opportunity to revise your GitHub portfolio content.
 
 ## Typical Rhythm
 

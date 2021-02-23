@@ -13,6 +13,8 @@ purpose: introductions and course syllabus
 - Office: McCardell Bicentennial Hall 6th Floor: conference room, GIS lab, or room 634
 - Zoom Meetings: Please find this information on the secure CourseHub site
 - Availability: W 2pm&ndash;4pm F 11am&ndash;12pm
+- Lecture: MWF 12:40-1:30 in The Orchard
+- Lab: W 7:30-10:25 in BiHall 403/411
 
 For assistance outside of office hours, your resources include:
 1. The course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)

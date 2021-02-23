@@ -30,6 +30,16 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
   - Here's a [list of themes](https://github.com/pages-themes) supported by GitHub without even copying the theme's files to your own repository. Each theme has a repository with additional documentation on how to use and customize the theme.
 - **FYI:** GitHub's servers rebuild your website every time you commit changes to your `.github.io` repository. This usually happens very quickly, but sometimes takes *up to ten minutes*. GitHub Pages makes it very easy to publish websites, but it does take some patience to see your commits reflected in the website.
 
+## Text Editors
+
+There is are huge up-side to using a ncie text editor:
+- keeps files simple (without adding formatting marks like Word does) 
+- format text as code to better see what you're doing and find errors
+
+Download a good free one:
+- On Windows, [Notepad++](https://notepad-plus-plus.org/)
+- On MacOS, [Atom](https://atom.io/) or others (suggested here)[https://webeeky.com/alternatives-of-notepad-mac-os/]
+
 ## Fancier Options
 
 You can develop a more advanced sites customized for portfolios, blogging, documentation, etc. by first forking or cloning a Jekyll template. Some of these work directly with GitHub pages (building the site remotely on GitHub's servers), while others will require installing requisite software on your own computer to build the site locally. Here are some places to start:

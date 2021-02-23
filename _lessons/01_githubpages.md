@@ -38,7 +38,7 @@ There is are huge up-side to using a ncie text editor:
 
 Download a good free one:
 - On Windows, [Notepad++](https://notepad-plus-plus.org/)
-- On MacOS, [Atom](https://atom.io/) or others (suggested here)[https://webeeky.com/alternatives-of-notepad-mac-os/]
+- On MacOS, [Atom](https://atom.io/) or others [suggested here](https://webeeky.com/alternatives-of-notepad-mac-os/)
 
 ## Fancier Options
 

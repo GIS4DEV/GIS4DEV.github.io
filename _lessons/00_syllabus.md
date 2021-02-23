@@ -13,8 +13,8 @@ purpose: introductions and course syllabus
 - Office: McCardell Bicentennial Hall 6th Floor: conference room, GIS lab, or room 634
 - Zoom Meetings: Please find this information on the secure CourseHub site
 - Availability: W 2pm&ndash;4pm F 11am&ndash;12pm
-- Lecture: MWF 12:40-1:30 in The Orchard
-- Lab: W 7:30-10:25 in BiHall 403/411
+- Lecture: MWF 12:40&ndash;1:30 in The Orchard
+- Lab: W 7:30&ndash;10:25 in BiHall 403/411
 
 For assistance outside of office hours, your resources include:
 1. The course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
@@ -96,7 +96,6 @@ Due to health and safety restrictions this spring, you will need your own person
 - [Twitter Developer](https://developer.twitter.com/en/apply-for-access)
 - [CyberGISX](https://cybergisx.cigi.illinois.edu)
 - [Hour of Cyberinfrastructure](https://www.hourofci.org/)
-- *Disclaimer*: this agenda is subject to change.
 
 ## General Expectations for each GIScience Analysis
 

@@ -13,24 +13,6 @@ title: Open Source GIScience
 ## Members of Spring 2021
 - [majacannavo](https://majacannavo.github.io)
 
-## Members of Fall 2019
-- [pdickson2](https://pdickson2.github.io)
-- [bendohan](https://bendohan.github.io)
-- [chriskgernon](https://chriskgernon.github.io)
-- [sarahhaedrich](https://sarahhaedrich.github.io)
-- [rmkelley](https://rmkelley.github.io)
-- [Ian8VT](https://Ian8VT.github.io)
-- [caseylilley](https://caseylilley.github.io)
-- [kazuto-nishimori](https://kazuto-nishimori.github.io)
-- [celiaripple](https://celiaripple.github.io)
-- [tianshengs](https://tianshengs.github.io)
-- [kufreu](https://kufreu.github.io)
-- [marcovg](https://marcovg.github.io)
-- [tori-koontz](https://tori-koontz.github.io)
-- [cameronw-16](https://cameronw-16.github.io)
-- [kgrantsasson](https://kgrantsasson.github.io)
-- [derrickburt](https://derrickburt.github.io)
-
 ## Lessons
 <ul>
   {% for lesson in site.lessons %}
@@ -47,3 +29,21 @@ title: Open Source GIScience
 - [R script to translate DHS data into PostGIS database](mwi/rtransscript.r)
 - [SQL to create household resilience score from DHS surveys in Malawi](mwi/vulnerability.sql)
 - [Revising Leaflet popup content](leafletpop/popup.md)
+
+## Members of Fall 2019
+- [pdickson2](https://pdickson2.github.io)
+- [bendohan](https://bendohan.github.io)
+- [chriskgernon](https://chriskgernon.github.io)
+- [sarahhaedrich](https://sarahhaedrich.github.io)
+- [rmkelley](https://rmkelley.github.io)
+- [Ian8VT](https://Ian8VT.github.io)
+- [caseylilley](https://caseylilley.github.io)
+- [kazuto-nishimori](https://kazuto-nishimori.github.io)
+- [celiaripple](https://celiaripple.github.io)
+- [tianshengs](https://tianshengs.github.io)
+- [kufreu](https://kufreu.github.io)
+- [marcovg](https://marcovg.github.io)
+- [tori-koontz](https://tori-koontz.github.io)
+- [cameronw-16](https://cameronw-16.github.io)
+- [kgrantsasson](https://github.com/kgrantsasson/kgrantsasson.github.io)
+- [derrickburt](https://derrickburt.github.io)

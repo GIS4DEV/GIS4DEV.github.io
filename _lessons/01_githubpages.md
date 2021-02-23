@@ -32,7 +32,7 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
 
 You can develop a more advanced sites customized for portfolios, blogging, documentation, etc. by first forking or cloning a Jekyll template. Some of these work directly with GitHub pages (building the site remotely on GitHub's servers), while others will require installing requisite software on your own computer to build the site locally. Here are some places to start:
 
-- https://jekyllrb.com/ home of the Jekyll project, with good documentation and tutorials
-- https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/ a quick introduction and start-up guide
-- https://github.com/barryclark/jekyll-now this theme is easy to fork to start your own pages repository, and the readme contains step-by-step instructions for doing so
-- https://bookdown.org/yihui/blogdown/ Yihui Xie's book explains the R Blogdown / Hugo / Netlify stack for GitHub pages using RStudio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating publications with your research in R.
+- Home of the [Jekyll project](https://jekyllrb.com/), with good documentation and tutorials
+- A quick [magazine article](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) introduction and start-up guide
+- The [Jekyll Now](https://github.com/barryclark/jekyll-now) theme is easy to fork to start your own pages repository, and the readme contains step-by-step instructions for doing so
+- [Yihui Xie's Blogdown book](https://bookdown.org/yihui/blogdown/) explains the R Blogdown / Hugo / Netlify stack for GitHub pages using RStudio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating publications with your research in R.

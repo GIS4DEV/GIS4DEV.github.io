@@ -83,7 +83,7 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 
 There is no required textbook.
 
-Digital materials will be provided on this site and in other repositories of the [GIS4DEV GitHub Organization](https://github.com/gis4dev), including a private repository for [readings](https://github.com/GIS4DEV/reading).
+Digital materials will be provided on this site and in other repositories of the [GIS4DEV GitHub Organization](https://github.com/gis4dev), including a private repository for [literature](https://github.com/GIS4DEV/literature).
 
 Due to health and safety restrictions this spring, you will need your own personal laptop computer to participate in the class. You will need **Windows** or **MacOS 10.13 (High Sierra)** or better. You must be willing to install a variety of free software and apply for/subscribe to a variety of free internet-based services, listed below. We will not install or sign up for all of these programs/services at once, but please attempt to get each one running quickly as you are prompted throughout the semester, so that we have ample time to troubleshoot or find alternative solutions.
 

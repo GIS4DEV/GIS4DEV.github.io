@@ -4,10 +4,13 @@ title: What is Open GIScience?
 purpose: Learn about Open GIScience and its implications
 ---
 
+Today is [QGIS Open Day](https://github.com/qgis/QGIS/wiki/QHF-February-2021)
+
 Please read some background on open source in Geography for class discussion on Friday, February 26.
 
 - Rey, S. J. 2009. Show me the code: spatial analysis and open source. *Journal of Geographical Systems 11* (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
 - Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework for Open Geographic Information science. *International Journal of Geographical Information Science* 30 (8):1507–1521. http://dx.doi.org/10.1080/13658816.2015.1137579
+- Remember the course [literature repository](https://github.com/GIS4DEV/literature)
 
 While you read these, consider:
 - What are the meanings of *free software*, *open source*, and *open science*?

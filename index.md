@@ -13,7 +13,7 @@ title: Open Source GIScience
 ## Members of Spring 2021
 - [majacannavo](https://majacannavo.github.io)
 
-## Lessons
+## Spring 2021 Lessons
 <ul>
   {% for lesson in site.lessons %}
     <li>

@@ -22,7 +22,7 @@ While you read these, consider:
   - ... and in government?
   - ... and in private businesses?
 
-Please write a response/reaction to this material on your GitHub site.
+Please write a response/reaction to this material on your GitHub site. GitHub site and Open GIScience post are due on *Monday March 1*.
 
 Short additional resources on open source / free software licensing:
 - The Open Source Geospatial Foundation (OSGeo) take on [open source](https://www.osgeo.org/about/what-is-open-source/)

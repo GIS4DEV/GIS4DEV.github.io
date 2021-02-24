@@ -68,9 +68,10 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
   1. RStudio/PostGIS Climate Vulnerability `0.07`
   1. RStudio Twitter Disasters `0.07`
   1. Python COVID-19 Access to Healthcare Resources `0.07`
-  1. Independent Project `0.08`(equivalent in duration, difficulty, and deliverables to any of the directed analyses)
+  1. Independent Project `0.08`(equivalent in duration, difficulty, and deliverables to any of the directed analyses; due with final GitHub Profile)
 - **Final GitHub Profile** `0.3`
   - As the course concludes, you have a final opportunity to revise your GitHub portfolio content.
+  - Final revisions due to GitHub by **May 25** (any time).
 
 ## Typical Rhythm
 
@@ -104,4 +105,4 @@ Expectations applying to all seven analyses:
 - Write up a summary and interpretation of the analysis.
 - Include methods documentation to support full reproducibility. This is most easily achieved by having a model and/or code with good comments.
 - Visualize results with maps and/or graphs.
-- Publish the full package (write-up, methods documentation and visualization of results) to your GitHub pages.
+- Publish the full package (write-up, methods documentation and visualization of results) to your GitHub pages *by Monday at noon*.

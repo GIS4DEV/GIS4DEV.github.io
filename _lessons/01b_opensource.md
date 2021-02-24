@@ -13,10 +13,14 @@ Please read some background on open source in Geography for class discussion on 
 - Remember the course [literature repository](https://github.com/GIS4DEV/literature)
 
 While you read these, consider:
+- **As we practice Open GIScience in this class, what are the implications for learning, the honor code, and evaluation/grades?**
 - What are the meanings of *free software*, *open source*, and *open science*?
-- In what way might something be "open source" but not "free"?
+- In what way might something be *open source* but not *free*?
+- How is *free* as in the free software movement different from *free* as in a cost of `$0.00`?
 - Is there space for Open GIScience in an undergraduate liberal arts education?
-- What risks/benefits do you see for use of open source GIS in science? In government? In private businesses?
+- What risks/benefits do you see for use of open source GIS in science?
+  - ... and in government?
+  - ... and in private businesses?
 
 Please write a response/reaction to this material on your GitHub site.
 
@@ -25,4 +29,4 @@ Short additional resources on open source / free software licensing:
 - The MIT License: https://opensource.org/licenses/MIT 
 - Creative Commons Licensing: https://creativecommons.org/licenses/
 - GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
-- OpenStreetMap [is having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) but in other news, the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)
+- How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?

@@ -42,7 +42,7 @@ Programming experience is not assumed or required! You just need to be willing t
 -	Design and communicate research effectively in multiple media, including digital media, reports, presentations, maps, graphs, tables, data, and code.
 -	Become competent and confident in conducting research, learning new methods, and overcoming errors, uncertainty, and technical difficulties. Learn to "debug" problems and teach yourself new techniques through structured experimentation.
 
-To be honest, I'm excited to learn and share new open source GIS technologies with you, expanding our imagination for the possibilities in open source, including future research and careers.
+To be honest, I'm excited to learn and share new open source GIS technologies with you as we expand our imagination for future research and careers in Open GIScience.
 
 ## Expectations
 
@@ -76,7 +76,7 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
 
 - **Monday Lecture**: Learn and practice new GIScience techniques or review/revise techniques from previous challenges.
 - **Wednesday Lecture/Discussion**: Set up a lab problem by discussing the problem and its context, significance, implications, etc. This may include assigned reading or research tasks in preparation of a lab problem.
-- **Wednesday Evening Lab**: Work together to solve GIScience problems.
+- **Wednesday Evening Lab**: Work together on GIScience analyses.
 - **Friday Discussion**: Read and discuss GIScience research/literature and discuss findings from lab problems.
 
 ## Materials & Resources
@@ -97,7 +97,7 @@ Due to health and safety restrictions this spring, you will need your own person
 - [CyberGISX](https://cybergisx.cigi.illinois.edu)
 - [Hour of Cyberinfrastructure](https://www.hourofci.org/)
 
-## General Expectations for each GIScience Analysis
+## General Expectations for GIScience Analyses
 
 Expectations applying to all seven analyses:
 

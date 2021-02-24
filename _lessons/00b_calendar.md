@@ -6,7 +6,7 @@ purpose: working calendar of topics
 
 ## Spring 2021*
 
-Week | Date | Monday | Wednesday | Friday
+W | Date | Monday | Wednesday | Friday
 --: | :--: | :--: | :--: | :--:
 1 | | not yet | Introductions | Open Source
 2 | Mar 1 | mon | Gravity Model | GIS a (replicable) Science?

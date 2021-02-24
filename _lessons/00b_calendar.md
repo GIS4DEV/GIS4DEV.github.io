@@ -4,7 +4,7 @@ title: Calendar
 purpose: working calendar of topics
 ---
 
-## Spring 2021
+## Spring 2021*
 
 Week | Date | Monday | Wednesday | Friday
 ---- | ---- | ------ | --------- | ------
@@ -22,3 +22,5 @@ Week | Date | Monday | Wednesday | Friday
 12 | May 10 | mon | Independent | fri
 13 | May 17 | mon | Independent | fri
 finals | May 24 | Complete Revisions |  | 
+
+*For many very obvious reasons, we may need to be flexible this semester!

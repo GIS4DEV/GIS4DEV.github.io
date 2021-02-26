@@ -37,4 +37,5 @@ Following up on the articles:
 - High-profile coronavirus retractions raise concerns about data oversight, [Nature](https://www.nature.com/articles/d41586-020-01695-w)
 - NSF Project to create a [geospatial virtual data enclave](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1832465&HistoricalAwards=false) and Doug Richardson's [short article about it](https://www.esri.com/about/newsroom/arcnews/dealing-with-geoprivacy-and-confidential-geospatial-data/)
 - Ord, J. K., and A. Getis. 1992. The Analysis of Spatial Association. *Geographical analysis* 24 (3):189–206. [DOI:10.1111/j.1538-4632.1992.tb00261.x](https://doi.org/10.1111/j.1538-4632.1992.tb00261.x)
+- Python spatial analysis library [PySAL](https://pysal.org/) 
 - [Rocky Moutain Research Data Center](https://www.census.gov/about/adrm/fsrdc/locations/rocky-mountain.html)

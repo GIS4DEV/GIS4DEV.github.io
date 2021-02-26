@@ -30,3 +30,8 @@ Short additional resources on open source / free software licensing:
 - Creative Commons Licensing: https://creativecommons.org/licenses/
 - GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
+
+Following up on the articles:
+- High-profile coronavirus retractions raise concerns about data oversight, [Nature](https://www.nature.com/articles/d41586-020-01695-w)
+- NSF Project to create a [geospatial virtual data enclave](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1832465&HistoricalAwards=false) and Doug Richardson's [short article about it](https://www.esri.com/about/newsroom/arcnews/dealing-with-geoprivacy-and-confidential-geospatial-data/)
+

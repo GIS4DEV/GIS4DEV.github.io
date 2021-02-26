@@ -11,7 +11,23 @@ title: Open Source GIScience
 - University Consortium for GIS (UCGIS) [2020 Symposium](https://www.ucgis.org/symposium-2020) [Presentation Slides](teachingReproducibility.pdf)
 
 ## Members of Spring 2021
+- [daptx](https://daptx.github.io)
+- [emmab725](https://emmab725.github.io)
 - [majacannavo](https://majacannavo.github.io)
+- [emmaclinton](https://emmaclinton.github.io)
+- [dscronin](https://dscronin.github.io)
+- [vinfalardeau](https://vinfalardeau.github.io)
+- [jafreedman12](https://jafreedman12.github.io)
+- [evankilli](https://evankilli.github.io)
+- [brookelaird](https://brookelaird.github.io)
+- [alandaux](https://alandaux.github.io)
+- [gsmarshall](https://gsmarshall.github.io)
+- [stevenmontilla](https://stevenmontilla.github.io)
+- [jackson-mumper](https://jackson-mumper.github.io)
+- [nicknonnen](https://nicknonnen.github.io)
+- [sanjana-roy](https://sanjana-roy.github.io)
+- [mtango99](https://mtango99.github.io)
+- [avillanueva1005](https://avillanueva1005.github.io)
 
 ## Spring 2021 Lessons
 <ul>

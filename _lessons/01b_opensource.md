@@ -31,7 +31,7 @@ Short additional resources on open source / free software licensing:
 - GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrspcy_84-p4gkNj5I1QLfVtiDdSub7Z8PHRU-pfjJaozepUzG8KLUhZqBELSgOG-XJ-eZa7O5JCMz/embed?start=false&loop=false&delayms=15000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrspcy_84-p4gkNj5I1QLfVtiDdSub7Z8PHRU-pfjJaozepUzG8KLUhZqBELSgOG-XJ-eZa7O5JCMz/embed?start=false&loop=false&delayms=15000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Following up on the articles:
 - High-profile coronavirus retractions raise concerns about data oversight, [Nature](https://www.nature.com/articles/d41586-020-01695-w)

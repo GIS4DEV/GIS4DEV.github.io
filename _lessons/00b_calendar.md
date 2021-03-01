@@ -9,7 +9,7 @@ purpose: working calendar of topics
 W | Date | Monday | Wednesday | Friday
 --: | :--: | :--: | :--: | :--:
 1 | | not yet | Introductions | Open Source
-2 | Mar 1 | Due: GitHub Site | Gravity Model | Stream Geomorphology
+2 | Mar 1 | Due: GitHub Site | Gravity Model | Gravity Model
 3 | Mar 8 | GIS a (replicable) Science? | GRASS Terrain | Uncertainty
 4 | Mar 15 | mon | GRASS Rosgen Streams | Metadata & Provenance
 5 | Mar 22 | mon | Dar es Salaam Resiliency | fri

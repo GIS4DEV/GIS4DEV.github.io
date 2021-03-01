@@ -10,6 +10,15 @@ title: Open Source GIScience
 - Fall 2019 [course syllabus and lab manual](OpenSourceGIScience2019.pdf)
 - University Consortium for GIS (UCGIS) [2020 Symposium](https://www.ucgis.org/symposium-2020) [Presentation Slides](teachingReproducibility.pdf)
 
+## Spring 2021 Lessons
+<ul>
+  {% for lesson in site.lessons %}
+    <li>
+      <a href="{{ lesson.url }}">{{ lesson.title }}</a>{% if lesson.purpose %}: {{ lesson.purpose }} {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
 ## Members of Spring 2021
 - [daptx](https://daptx.github.io)
 - [emmab725](https://emmab725.github.io)
@@ -28,15 +37,6 @@ title: Open Source GIScience
 - [sanjana-roy](https://sanjana-roy.github.io)
 - [mtango99](https://mtango99.github.io)
 - [avillanueva1005](https://avillanueva1005.github.io)
-
-## Spring 2021 Lessons
-<ul>
-  {% for lesson in site.lessons %}
-    <li>
-      <a href="{{ lesson.url }}">{{ lesson.title }}</a>{% if lesson.purpose %}: {{ lesson.purpose }} {% endif %}
-    </li>
-  {% endfor %}
-</ul>
 
 ## Worked Examples and Notes
 - [My First QGIS Model](example1/qgisModel.md)

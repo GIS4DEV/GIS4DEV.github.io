@@ -1,10 +1,8 @@
 ---
 layout: lesson
 title: What is Open GIScience?
-purpose: Learn about Open GIScience and its implications
+purpose: learn about Open GIScience
 ---
-
-Today is [QGIS Open Day](https://github.com/qgis/QGIS/wiki/QHF-February-2021)
 
 Please read some background on open source in Geography for class discussion on Friday, February 26.
 

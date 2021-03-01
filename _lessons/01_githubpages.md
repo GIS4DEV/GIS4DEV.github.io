@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Publishing GitHub Pages
-purpose: Git version control, GitHub, Markdown, publishing websites with GitHub pages and Jekyll themes
+purpose: publish a website with GitHub, Jekyll, and Markdown.
 ---
 
 [video tutorial](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=42703aa9-d7bd-4189-bb1d-acd800ef84b5)

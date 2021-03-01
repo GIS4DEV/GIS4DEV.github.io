@@ -17,7 +17,7 @@ While you read these, consider:
 - In what way might something be *open source* but not *free*?
 - As we practice Open GIScience in this class, what are the implications for:
   - Learning
-  - The Honor Code
+  - The [Honor Code](https://docs.google.com/document/d/1tVzZVTJc_IE5jIMPG5JadQe0j0R_yYPscNzGtqiq3ak/edit?usp=sharing)
   - Evaluation & Grades
 - Is there space for Open GIScience in an undergraduate liberal arts education?
 - What risks/benefits do you see for use of open source GIS in:

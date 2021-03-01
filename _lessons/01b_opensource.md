@@ -13,12 +13,17 @@ Please read some background on open source in Geography for class discussion on 
 While you read these, consider:
 - **As we practice Open GIScience in this class, what are the implications for learning, the honor code, and evaluation/grades?**
 - What are the meanings of *free software*, *open source*, and *open science*?
-- In what way might something be *open source* but not *free*?
 - How is *free* as in the free software movement different from *free* as in a cost of `$0.00`?
+- In what way might something be *open source* but not *free*?
+- As we practice Open GIScience in this class, what are the implications for:
+  - Learning
+  - The Honor Code
+  - Evaluation & Grades
 - Is there space for Open GIScience in an undergraduate liberal arts education?
-- What risks/benefits do you see for use of open source GIS in science?
-  - ... and in government?
-  - ... and in private businesses?
+- What risks/benefits do you see for use of open source GIS in:
+  - science?
+  - government?
+  - private businesses?
 
 Please write a response/reaction to this material on your GitHub site. GitHub site and Open GIScience post are due on *Monday March 1*.
 

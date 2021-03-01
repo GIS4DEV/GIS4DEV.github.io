@@ -19,4 +19,4 @@ In our afternoon lecture time, our tasks will be to:
 
 Our first iteration of the gravity model should be able to create service regions composed of  input features. Input features are assigned to the service region of the target feature for which they have the greatest potential interaction. The user should be able to customize how many (*k*) target features to consider for each input feature, as well as the coefficients for input weights, target weights, and the friction of distance.
 
-Reminder: it's best if we keep all of our technical questions in one place: [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) There are already some useful questions! I recieve an email notificaton when a new question is posted, and you can as well if you watch the respository: !(watch repository)[assets/watch.png]
+Reminder: it's best if we keep all of our technical questions in one place: [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) There are already some useful questions! I recieve an email notificaton when a new question is posted, and you can as well if you watch the respository: ![watch repository](assets/watch.png)

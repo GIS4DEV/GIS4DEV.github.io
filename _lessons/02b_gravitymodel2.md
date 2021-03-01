@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Gravity Model: Finalize & Publish
+title: "Gravity Model: Finalize & Publish"
 purpose: "complete a solution for the Gravity model and publish to GitHub"
 ---
 

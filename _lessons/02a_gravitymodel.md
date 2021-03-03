@@ -79,9 +79,10 @@ And create an output in which target features have been grouped by the input pol
 ### Data sources
 
 * I have seperately compiled population by town in New England and Middle Atlantic states using [TidyCensus](https://walker-data.com/tidycensus/) in R based on the American Community Survey 2018 5-year Average. The file is in the geopackage format here: [netown.gpkg](assets/netown.gpkg)
-* Hospital Data:  https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0
-  * go to the data source: services1.arcgis.com 
+* Hospital Data: [Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
+  * download directly, or look at the data source: [services1.arcgis.com](https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer/0) 
   * ultimately the server link is: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer 
+  * and this can be added directly to QGIS!
 for ArcGIS Feature Service in QGIS
 * Dartmouth Health Care atlas boundary files: https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries 
   - be sure to follow their terms of use: https://atlasdata.dartmouth.edu/terms_of_use 

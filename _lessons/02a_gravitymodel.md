@@ -23,68 +23,69 @@ Our first iteration of the gravity model should be able to create service region
 
 - Honor code: please do not share this tool or workflow with current geog0120 students (but you can tell them to take **geog 323** if they want to make one!)
 - Workflow diagram [(link for current students logged in to GitHub only)](https://github.com/GIS4DEV/literature/raw/c7330ccc651b502e1794ed98434fe773865fd113/gravity_model_workflow.png)
+- [Tutorial Videos](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=324cb720-6901-48e2-b57a-acdf014ab826)
 
 ### Gravity model specification
 
 The gravity model of spatial interaction model should be able to take the following inputs (based on class discusson):
-* Input Polygon Features
-* Input ID
-* Input Weight Field
-* Target Features
-* Target ID
-* Target Weight Field
+- Input Layer/Features
+- Input ID
+- Input Weight Field
+- Target Layer/Features
+- Target ID
+- Target Weight Field
 
 And create the following output:
-* **Spatial Interaction Catchments**: Polygon layer containing the following fields:
+- **Spatial Interaction Catchments**: Polygon layer containing the following fields:
   1. TargetID
   2. Target Weight (in this case, it's beds)
   3. Sum of Input Weight (in this case, it's population)
   
 Additional advanced options for the model should include:
-* Use only the nearest `k` features with a default value of `20`
-* Distance parameter (`beta` or `friction`) with a default value of `2`
-* Input weight parameter (`lambda`, or `emissivity`) with a default value of `1`
-* Target weight parameter (`alpha`, or `attractiveness`) with a default value of `1`
+- Use only the nearest `k` features with a default value of `20`
+- Distance parameter (`beta` or `friction`) with a default value of `2`
+- Input weight parameter (`lambda`, or `emissivity`) with a default value of `1`
+- Target weight parameter (`alpha`, or `attractiveness`) with a default value of `1`
 
 ### Model to preprocess target features
 
 In many cases, `target features` may need to be aggregated, and it will most often make sense to aggregate them by the same spatial units used for the `input features`. In this particular case, it's the problem of grouping clusters of hospitals by town.
 
 The model should be able to take the following inputs:
-* Input Polygon Features
-* Target Features
+- Input Polygon Features
+- Target Features
 
 And create an output in which target features have been grouped by the input polygon feature in which they are found, and the group has:
-* geometry of just one point at its center
-* unique id from the Target Features
-* sum of the weight field. 
+- geometry of just one point at its center
+- unique id from the Target Features
+- sum of the weight field. 
 
 ### Gravity model graphic model challenges
 
-* Remember to convert `meters` to `kilometers`
-* Don't allow for inputs with weights of `0`
-* Don't allow for edge case of a distance of `0` in case a town centroid is directly coincident with a hospital. Perhaps this could be achieved by making the minimum distance `1`? This avoids possible "divide by zero" errors-- always a concern with denominators.
-* Allow any type of geometry to be used as the target layer
-* Allow the user to use *selected features only* for either the `input features` or the `target features`
-* Allow the user to include exponents (i.e. the formula can be `(inputWeight)^λ * (targetWeight)^α / (distance)^β
-  * Need to add optional `lambda`, `alpha`, and `beta` inputs to the model.
-  * Try making them **advanced** inputs, where `lambda` and `alpha` have default values of `1` and `beta` has default value of `2`
-  * See the gravity model and formula in Rodrigue's [*The Geography of Transport Systems*](https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/)
-* Force the algorithm to always use geodesic distance measurements
-* Create a seperate algorithm for preprocessing hospital data as it is provided by Homeland Security.
-  * Exclude hospitals that do not have a normal intensive care unit for public use (e.g. psychiatric or military hospitals)
-  * Exclude hospitals with missing data on the number of beds
-  * Exclude hospitals that are closed
+- Remember to convert `meters` to `kilometers`
+- Don't allow for inputs with weights of `0`
+- Don't allow for edge case of a distance of `0` in case a town centroid is directly coincident with a hospital. Perhaps this could be achieved by making the minimum distance `1`? This avoids possible "divide by zero" errors-- always a concern with denominators.
+- Allow any type of geometry to be used as the target layer
+- Allow the user to use *selected features only* for either the `input features` or the `target features`
+- Allow the user to include exponents (i.e. the formula can be `(inputWeight)^λ * (targetWeight)^α / (distance)^β
+  - Need to add optional `lambda`, `alpha`, and `beta` inputs to the model.
+  - Try making them **advanced** inputs, where `lambda` and `alpha` have default values of `1` and `beta` has default value of `2`
+  - See the gravity model and formula in Rodrigue's [*The Geography of Transport Systems*](https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/)
+- Force the algorithm to always use geodesic distance measurements
+- Create a seperate algorithm for preprocessing hospital data as it is provided by Homeland Security.
+  - Exclude hospitals that do not have a normal intensive care unit for public use (e.g. psychiatric or military hospitals)
+  - Exclude hospitals with missing data on the number of beds
+  - Exclude hospitals that are closed
 
 ### Data sources
 
-* I have seperately compiled population by town in New England and Middle Atlantic states using [TidyCensus](https://walker-data.com/tidycensus/) in R based on the American Community Survey 2018 5-year Average. The file is in the geopackage format here: [netown.gpkg](assets/netown.gpkg)
-* Hospital Data: [Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
-  * download directly, or look at the data source: [services1.arcgis.com](https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer/0) 
-  * ultimately the server link is: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer 
-  * and this can be added directly to QGIS!
+- I have seperately compiled population by town in New England and Middle Atlantic states using [TidyCensus](https://walker-data.com/tidycensus/) in R based on the American Community Survey 2018 5-year Average. The file is in the geopackage format here: [netown.gpkg](assets/netown.gpkg)
+- Hospital Data: [Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
+  - download directly, or look at the data source: [services1.arcgis.com](https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer/0) 
+  - ultimately the server link is: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer 
+  - and this can be added directly to QGIS!
 for ArcGIS Feature Service in QGIS
-* Dartmouth Health Care atlas boundary files: https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries 
+- Dartmouth Health Care atlas boundary files: https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries 
   - be sure to follow their terms of use: https://atlasdata.dartmouth.edu/terms_of_use 
   - use the hospital service area boundaries, not the larger referral regions
-* Zip Code Tabulation Areas (ZCTA), the basis of the Dartmouth Health Atlas Hospitial Service Areas are very unfortunately not downloading from the US Census webpage right now: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.2018.html
+- Zip Code Tabulation Areas (ZCTA), the basis of the Dartmouth Health Atlas Hospitial Service Areas are very unfortunately not downloading from the US Census webpage right now: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.2018.html

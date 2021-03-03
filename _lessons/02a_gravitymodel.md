@@ -47,20 +47,7 @@ Additional advanced options for the model should include:
 - Input weight parameter (`lambda`, or `emissivity`) with a default value of `1`
 - Target weight parameter (`alpha`, or `attractiveness`) with a default value of `1`
 
-### Model to preprocess target features
-
-In many cases, `target features` may need to be aggregated, and it will most often make sense to aggregate them by the same spatial units used for the `input features`. In this particular case, it's the problem of grouping clusters of hospitals by town.
-
-The model should be able to take the following inputs:
-- Input Polygon Features
-- Target Features
-
-And create an output in which target features have been grouped by the input polygon feature in which they are found, and the group has:
-- geometry of just one point at its center
-- unique id from the Target Features
-- sum of the weight field. 
-
-### Gravity model graphic model challenges
+### Gravity model challenges
 
 - Remember to convert `meters` to `kilometers`
 - Don't allow for inputs with weights of `0`
@@ -76,6 +63,19 @@ And create an output in which target features have been grouped by the input pol
   - Exclude hospitals that do not have a normal intensive care unit for public use (e.g. psychiatric or military hospitals)
   - Exclude hospitals with missing data on the number of beds
   - Exclude hospitals that are closed
+
+### Model to preprocess target features
+
+In many cases, `target features` may need to be aggregated, and it will most often make sense to aggregate them by the same spatial units used for the `input features`. In this particular case, it's the problem of grouping clusters of hospitals by town.
+
+The model should be able to take the following inputs:
+- Input Polygon Features
+- Target Features
+
+And create an output in which target features have been grouped by the input polygon feature in which they are found, and the group has:
+- geometry of just one point at its center
+- unique id from the Target Features
+- sum of the weight field. 
 
 ### Data sources
 

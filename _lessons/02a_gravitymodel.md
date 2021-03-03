@@ -85,8 +85,6 @@ And create an output in which target features have been grouped by the input pol
   - download directly, or look at the data source: [services1.arcgis.com](https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer/0) 
   - ultimately the server link is: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer 
   - and this can be added directly to QGIS!
-for ArcGIS Feature Service in QGIS
-- Dartmouth Health Care atlas boundary files: https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries 
-  - be sure to follow their terms of use: https://atlasdata.dartmouth.edu/terms_of_use 
+- Dartmouth Atlas of Health Care [boundary files](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries)
+  - be sure to follow their [terms of use](https://atlasdata.dartmouth.edu/terms_of_use)
   - use the hospital service area boundaries, not the larger referral regions
-- Zip Code Tabulation Areas (ZCTA), the basis of the Dartmouth Health Atlas Hospitial Service Areas are very unfortunately not downloading from the US Census webpage right now: https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.2018.html

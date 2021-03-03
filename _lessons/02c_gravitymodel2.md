@@ -17,7 +17,7 @@ In our afternoon lecture time, our *asynchronous* tasks will be to:
       - images of the models
 	  - links to the `model3` model files
 	- interpretation of model results *vis-a-vis* the Dartmouth Health Atlas
-  - a static map and a web map of your results with four layers
+  - a static map and a web map (depicting any part of New England) of your results with four layers
     - hospitals
 	- calculated hospital catchments
 	- hospital catchments given by the Dartmouth Atlas (you may exclude this one from your static map)

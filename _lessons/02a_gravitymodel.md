@@ -24,6 +24,7 @@ Our first iteration of the gravity model should be able to create service region
 - Honor code: please do not share this tool or workflow with current geog0120 students (but you can tell them to take **geog 323** if they want to make one!)
 - Workflow diagram [(link for current students logged in to GitHub only)](https://github.com/GIS4DEV/literature/raw/c7330ccc651b502e1794ed98434fe773865fd113/gravity_model_workflow.png)
 - [Tutorial Videos](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=324cb720-6901-48e2-b57a-acdf014ab826)
+- You are encouraged to work collaboratively, although each person should complete their own model and analysis.
 
 ### Gravity model specification
 

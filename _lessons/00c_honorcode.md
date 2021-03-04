@@ -7,21 +7,21 @@ purpose: working honor code for Open GIScience
 ## General Principles
 
 1. Sharing & Collaboration
-  1. Be willing and open to collaborate and share resources with others.
-  1. Work to create an atmosphere of “we’re all in this together” — willingness to both offer and ask for support should be lauded
-  1. Overcoming stigma about asking for assistance to model real-world interactions in this open-source field by having a platform available to resolve issues when we get “stuck”
-  1. Implicit consent, as a class there should be an underlying trust that we should be able to use others code/tools without directly asking
-  1. Many suggestions for a collaborative communication channel.
-    1. GitHub has [Team Discussion](https://github.com/orgs/GIS4DEV/teams/spring2021/discussions), [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues), and [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) to share problems and solutions.
-	1. Open to suggestions on using other channels, but whatever you use should be *inclusive*.
+   1. Be willing and open to collaborate and share resources with others.
+   1. Work to create an atmosphere of “we’re all in this together” — willingness to both offer and ask for support should be lauded
+   1. Overcoming stigma about asking for assistance to model real-world interactions in this open-source field by having a platform available to resolve issues when we get “stuck”
+   1. Implicit consent, as a class there should be an underlying trust that we should be able to use others code/tools without directly asking
+   1. Many suggestions for a collaborative communication channel.
+      1. GitHub has [Team Discussion](https://github.com/orgs/GIS4DEV/teams/spring2021/discussions), [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues), and [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) to share problems and solutions.
+      1. Open to suggestions on using other channels, but whatever you use should be *inclusive*.
 1. Citation and documentation of work
-  1. In collaboration, document what you contribute/what others contributed. Giving credit helps lift everyone up.
-  1. Thorough documentation of where help was given/received and where it came from in workflow (including both peers and other external sources)
-  1. “Cite your sources”, thoroughly! Especially related to collaboration with peers
-  1. A key takeaway from this class should be learning how to attribute collaboration or contributions to others who help you along the way in the context of Open Source GIS.
-  1. Citing other people’s code (specifying where in their repository you’re sourcing for)
+   1. In collaboration, document what you contribute/what others contributed. Giving credit helps lift everyone up.
+   1. Thorough documentation of where help was given/received and where it came from in workflow (including both peers and other external sources)
+   1. “Cite your sources”, thoroughly! Especially related to collaboration with peers
+   1. A key takeaway from this class should be learning how to attribute collaboration or contributions to others who help you along the way in the context of Open Source GIS.
+   1. Citing other people’s code (specifying where in their repository you’re sourcing for)
 1. Avoid gatekeeping.
-  1. Conversely, welcome diverse contributions.
+   1. Conversely, welcome diverse contributions.
 
 ## Regarding Blog Posts
 

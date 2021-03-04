@@ -59,7 +59,7 @@ Additional *advanced* options for the model should include:
 - Allow the user to use *selected features only* for either the `input features` or the `target features`
 - Force the algorithm to always use geodesic distance measurements
 
-### Model for preprocessing hospital data as it is provided by Homeland Security.
+### Model for preprocessing Homeland Security hospital data
 
 To be fully reproducible, these steps of data preprocessing should be encoded in a model:
   - Exclude hospitals that do not have a normal intensive care unit for public use (e.g. psychiatric or military hospitals)

@@ -8,9 +8,9 @@ The `Distance Matrix` [algorithm documentation](https://docs.qgis.org/3.16/en/do
 
 Watch a [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855206e6-2da2-4879-b86a-acdf016865e4) of the issue.
 
-## Outline: using code to understand an algorithm
+## Reading code to understand an algorithm
 
-- [github.com/qgis](https://github.com/qgis) , search "distancematrix" within the repository
+- Go to the QGIS GitHub repository [github.com/qgis](https://github.com/qgis) and search for "distancematrix" within the repository
 - distance matrix algorithm [source code](https://github.com/qgis/QGIS/blob/f32725658f205af4ac9718d3a3b74f13eaa98d3e/python/plugins/processing/algs/qgis/PointDistance.py)
   - line 179: Transforms the target featurs into the source CRS (coordinate reference system)
   - line 182: CRS set to source CRS

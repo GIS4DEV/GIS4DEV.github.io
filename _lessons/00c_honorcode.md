@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Honor Code
-purpose: working honor code for Open GIScience
+purpose: establish professional conduct in Open GIScience
 ---
 
 ## General Principles

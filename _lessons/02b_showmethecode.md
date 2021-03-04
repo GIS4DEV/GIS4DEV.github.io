@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Show me the Code, Distance Matrix
-purpose: "illustrate the importance of good documentation and open source code"
+purpose: "illustrate the importance open source code"
 ---
 
 The `Distance Matrix` [algorithm documentation](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html#distance-matrix) says nothing about how it calculates distances!
@@ -12,7 +12,7 @@ Watch a [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855
 
 - [github.com/qgis](https://github.com/qgis) , search "distancematrix" within the repository
 - distance matrix algorithm [source code](https://github.com/qgis/QGIS/blob/f32725658f205af4ac9718d3a3b74f13eaa98d3e/python/plugins/processing/algs/qgis/PointDistance.py)
-  - line 179: Transforms the target featurs into the source CRS
+  - line 179: Transforms the target featurs into the source CRS (coordinate reference system)
   - line 182: CRS set to source CRS
   - line 183: Ellipsoid set to context ellipsoid
 - distance area class [source code](https://github.com/qgis/QGIS/blob/5caa3880ff5e85df9116d191863809c6851644c8/src/core/qgsdistancearea.cpp)

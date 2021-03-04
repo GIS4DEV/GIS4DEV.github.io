@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Calendar
-purpose: working calendar of topics
+purpose: see an overview of topics
 ---
 
 ## Spring 2021*

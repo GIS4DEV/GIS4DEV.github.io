@@ -50,7 +50,7 @@ purpose: working honor code for Open GIScience
 1. Options for group workflows as well as individual
    1. Yes, there definitely will be some collaboration by design in the analyses.
   
-This honor code statement is the product of collaborative discussion by the whole class on March 1, 2021, with some organization and additions by Professor Holler.
+This honor code statement is the product of collaborative discussion by the class in breakout groups on March 1, 2021, with some organization and additions by Professor Holler.
 
 
 

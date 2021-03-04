@@ -16,6 +16,7 @@ Do you remember the gravity model of spatial interaction from *human geography w
 Reminder: it's best if we keep all of our technical questions in one place: [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) There are already some useful questions! I recieve an email notificaton when a new question is posted, and you can as well if you watch the respository: ![watch repository](assets/watch.png)
 - Discuss the purpose / benefit of creating models
 - Sketch up what the GUI (graphical user interface) for a gravity model should look like
+- You already have practice thinking programmatically about GIS problems by drawing workflow diagrams!
 
 ## Lab
 

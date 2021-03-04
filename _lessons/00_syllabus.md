@@ -15,6 +15,7 @@ purpose: introductions and course syllabus
 - Availability: W 2pm&ndash;4pm F 11am&ndash;12pm
 - Lecture: MWF 12:40&ndash;1:30 in The Orchard
 - Lab: W 7:30&ndash;10:25 in BiHall 403/411
+- Kufre Udoh Office Hours Thursday 3:00-4:30, BiHall 6th Floor West Study Area (starting March 11)
 
 For assistance outside of office hours, your resources include:
 1. The course [wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) and [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues)
@@ -28,9 +29,7 @@ For assistance outside of office hours, your resources include:
 
 In this course we will study geographic information science (GIS) with open-source software and critical GIS scholarship. In labs, we will practice techniques to include: data acquisition and preparation for analysis, spatial SQL database queries, automating analysis, spatial interpolation, testing sensitivity to error and uncertainty, and data visualization. We will read and apply critical research of GIS as a subject and with GIS as a methodology. Spatial data sources for labs and independent research projects may include remote sensing, micro-data, smart cities and open government data, and volunteered geographic information (e.g. OpenStreetMap and social media).
 
-Prerequisite: GEOG0120 *Human Geography with GIS*.
-
-Programming experience is not assumed or required! You just need to be willing to learn how to translate the spatial analysis that you know from desktop GIS (QGIS, ArcGIS, etc.) into code.
+Prerequisite: GEOG0120 *Human Geography with GIS*. Programming experience is *not assumed or required*! You just need to be willing to learn how to translate the spatial analysis that you know from desktop GIS (QGIS, ArcGIS, etc.) into code.
 
 ## Learning Goals
 

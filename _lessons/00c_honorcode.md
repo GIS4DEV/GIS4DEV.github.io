@@ -26,29 +26,29 @@ purpose: working honor code for Open GIScience
 ## Regarding Blog Posts
 
 1. Later posters may react and respond to earlier students' contributions
-  1. This is not a required expectation, but if you do look at others' contributions, you should link to them if they're influencing your thought process.
+   1. This is not a required expectation, but if you do look at others' contributions, you should link to them if they're influencing your thought process.
 1. Informal citation is encouraged through inclusion of hyperlinks.
 1. Aim to finish writing when you’re proud of the work you’ve produced. This length may look different for different people and different topics, and that’s okay.
 
 ## Regarding GIS Analyses
 
 1. Transparency and reproducibility
-  1. For assessment: readability/clarity of code and documentation
-  1. Documentation for reproducibility/replicability
+   1. For assessment: readability/clarity of code and documentation
+   1. Documentation for reproducibility/replicability
 1. Citation / Acknowledgement
-  1. Acknowledging and citing others’ work if used or referenced either by linking directly or otherwise
+   1. Acknowledging and citing others’ work if used or referenced either by linking directly or otherwise
 1. Community
-  1. Actively share helpful resources that you used with your classmates 
-  1. Building a collaborative/shared data clearinghouse
-  1. Sharing is caring
-  1. Be willing to share resources (code, explanations of concepts, papers, etc) with the rest of the class
+   1. Actively share helpful resources that you used with your classmates 
+   1. Building a collaborative/shared data clearinghouse
+   1. Sharing is caring
+   1. Be willing to share resources (code, explanations of concepts, papers, etc) with the rest of the class
 1. Balance honest individual effort with collaboration
-  1. Time divisions: time to try on your own (take a reasonable crack at it, but once you hit a wall…) → time to discuss with others/pose questions → time to finalize/ look at others’ code
-  1. Friendly competition
-  1. No fear of only one to two people constantly getting results
-    1. Even if others discover solutions first, there is always more to do in terms of organization, documentation, testing, replicating, etc.
+   1. Time divisions: time to try on your own (take a reasonable crack at it, but once you hit a wall…) → time to discuss with others/pose questions → time to finalize/ look at others’ code
+   1. Friendly competition
+   1. No fear of only one to two people constantly getting results
+      1. Even if others discover solutions first, there is always more to do in terms of organization, documentation, testing, replicating, etc.
 1. Options for group workflows as well as individual
-  1. Yes, there definitely will be some collaboration by design in the analyses.
+   1. Yes, there definitely will be some collaboration by design in the analyses.
   
 This honor code statement is the product of collaborative discussion by the whole class on March 1, 2021, with some organization and additions by Professor Holler.
 

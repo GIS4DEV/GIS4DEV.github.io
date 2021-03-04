@@ -43,11 +43,12 @@ And create the following output:
   2. Target Weight (in this case, it's beds)
   3. Sum of Input Weight (in this case, it's population)
   
-Additional advanced options for the model should include:
+Additional *advanced* options for the model should include:
 - Use only the nearest `k` features with a default value of `20`
 - Distance parameter (`beta` or `friction`) with a default value of `2`
 - Input weight parameter (`lambda`, or `emissivity`) with a default value of `1`
 - Target weight parameter (`alpha`, or `attractiveness`) with a default value of `1`
+  - The previous three parameters allow full implementation of the gravity model formula: `(inputWeight)^λ * (targetWeight)^α / (distance)^β` as described in Rodrigue's [*The Geography of Transport Systems*](https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/)
 
 ### Gravity model challenges
 
@@ -56,12 +57,11 @@ Additional advanced options for the model should include:
 - Don't allow for edge case of a distance of `0` in case a town centroid is directly coincident with a hospital. Perhaps this could be achieved by making the minimum distance `1`? This avoids possible "divide by zero" errors-- always a concern with denominators.
 - Allow any type of geometry to be used as the target layer
 - Allow the user to use *selected features only* for either the `input features` or the `target features`
-- Allow the user to include exponents (i.e. the formula can be `(inputWeight)^λ * (targetWeight)^α / (distance)^β
-  - Need to add optional `lambda`, `alpha`, and `beta` inputs to the model.
-  - Try making them **advanced** inputs, where `lambda` and `alpha` have default values of `1` and `beta` has default value of `2`
-  - See the gravity model and formula in Rodrigue's [*The Geography of Transport Systems*](https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/)
 - Force the algorithm to always use geodesic distance measurements
-- Create a seperate algorithm for preprocessing hospital data as it is provided by Homeland Security.
+
+### Model for preprocessing hospital data as it is provided by Homeland Security.
+
+To be fully reproducible, these steps of data preprocessing should be encoded in a model:
   - Exclude hospitals that do not have a normal intensive care unit for public use (e.g. psychiatric or military hospitals)
   - Exclude hospitals with missing data on the number of beds
   - Exclude hospitals that are closed
@@ -88,4 +88,4 @@ And create an output in which target features have been grouped by the input pol
   - and this can be added directly to QGIS!
 - Dartmouth Atlas of Health Care [boundary files](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries)
   - be sure to follow their [terms of use](https://atlasdata.dartmouth.edu/terms_of_use)
-  - use the hospital service area boundaries, not the larger referral regions
+  - use the hospital service area boundaries (HSA), not the larger referral regions (HRR)

@@ -26,6 +26,7 @@ Our first iteration of the gravity model should be able to create service region
 - [Tutorial Videos](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=324cb720-6901-48e2-b57a-acdf014ab826)
 - You are encouraged to work collaboratively, although each person should complete their own model and analysis.
 - To facilitate collaboration remotely, I opened a [team discussion](https://github.com/orgs/GIS4DEV/teams/spring2021/discussions/1) and we'll have the Zoom meeting open during lab hours
+- To clarify expectations for analysis regarding the challenges below, please [see this reply](https://github.com/GIS4DEV/GIS4DEV.github.io/issues/14#issuecomment-790669309)
 
 ### Gravity model specification
 

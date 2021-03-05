@@ -37,6 +37,7 @@ title: Open Source GIScience
 ~ [sanjana-roy](https://sanjana-roy.github.io)
 ~ [mtango99](https://mtango99.github.io)
 ~ [avillanueva1005](https://avillanueva1005.github.io)
+~ [hrigdon98](https://hrigdon98.github.io)
 
 ## Worked Examples and Notes
 - [My First QGIS Model](example1/qgisModel.md)

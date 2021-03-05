@@ -36,4 +36,6 @@ Please complete:
 
 If you want to analyze a different region, feel free to do so! You'll just have to get population by town or by zip code tabulation area on your own. Self-admittedly, I don't know how to use the U.S. Census webpage anymore. They supposedly made it easier to use? I acquire all of my census data with Tidycensus in R studio now. Here's [an example](https://github.com/GIS4DEV/USCensus). To download data on towns, the census geographic unit is called `"county subdivision"`, and the variable for total population is `"B00001_001"`.
 
+**Challenge**: As you finalize your analysis, try to use your tool to customize the gravity model parameters in order to make your hospital catchments more closely match the Dartmouth Atlas of Health Care Hospital Service Areas.
+
 Here is an [instruction sheet](assets/qgis2web.pdf)

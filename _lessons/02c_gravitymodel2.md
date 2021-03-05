@@ -32,4 +32,8 @@ Please complete:
 
 *Class will meet* **in person** *in the Orchard!*
 
+## Instructions on finalizing & publishing to the web
+
 If you want to analyze a different region, feel free to do so! You'll just have to get population by town or by zip code tabulation area on your own. Self-admittedly, I don't know how to use the U.S. Census webpage anymore. They supposedly made it easier to use? I acquire all of my census data with Tidycensus in R studio now. Here's [an example](https://github.com/GIS4DEV/USCensus). To download data on towns, the census geographic unit is called `"county subdivision"`, and the variable for total population is `"B00001_001"`.
+
+Here is an [instruction sheet](assets/qgis2web.pdf)

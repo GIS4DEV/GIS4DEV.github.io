@@ -12,7 +12,7 @@ Watch a [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855
 
 - Go to the QGIS GitHub repository [github.com/qgis](https://github.com/qgis) and search for "distancematrix" within the repository
 - distance matrix algorithm [source code](https://github.com/qgis/QGIS/blob/f32725658f205af4ac9718d3a3b74f13eaa98d3e/python/plugins/processing/algs/qgis/PointDistance.py)
-  - line 179: Transforms the target featurs into the source CRS (coordinate reference system)
+  - line 179: Transforms the target features into the source CRS (coordinate reference system)
   - line 182: CRS set to source CRS
   - line 183: Ellipsoid set to context ellipsoid
 - distance area class [source code](https://github.com/qgis/QGIS/blob/5caa3880ff5e85df9116d191863809c6851644c8/src/core/qgsdistancearea.cpp)
@@ -24,5 +24,6 @@ Watch a [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855
 ## Conclusions
 
 - `Distance Matrix` appears to calculate distance in `meters`, no matter what.
+- Target features are automatically reprojected to match the CRS of source features
 - If the input layer uses a projected coordinate system, that system is used or planar distance calculation.
 - If the input layer uses a geographic coordinate system, the project ellipsoid is used for ellipsoidal distance calculation.

@@ -24,6 +24,6 @@ Watch a [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855
 ## Conclusions
 
 - `Distance Matrix` appears to calculate distance in `meters`, no matter what.
-- Target features are automatically reprojected to match the CRS of source features
+- Target features are automatically reprojected to match the CRS of input features
 - If the input layer uses a projected coordinate system, that system is used or planar distance calculation.
 - If the input layer uses a geographic coordinate system, the project ellipsoid is used for ellipsoidal distance calculation.

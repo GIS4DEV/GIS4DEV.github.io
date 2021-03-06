@@ -12,16 +12,15 @@ In our afternoon lecture time, our *asynchronous* tasks will be to:
   - (a) `model3` file(s) or thorough documentation for preprocessing hospital data
   - a GitHub page detailing
     - purpose of the models
-	- data sources and references, including appropriate links
-    - reproducible documentation of methods, where documentation includes
-      - images of the models
-	  - links to the `model3` model files
-	- interpretation of model results *vis-a-vis* the Dartmouth Health Atlas
+    - data sources and references, including appropriate links
+    - reproducible documentation of methods, where documentation includes...
+    - images of the models
+    - links to the `.model3` model files
+    - interpretation of model results *vis-a-vis* the Dartmouth Health Atlas
   - a web map of your results with four layers
-    - hospitals
-	- calculated hospital catchments
-	- hospital catchments given by the Dartmouth Atlas (you may exclude this one from your static map)
-	- population density
+    - hospital clusters
+    - calculated hospital catchments
+    - hospital catchments given by the Dartmouth Atlas (you may exclude this one from your static map)
 
 ## Before Class on Monday
 

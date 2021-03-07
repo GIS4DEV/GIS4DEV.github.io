@@ -27,7 +27,7 @@ In our afternoon lecture time, our *asynchronous* tasks will be to:
 Please complete:
 - a gravity model implementation and page on GitHub
 - reading on GIS as a (replicable) Science with a blog-style page on GitHub (see next lesson)
-- our crowdsourced [Honor Code](00c_honorcode.md) has been posted.
+- our crowdsourced [Honor Code](00c_honorcode.html) has been posted.
 
 *Class will meet* **in person** *in the Orchard!*
 

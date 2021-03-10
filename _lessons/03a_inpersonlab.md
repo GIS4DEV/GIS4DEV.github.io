@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: First In-Person Lab
-purpose: "peer review and revision"
+purpose: "peer review and revise our QGIS models and GitHub pages"
 ---
 
 Wednesday, March 10 Lab

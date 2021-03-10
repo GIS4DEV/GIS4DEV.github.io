@@ -24,7 +24,6 @@ title: Open Source GIScience
 ~ [emmab725](https://emmab725.github.io) 
 ~ [majacannavo](https://majacannavo.github.io)
 ~ [emmaclinton](https://emmaclinton.github.io)
-~ [dscronin](https://dscronin.github.io)
 ~ [vinfalardeau](https://vinfalardeau.github.io)
 ~ [jafreedman12](https://jafreedman12.github.io)
 ~ [evankilli](https://evankilli.github.io)

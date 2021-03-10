@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Rosgen Stream Classification in GRASS
+title: Rosgen Classification in GRASS/R
 purpose: "replicate stream classification methods in GIS using GRASS and open science protocols"
 ---
 

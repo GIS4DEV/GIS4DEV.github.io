@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Rosgen Classification of Stream Geomorphology
+title: Rosgen Stream Classification
 purpose: "learn how geomorphologists apply spatial concepts to understand streams"
 ---
 

@@ -55,6 +55,8 @@ Additional *advanced* options for the model should include:
 
 ### Gravity model challenges
 
+- variable names `@VariableNames` are case sensitive `@variablenames`
+- it may be wiser to concatenate strings with the `||` operator, rather than `+` operator
 - Remember to convert `meters` to `kilometers`
 - Don't allow for inputs with weights of `0`
 - Don't allow for edge case of a distance of `0` in case a town centroid is directly coincident with a hospital. Perhaps this could be achieved by making the minimum distance `1`? This avoids possible "divide by zero" errors-- always a concern with denominators.

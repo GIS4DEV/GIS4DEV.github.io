@@ -33,9 +33,8 @@ In this lab, we will experiment with learning from a research repository. Theref
 1. Please download [https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip) to your `rosgenrr/data/raw/private` folder and unzip their contents in the same `rosgenrr/data/raw/private` folder.
 1. Optionally, you may also download [aerial orthophotography](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed_OrthoPrj.zip) of part of the region to the private folder:
 1. As you plan for and complete the replication, complete the replication report template found in `docs/report/HEGSRR-Replication-Report.md` and copy it for inclusion in your GitHub Pages.
-1. Follow the procedures enumerated in the repository's `procedure` folder, going in the same order as the procedures listed in `procedure_metadata.csv`. The procedures work through the process of creating variables required for a Rosgen Level II Stream Classification, illustrated by the Environmental Protection Agency's flowchart: ![Rosgen Level II Procedure](assets/rosgen_level2.jpg)
-
-**Need to Add: Protocol for choosing/assigning research sites**
+2. **Need to Add: Protocol for choosing/assigning research sites**
+3. Follow the procedures enumerated in the repository's `procedure` folder, going in the same order as the procedures listed in `procedure_metadata.csv`. The procedures work through the process of creating variables required for a Rosgen Level II Stream Classification, illustrated by the Environmental Protection Agency's flowchart: ![Rosgen Level II Procedure](assets/rosgen_level2.jpg) The full EPA training from which this chart was downloaded is available [here](https://cfpub.epa.gov/watertrain/moduleframe.cfm?parent_object_id=1189) and the chart is [section 25 of 25](https://cfpub.epa.gov/watertrain/moduleFrame.cfm?parent_object_id=1275)
 
 #### GRASS
 

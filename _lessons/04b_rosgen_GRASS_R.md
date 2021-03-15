@@ -26,7 +26,7 @@ The Rosgen Stream classification is a method for interpreting stream and river s
 
 In this lab, we will experiment with learning from a research repository. Therefore, most of the data and instructions are included in the repository as if Zach and coauthors were working on a research publication. Data, or instructions for downloading it, are included in the `data` folder, and information about that data is included in `metadata`. 
 
-1. Wait to follow the following instructions until the professor informs you that the RE-rogsgen repository has been finalized! Feel free to preview the material any time.
+1. Wait to follow these instructions until the professor informs you that the RE-rogsgen repository has been finalized! Feel free to preview the material any time.
 1. Start by using the GitHub website to *fork* the [RE-rosgen respository](https://github.com/GIS4DEV/RE-rosgen) from the GIS4DEV organization to your own GitHub account.
 1. Then use GitHub Desktop to *clone* your version of the repository to a location with *plenty of storage capacity* as this project uses some very large GIS datasets.
 1. Some files are too large for GitHub versioning and servers to handle. We'll treat these as `private` data sources, so that GitHub does not try to control or sync them. 

@@ -20,6 +20,15 @@ How do geomorphologists use spatial analysis to classify river and stream system
 ## Reading
   1. Rosgen, D. L. 1994. A classification of natural rivers. *CATENA* 22 (3):169–199. https://linkinghub.elsevier.com/retrieve/pii/0341816294900019.
   
+### Guide to Reading (added 3/14)
+
+In this reading, please pay the most attention to:
+- 1.0 Introduction: background and motivation for the topic, especially objective #4
+- 2.0 Stream Classification Concepts: what are the eight major variables influencing stream morphology?
+- 3.0 Stream Classification System: this is the methodology you'll need, and these ideas are illustrated in the video playlist
+- Sections 5.0, 5.1, 5.2, 6.3 and 6.4 describe many of the practical uses and applications of this classification system
+- 7.0 Summary 
+  
 ## Reference
   1. EPA. N.D. Fundamentals of Rosgen Stream Classification System in *Watershed Academy* available at [https://cfpub.epa.gov/watertrain/moduleFrame.cfm?parent_object_id=1189](https://cfpub.epa.gov/watertrain/moduleFrame.cfm?parent_object_id=1189) as part of the Environmental Protection Agency's [Online Training in Watershed Management](https://www.epa.gov/watershedacademy/online-training-watershed-management) 
   

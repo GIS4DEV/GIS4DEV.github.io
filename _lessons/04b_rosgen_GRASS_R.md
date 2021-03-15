@@ -22,20 +22,20 @@ The Rosgen Stream classification is a method for interpreting stream and river s
   - The data files in this lab are several gigabytes: if your internal hard drive is small, you'll want an external hard drive.
   - The evening lab space supports plenty of power adapters and ample desktop space for mice and keyboards.
   
-### Set Up
-  1. Start by using GitHub Desktop to *fork* the [rosgenrr respository](https://github.com/GIS4DEV/rosgenrr) from the GIS4DEV organization to your own GitHub account. Then *clone* your version of the repository to a location with *plenty of storage capacity* as this project uses some very large GIS datasets.
-  1. Some files are too large for GitHub versioning and servers to handle. We'll treat these as `private` data sources, so that GitHub does not try to control or sync them. 
-  1. Please download the following data files to your `rosgenrr/data/raw/private` folder and unzip their contents in the same `rosgenrr/data/raw/private` folder.
-     1. [https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip)
-	 1. [https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed_OrthoPrj.zip](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed_OrthoPrj.zip)
-	 1. [https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShedHS.zip](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShedHS.zip)
-	 
-### Procedure
-  1. Starting in GRASS
-  1. Digitizing in GRASS
-  1. Transects and Profiles
-  1. Classifying a Stream
-  
-### GRASS
+### Instructions
+
+In this lab, we will experiment with learning from a research repository. Therefore, most of the data and instructions are included in the repository as if Zach and coauthors were working on a research publication. Data, or instructions for downloading it, are included in the `data` folder, and information about that data is included in `metadata`. 
+
+1. Start by using the GitHub website to *fork* the [rosgenrr respository](https://github.com/GIS4DEV/rosgenrr) from the GIS4DEV organization to your own GitHub account.
+1. Then use GitHub Desktop to *clone* your version of the repository to a location with *plenty of storage capacity* as this project uses some very large GIS datasets.
+1. Some files are too large for GitHub versioning and servers to handle. We'll treat these as `private` data sources, so that GitHub does not try to control or sync them. 
+1. Please download [https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip) to your `rosgenrr/data/raw/private` folder and unzip their contents in the same `rosgenrr/data/raw/private` folder.
+1. Optionally, you may also download [aerial orthophotography](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed_OrthoPrj.zip) of part of the region to the private folder:
+1. As you plan for and complete the replication, complete the replication report template found in `docs/report/HEGSRR-Replication-Report.md` and copy it for inclusion in your GitHub Pages.
+1. Follow the procedures enumerated in the repository's `procedure` folder, going in the same order as the procedures listed in `procedure_metadata.csv`. The procedures work through the process of creating variables required for a Rosgen Level II Stream Classification, illustrated by the Environmental Protection Agency's flowchart: ![Rosgen Level II Procedure](assets/rosgen_level2.jpg)
+
+**Need to Add: Protocol for choosing/assigning research sites**
+
+#### GRASS
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cZia3ShzTWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -39,6 +39,7 @@ In this lab, we will experiment with learning from a research repository. Theref
 #### GRASS
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cZia3ShzTWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Jobs
 
 [Boston Region Metropolitan Planning Organization is seeking a Data Strategist](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.governmentjobs.com%2Fcareers%2Fctps%2Fjobs%2F3015230%2Fdata-strategist%3Fpagetype%3DjobOpportunitiesJobs&data=04%7C01%7Cnearc-l%40listserv.uconn.edu%7C342dbaf5d7cb43fc8bd308d8e893e64c%7C17f1a87e2a254eaab9df9d439034b080%7C0%7C0%7C637515069201638322%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=UZeUtyDTAXfAXUxt17Y3fS2WGDW1NbXtU8Jkty84xCI%3D&reserved=0)

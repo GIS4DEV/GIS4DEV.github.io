@@ -30,11 +30,32 @@ In this lab, we will experiment with learning from a research repository. Theref
 1. Start by using the GitHub website to *fork* the [RE-rosgen respository](https://github.com/GIS4DEV/RE-rosgen) from the GIS4DEV organization to your own GitHub account.
 1. Then use GitHub Desktop to *clone* your version of the repository to a location with *plenty of storage capacity* as this project uses some very large GIS datasets.
 1. Some files are too large for GitHub versioning and servers to handle. We'll treat these as `private` data sources, so that GitHub does not try to control or sync them. 
-1. Please download [https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip) to your `rosgenrr/data/raw/private` folder and unzip their contents in the same `rosgenrr/data/raw/private` folder.
-1. Optionally, you may also download [aerial orthophotography](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed_OrthoPrj.zip) of part of the region to the private folder:
-1. As you plan for and complete the replication, complete the replication report template found in `docs/report/HEGSRR-Replication-Report.md` and copy it for inclusion in your GitHub Pages.
-2. **Need to Add: Protocol for choosing/assigning research sites**
+1. Please download [https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip](https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip) to your `RE-rosgen/data/raw/private` folder and unzip their contents in the same `RE-rosgen/data/raw/private` folder.
+1. As you plan for and complete the replication, complete the replication report template found in `docs/report/HEGSRR-Replication-Report.md`. Eventually, you'll copy the report for inclusion in your GitHub Pages.
+2. Use the `loc_id` enumerated in the Reach Assignments table below when choosing the CHaMPS site to analyze-- your site of interest.
 3. Follow the procedures enumerated in the repository's `procedure` folder, going in the same order as the procedures listed in `procedure_metadata.csv`. The procedures work through the process of creating variables required for a Rosgen Level II Stream Classification, illustrated by the Environmental Protection Agency's flowchart: ![Rosgen Level II Procedure](assets/rosgen_level2.jpg) The full EPA training from which this chart was downloaded is available [here](https://cfpub.epa.gov/watertrain/moduleframe.cfm?parent_object_id=1189) and the chart is [section 25 of 25](https://cfpub.epa.gov/watertrain/moduleFrame.cfm?parent_object_id=1275)
+
+### Reach Assignments
+
+| GitHub Name | loc_id |
+| :--: | :--: |
+| alandaux | 16 |
+| avillanueva1005 | 20 |
+| brookelaird | 22 |
+| daptx | 3 |
+| emmab725 | 6 |
+| emmaclinton | 7 |
+| evankilli | 4 |
+| gsmarshall | 17 |
+| hrigdon98 | 9 |
+| jackson-mumper | 21 |
+| jafreedman12 | 13 |
+| majacannavo | 12 |
+| mtango99 | 18 |
+| nicknonnen | 25 |
+| sanjana-roy | 10 |
+| stevenmontilla | 8 |
+| vinfalardeau | 11 |
 
 #### GRASS
 

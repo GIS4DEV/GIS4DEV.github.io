@@ -15,8 +15,8 @@ The following paper will help contextualize our work on reproducing a Rosgen Cla
 
 ### GIS Analysis Report
 
-Your report is due in the form of a page on your GitHub pages on March 22 at noon.
+Your report is due in the form of a page on your GitHub pages on **March 22 at noon**.
 
-A template for this report is found in the rosgen repository: `docs\report\EGSRR-Replication-Report.md`
+A template for this report is found in the rosgen repository: `docs\report\HEGSRR-Replication-Report.md`
 
 Concurrently with the report in your pages repository, commit and push all changes to your rosgen research repository to your GitHub account. 

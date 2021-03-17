@@ -10,7 +10,7 @@ How do geomorphologists use spatial analysis to classify river and stream system
 
 ## Geomorphology Conceptual Videos
   1. [Bite-Sized Geomorphology Youtube Playlist](https://www.youtube.com/playlist?list=PLwGh8-JsjthvCaWgtZA0Hp1cx3qgTGnHC)
-  1. Slides and an excel notebook for notetaking are found in the [rosgenrr respository](https://github.com/GIS4DEV/rosgenrr)
+  1. Slides are found in the [RE-rosgen respository](https://github.com/GIS4DEV/RE-rosgen)  (I lost the Excel notebook for notetaking-- if anyone has a copy please share)
   1. Sinuosity
   1. Longitudinal Profiles
   1. Grains and the Basics of Fluvial Sediment Tranport

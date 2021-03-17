@@ -26,7 +26,9 @@ The Rosgen Stream classification is a method for interpreting stream and river s
 
 In this lab, we will experiment with learning from a research repository. Therefore, most of the data and instructions are included in the repository as if Zach and coauthors were working on a research publication. Data, or instructions for downloading it, are included in the `data` folder, and information about that data is included in `metadata`. 
 
-1. Wait to follow these instructions until the professor informs you that the RE-rogsgen repository has been finalized! Feel free to preview the material any time.
+The RE-rogsgen repository has been finalized! Feel free to fork the repository now.
+
+1. Optionally, there are [three videos available](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=cb556be3-59df-48ee-ac93-acee00db11b2) to orient you to the GitHub repository, to GRASS, and to RStudio.
 1. Start by using the GitHub website to *fork* the [RE-rosgen respository](https://github.com/GIS4DEV/RE-rosgen) from the GIS4DEV organization to your own GitHub account.
 1. Then use GitHub Desktop to *clone* your version of the repository to a location with *plenty of storage capacity* as this project uses some very large GIS datasets.
 1. Some files are too large for GitHub versioning and servers to handle. We'll treat these as `private` data sources, so that GitHub does not try to control or sync them. 
@@ -34,6 +36,7 @@ In this lab, we will experiment with learning from a research repository. Theref
 1. As you plan for and complete the replication, complete the replication report template found in `docs/report/HEGSRR-Replication-Report.md`. Eventually, you'll copy the report for inclusion in your GitHub Pages.
 2. Use the `loc_id` enumerated in the Reach Assignments table below when choosing the CHaMPS site to analyze-- your site of interest.
 3. Follow the procedures enumerated in the repository's `procedure` folder, going in the same order as the procedures listed in `procedure_metadata.csv`. The procedures work through the process of creating variables required for a Rosgen Level II Stream Classification, illustrated by the Environmental Protection Agency's flowchart: ![Rosgen Level II Procedure](assets/rosgen_level2.jpg) The full EPA training from which this chart was downloaded is available [here](https://cfpub.epa.gov/watertrain/moduleframe.cfm?parent_object_id=1189) and the chart is [section 25 of 25](https://cfpub.epa.gov/watertrain/moduleFrame.cfm?parent_object_id=1275)
+1. As a final step, you should update the data_metadata.csv file to report any new data files you have created and the procedure_metadata.csv file to report any new procedural files (code or protocols) you have created.
 
 ### Reach Assignments
 

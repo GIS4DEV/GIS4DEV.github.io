@@ -4,7 +4,7 @@ title:  Concluding the Rosgen Replication
 purpose: "use a template to report on a reproduction study"
 ---
 
-Friday, March 19
+Friday, March 19 and Monday March 22
 
 ## Reading
 
@@ -32,9 +32,17 @@ The following paper will help contextualize our work on reproducing a Rosgen Cla
   - *Why do classification frameworks differ?* section gives insight into sources of uncertainty
   - *Form and process in channel classification* section gives insight into sources of uncertainty
   
+## Friday Mach 19 Agenda
+
+- At the beginning of class, we will spend some time interpreting the terrain data and discussing sources of error and uncertainty.
+- Remaining time will be for working on the GIS Analysis.
+
 ## Monday March 22 Agenda
 
-Convene in the Orchard for lab/office hours time devoted to resolving any outstanding questions/problems with the Rosgen Reproduction.
+- Convene in the Orchard for lab/office hours time devoted to resolving any outstanding questions/problems with the Rosgen Reproduction.
+- As you wrap up the GIS Analysis report, the only new instruction from me will be:
+  - strategies for saving and publishing the analysis or
+  - response to any issues in or questions about the GIS Analysis
 
 ### GIS Analysis Report
 

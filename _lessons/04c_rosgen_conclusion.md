@@ -12,10 +12,33 @@ The following paper will help contextualize our work on reproducing a Rosgen Cla
 
   1. Kasprak, A., N. Hough-Snee, T. Beechie, N. Bouwes, G. Brierley, R. Camp, K. Fryirs, H. Imaki, M. Jensen, G. O’Brien, D. Rosgen, and J. Wheaton. 2016. The blurred line between form and process: A comparison of stream channel classification frameworks ed. J. A. Jones. *PLOS ONE* 11 (3):e0150293. https://dx.plos.org/10.1371/journal.pone.0150293.
 
+**NEW 3/18** Which parts of Kasprak et al (2016) should be helpful in report writing?
+- *Introduction* discusses motivation for, and challenges of, river classification
+- *Methods*
+  - starts with two sections describing geographic context of John Day Watershed and characteristics of the CHaMPS data
+  - compares information used in four different classification techniques in table 2
+  - briefly reviews the Rosgen classification system
+    - are there differences from our methods?
+  - details of the other three classification systems are less important for us. It's just interesting to note that:
+    - The River Styles Framework examines much longer sections of river than the Rosgen reaches
+	- The Natural Channel Classification framework tries to infer what a natural/undisturbed channel would look like without human influence
+	- The Statistical Classification framework is an inductive data-driven approach, with no predetermined hierarchical decision tree like Rosgen and the other two
+	- a quick tabular comparison of the systems is offered in table 2	
+- *Results*
+  - *Rosgen classification system* section gives you a sense of how representative your individual site was in a one paragraph summary
+  - *Comparison of framework agreement* section gives insight into sources of uncertainty
+- *Discussion*
+  - Find your site in Table 5 to see how it was classified by the four techniques
+  - *Why do classification frameworks differ?* section gives insight into sources of uncertainty
+  - *Form and process in channel classification* section gives insight into sources of uncertainty
+  
+## Monday March 22 Agenda
+
+Convene in the Orchard for lab/office hours time devoted to resolving any outstanding questions/problems with the Rosgen Reproduction.
 
 ### GIS Analysis Report
 
-Your report is due in the form of a page on your GitHub pages on **March 22 at noon**.
+Your report is due in the form of a page on your GitHub pages on **March 24 at noon**.  **date pushed back to Wednesday**
 
 A template for this report is found in the rosgen repository: `docs\report\HEGSRR-Replication-Report.md`
 

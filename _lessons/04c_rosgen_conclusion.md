@@ -17,8 +17,7 @@ The following paper will help contextualize our work on reproducing a Rosgen Cla
 - *Methods*
   - starts with two sections describing geographic context of John Day Watershed and characteristics of the CHaMPS data
   - compares information used in four different classification techniques in table 2
-  - briefly reviews the Rosgen classification system
-    - are there differences from our methods?
+  - briefly reviews the Rosgen classification system. Are there differences from our methods?
   - details of the other three classification systems are less important for us. It's just interesting to note that:
     - The River Styles Framework examines much longer sections of river than the Rosgen reaches
 	- The Natural Channel Classification framework tries to infer what a natural/undisturbed channel would look like without human influence

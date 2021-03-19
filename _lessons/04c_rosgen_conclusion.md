@@ -40,7 +40,11 @@ Resources:
 - [The Bare Earth](https://wadnr.maps.arcgis.com/apps/Cascade/index.html?appid=36b4887370d141fcbb35392f996c82d9)
 - [River Bathymetry Toolkit](https://essa.com/explore-essa/tools/river-bathymetry-toolkit-rbt/)
 
+I have added the [relative elevation model](https://github.com/GIS4DEV/RE-rosgen/raw/main/procedure/code/relative_elevation.gxm) to the GitHub repository if you'd like to use it. One input parameter is the start point for the drain. You can get this by right-clicking at the beginning of your stream section and copying the coordinates. Then just paste the coordinates into the model as you run it. The model assumes that you have already created the relief map (in the first model). 
+
 ## Monday March 22 Agenda
+
+
 
 - Convene in the Orchard for lab/office hours time devoted to resolving any outstanding questions/problems with the Rosgen Reproduction.
 - As you wrap up the GIS Analysis report, the only new instruction from me will be:

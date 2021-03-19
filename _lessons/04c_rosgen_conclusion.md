@@ -36,6 +36,10 @@ The following paper will help contextualize our work on reproducing a Rosgen Cla
 - At the beginning of class, we will spend some time interpreting the terrain data and discussing sources of error and uncertainty.
 - Remaining time will be for working on the GIS Analysis.
 
+Resources:
+- [The Bare Earth](https://wadnr.maps.arcgis.com/apps/Cascade/index.html?appid=36b4887370d141fcbb35392f996c82d9)
+- [River Bathymetry Toolkit](https://essa.com/explore-essa/tools/river-bathymetry-toolkit-rbt/)
+
 ## Monday March 22 Agenda
 
 - Convene in the Orchard for lab/office hours time devoted to resolving any outstanding questions/problems with the Rosgen Reproduction.

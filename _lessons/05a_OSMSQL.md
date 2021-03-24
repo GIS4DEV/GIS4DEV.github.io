@@ -13,9 +13,11 @@ Lab time must remain 7:30 - 10:30.
 ## Software
   
 - The powerful open-source relational database is [PostgreSQL](https://www.postgresql.org/) (this is installed on Middlebury's server for you)
-- You can connect to Middlebury's database from your laptop using [PGAdmin](https://www.pgadmin.org/)  (you need to install PgAdmin on your laptop) or the QGIS [DB Manager Plugin](https://docs.qgis.org/3.16/en/docs/user_manual/plugins/core_plugins/plugins_db_manager.html) (automatically installs with QGIS)
+- You can connect to Middlebury's database from your laptop using QGIS [DB Manager Plugin](https://docs.qgis.org/3.16/en/docs/user_manual/plugins/core_plugins/plugins_db_manager.html), which automatically installs with QGIS.
+- Optionally you may install the [PGAdmin](https://www.pgadmin.org/) client as well, though we should be able to do everything with DB Manager.
 - The spatial extension for PostgreSQL is [PostGIS](https://postgis.net/)
 - A small command-line program translates OpenStreetMap data into a PostGIS database: [OSM2PGSQL](https://osm2pgsql.org/) (optional to install on your laptop-- the plan is to use OSM2PGSQL to populate a database for you)
+- It is possible to install and connect to a PostGIS server on your own computer for personal local use. This takes a bit of work and is not required for the course. See [https://postgis.net/install/](https://postgis.net/install/)
 
 ## Resources
 
@@ -26,8 +28,8 @@ Lab time must remain 7:30 - 10:30.
 
 ## Example of Relational Database Application
 
-- Example of a large public relational database, property in Harris County, TX: https://arcweb.hcad.org/parcelviewer/
-- Behind the scenes, each property's attributes are drawn from multiple tables, where each .txt file on this page is a single table: http://pdata.hcad.org/download/index.html
+- Example of a large public relational database, property in Harris County, Texas [parcel viewer](https://arcweb.hcad.org/parcelviewer/)
+- Behind the scenes, each property's attributes are drawn from [multiple tables](http://pdata.hcad.org/download/index.html), where each .txt file is a single table
 
 ### Characteristics & Benefits of Relational Databases
 

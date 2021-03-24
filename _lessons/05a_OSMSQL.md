@@ -8,9 +8,7 @@ Wednesday, March 24
 
 Rosgen Replication is due; no other work assigned prior to class.
 
-## Should we change Lab Time?
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdQOzINLLOQBaFqB68GyIeA1ReBbs4tLF3ScaXBS7dTX-UOQg/viewform?embedded=true" width="640" height="822" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+Lab time must remain 7:30 - 10:30.
 
 ## Software
   

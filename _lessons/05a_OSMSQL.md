@@ -25,6 +25,7 @@ Lab time must remain 7:30 - 10:30.
 - PostGIS [reference](https://postgis.net/docs/reference.html), [cheat sheet](https://www.postgis.us/downloads/postgis20_cheatsheet.html), and [Introduction Tutorial](https://postgis.net/workshops/postgis-intro/)
 - CrunchyData Interactive PostgreSQL and PostGIS [Learning Portal](https://learn.crunchydata.com/postgis)
 - Paul Ramsey created PostGIS, and he has a **lot** of [opinions about it](http://blog.cleverelephant.ca/). I'm ok with that, because it looks like he's currently [revamping GEOS](http://blog.cleverelephant.ca/2020/12/waiting-postgis-31-3.html) which runs basically all vector overlay analysis in most any open source GIS software you can find. The implications are huge, becuase the revision he is describing would fix most of the geometry error problems that arise using overlay tools.
+- [Why you should care about PostGIS](https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b)
 
 ## Example of Relational Database Application
 
@@ -53,10 +54,40 @@ So how can you connect, e.g. information about the number of apartments on a par
 - Group fixture data by parcel ID while summing the number of apartments.
 - Now that there is only one record for each parcel with the sum of apartments, join the apartment information to parcels.
 
-[Why you should care about PostGIS](https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b)
+## Challenge for Wednesday Evening
 
+### Question
 
+For each ward of Dar es Salaam, what is the:
+- Population Density
+- Percentage of area at risk of flooding (any amount of flooding)
 
+While answering the question, we'll learn how to check and manage:
+- Missing Data in Joins
+- Geometry Errors
+- Managing geometry metadata in databases
+- Map projections and area calculations
 
+### Givens
 
+- `tza_pop_popn_nbs_baselinedata.xlsx` : Excel table of population by ward for all of Tanzania
+  - Reg_Code
+  - Reg_Name
+  - Dis_Code
+  - Dis_Name
+  - Ward_Code
+  - Ward_Name
+  - total_both
+  - total_male
+  - total_fema
+
+- `Dar es Salaam Administrative Wards` : Vector polygon layer of wards in Dar es Salaam
+  - Ward_Name
+  - Ward_Code
+  - District_N
+  - District_C
+  - Region_Nam
+  - Region_Cod
+  
+- `Dar es Salaam Flood Scenario, 25-200cm` : Vector polygon layer of flood risk zones in Dar es Salaam
 

@@ -91,3 +91,6 @@ While answering the question, we'll learn how to check and manage:
   
 - `Dar es Salaam Flood Scenario, 25-200cm` : Vector polygon layer of flood risk zones in Dar es Salaam
 
+### Instructions
+- [SQL Code with Instructions in Comments](assets/dsm_sql.sql) : open this in Notepad++ or Atom
+- [Panopto Videos](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=beda027d-3b8e-4700-9ae7-acf4012bdc0e) : Available to Middlebury community only. The last video is optional background on how to download OpenStreetMap data and push it into a PostGIS database.

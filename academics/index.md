@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Leaflet Map Example
+title: Using GitHub in Academics
 ---
 
 ## Organization
@@ -19,7 +19,6 @@ title: Leaflet Map Example
 
 - Create a new [Team](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/creating-a-team) for each **class** / **semester**
 - Teams have a *discussion* feature, but I've seen students make much more use of *Issues*, which stay more organized.
-
 
 ## Student Enrollment
 

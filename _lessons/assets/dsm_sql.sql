@@ -82,7 +82,7 @@ WHERE flood_leve < 200 AND flood_leve > 25;
 
 SELECT *, st_area(geom) as area_m2
 FROM flood;
-/* st_area() calculates the area in units of the CRS (meters). Try calculating in square meters and write the query you used below: */
+/* st_area() calculates the area in units of the CRS (meters). Try calculating in square kilometers and write the query you used below: */
 
 /* AGGREGATE functions can only be used if collapsing the whole table to one row, or if GROUPING the table into rows defined by a GROUP BY clause */
 SELECT min(flood_leve) as mindepth, max(flood_leve) as maxdepth, avg(flood_leve) as avgdepth, sum(flood_level) as sumdepth, count(flood_leve) as cntdepth
@@ -120,7 +120,7 @@ order by cntward desc;
 /* try to check for duplicate ward names. Copy your query below */
 
 
-/* we're really concerned with duplicates in the Dar es Salaam region, so let's try limiting the query to that */
+/* we're really concerned with duplicates in the Dar es Salaam region, so let's try limiting the query to that region */
 SELECT ward_name, count(ward_name) as cntward
 from census
 where reg_name = 'Dar-es-salaam'
@@ -128,19 +128,12 @@ group by ward_name
 order by cntward desc;
 -- notice that we are using text strings in expressions with single quotes, but numbers were used in formulas without any quotes at all
 
-/*how many wards are there per district in Kilimanjaro region? Try writing a query to check!*/
+/*how many wards are there per district in Dar es Salaam region? Try writing a query to check!*/
 
 
 
 
 /*this is important because it informs us about cardinality: how many records match on either side of a join when we match census data to mapped wards?*/
-
-
-/*how many wards are in the wards table, and are the ward names unique? Write the queries you use to check below*/
-
-
-
-
 
 
 
@@ -198,7 +191,7 @@ SELECT *
 FROM geometry_columns;
 -- you should see an entry for each spatial table in your schema with info about which column has geometry data, dimensions, the SRID, and the geometry type
 
-/* IT IS NEVER ALLOWED to create geometry data inconsistent with the information in this table. Therefore, in order to transform from one coordinate system to another, it's necessary to de-register the info in this table, transform the geometry data, and then re-register the geometry column.
+/* IT IS NEVER ALLOWED to create geometry data inconsistent with the information in this table. Therefore, in order to transform from one coordinate system to another, it's necessary to create a new geometry column, update the new column with the transformed geometry, and then drop the old column.
 I will demonstrate with ward_census*/
 
 SELECT addgeometrycolumn('dumb','ward_census','utmgeom',32737,'MULTIPOLYGON',2);

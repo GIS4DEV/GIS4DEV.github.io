@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title:  Database Ethnography
-purpose: "investigate data"
+purpose: "investigate data and its social context"
 ---
 
 Friday, March 26

@@ -246,7 +246,7 @@ We structure the query like a select by location with the join on st_intersects(
 
 SELECT ward_census.*, st_multi(st_intersection(ward_census.utmgeom, flooddissolve.geom))::geometry(multipolygon,32737) as geom
 FROM ward_census INNER JOIN flooddissolve
-ON st_intersects(ward_census.utmgeom, flooddissolve.geom)::geometry(multipolygon,32737);
+ON st_intersects(ward_census.utmgeom, flooddissolve.geom);
 
 /*
 The ST_MULTI() function was added to cast each geometry as multi-geometry type. Since we don't know if we'll get single- or multi-part features out of an intersection and all of the geometries have to be of the same type, it's safest to wrap an st_multi() function around most geometry-altering queries.

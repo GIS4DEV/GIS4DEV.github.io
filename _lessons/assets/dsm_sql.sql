@@ -85,7 +85,7 @@ FROM flood;
 /* st_area() calculates the area in units of the CRS (meters). Try calculating in square kilometers and write the query you used below: */
 
 /* AGGREGATE functions can only be used if collapsing the whole table to one row, or if GROUPING the table into rows defined by a GROUP BY clause */
-SELECT min(flood_leve) as mindepth, max(flood_leve) as maxdepth, avg(flood_leve) as avgdepth, sum(flood_level) as sumdepth, count(flood_leve) as cntdepth
+SELECT min(flood_leve) as mindepth, max(flood_leve) as maxdepth, avg(flood_leve) as avgdepth, sum(flood_leve) as sumdepth, count(flood_leve) as cntdepth
 FROM flood;
 
 SELECT count(total_both) as cntwards, sum(total_both) as totalpop, sum(total_male) as male, sum(total_fema) as female, sum(total_fema) / sum(total_male) as genratio
@@ -159,7 +159,7 @@ FROM
 	FROM wards LEFT JOIN census
 	ON wards.ward_name = census.ward_name AND wards.district_n = census.dis_name) AS a
 WHERE totalpop IS NULL;
--- we placed our first query in parenthesis and gave it a table name alias of 'a' with AS a, and used the results of that query in place of an ordinary table. If you create compound queries like this, it's required to use a unique alias for each subquery
+-- we placed our first query in parentheses and gave it a table name alias of 'a' with AS a, and used the results of that query in place of an ordinary table. If you create compound queries like this, it's required to use a unique alias for each subquery
 
 /* It's always best practitce to check the counts, check for duplicates, and check for NULL values when you join data, becuase any number of suprising errors can happen. In this case, it seems like the census geographies may have changed, because the data table we are using matches the 2012 Tanzanian Census report. */
 

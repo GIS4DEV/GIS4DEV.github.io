@@ -33,10 +33,10 @@ title: Leaflet Map Example
 - Create a main course page repository following the convention [organization name].github.io E.g. my GIS4DEV organization has a repository named GIS4DEV.github.io , which can be accessed in web form at https://gis4dev.github.io  or repository form at https://github.com/GIS4DEV/GIS4DEV.github.io
 - In the repository Settings, Enable Features Issues, and under GitHub Pages ensure that the site is published with the main or master branch. Choose a Theme for the default site style.
 - Keeping in mind that this repository will be public, apply an appropriate license and do not include any copyright-protected materials in this repository.
-- Author content in [Markdown](https://guides.github.com/features/mastering-markdown/), and sprinkle in HTML if you know it
-- Set up barebones style for navigation (footer material) and ordering pages by file name, following Jekyll documentation
-- This could probably be achieved with the special `_posts` [directory in Jekyll](https://jekyllrb.com/docs/posts/#the-posts-folder) *I just stupidly tried this with an incorrect date format and abandoned it. will probably switch to posts so that the date of each lesson is clear*
-- You can link to class- or organization-restricted electronic resources (e.g. a course management system, organization-only Google Drive/Apps, Panopto videos, etc.). I suggest just noting that it is a class-only link on the page. For example, quizzes could be created in a course-only Google Form and linked or embedded from the page, allowing students access while blocking the public.
+- Author content in [Markdown .md documents](https://guides.github.com/features/mastering-markdown/), and sprinkle in HTML if you know it
+- Set up barebones style for navigation (e.g. footer material with links back to main page) and ordering pages by file name, following Jekyll documentation
+  - This could probably be achieved with the special `_posts` [directory in Jekyll](https://jekyllrb.com/docs/posts/#the-posts-folder) *I just stupidly tried this with an incorrect date format and abandoned it. will probably switch to posts so that the date of each lesson is clear*
+- You can link to class- or organization-restricted electronic resources (e.g. a course management system, organization-only Google Drive/Apps, Panopto videos, etc.). I suggest just noting that it is a class-only link on the page. For example, quizzes could be created in a course-only Google Form and linked or embedded from the page, allowing students access while blocking the public. Feel free to copy embed code right into your `markdown.md` documents.
 - If working from multiple computers or on local computers and through the GitHub website, always [Fetch origin](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch) before working locally.
 - Feel free to fork my course site or follow the student guide to creating pages linked below.
 
@@ -55,7 +55,7 @@ title: Leaflet Map Example
 
 ## Assignment Development
 
-- Use GitHub Desktop app or another local Git application
+- Use [GitHub Desktop](https://docs.github.com/en/desktop) or another local Git app
 - Create a folder for the organization on your local computer
 - Clone your .github.io repository
 - Do your work locally, commit frequently, and push to the server when it's ready

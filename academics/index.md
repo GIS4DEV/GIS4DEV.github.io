@@ -61,7 +61,7 @@ title: Leaflet Map Example
 - If using Jekyll on GitHub, it can take 15-20 minutes after pushing changes before they are reflected on the website
 - I have one page for each class meeting
 - For assignments requiring distribution of code/materials/data, consider creating a new repository for the assignment, and then link to this repository from your course page
-- Create a routine directory structure / template for assignments with data, metadata, procedure, and report directories.
+- Create a routine directory structure / template for assignments with data, metadata, procedure, and report directories, keeping materials provided by the instructor in different directories from outputs created by students, so that merging changes does not create conflicts.
 
 ## Student Assignments
 
@@ -72,3 +72,5 @@ title: Leaflet Map Example
 - Either ask students to **commit** and **push** their work back into their own forked version of the assignment repository, or to post solutions as a new page in their GitHub pages.
 - Decide as a class to hold communication about an assignment in the assignment repository Issues or in the main course GitHub Issues
 - For private communication of assignments, use another channel like Google Apps or use the [GitHub Education](https://education.github.com/) framework, which creates individual or group private repositories for student assignments within the course organization.
+- You may fork students' work, make changes or add comments, and send revisions back to them as a pull request.
+- Some very smart comp sci / data sci professors have been creating scripts to automatically clone students' work, execute the code, and auto-grade whether it produces the expected results!

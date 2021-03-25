@@ -101,9 +101,9 @@ FROM census
 GROUP BY reg_name;
 -- group the results by region!
 
-SELECT reg_name, reg_id, count(total_both) as cntwards, sum(total_both) as totalpop, sum(total_male) as male, sum(total_fema) as female, sum(total_fema)::real / sum(total_male) as genratio
+SELECT reg_name, reg_code, count(total_both) as cntwards, sum(total_both) as totalpop, sum(total_male) as male, sum(total_fema) as female, sum(total_fema)::real / sum(total_male) as genratio
 FROM census
-GROUP BY reg_name, reg_id;
+GROUP BY reg_name, reg_code;
 -- only group fields and aggregate functions are allowed for SELECT queries with aggregation, so to include reg_id include it as a group field. The reg_id always matches the reg_name anyway.
 
 SELECT reg_name, reg_code, dis_name, dis_code, count(total_both) as cntwards, sum(total_both) as totalpop, sum(total_male) as male, sum(total_fema) as female, sum(total_fema)::real / sum(total_male) as genratio

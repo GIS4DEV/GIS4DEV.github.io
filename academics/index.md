@@ -56,12 +56,12 @@ title: Leaflet Map Example
 ## Assignment Development
 
 - Use [GitHub Desktop](https://docs.github.com/en/desktop) or another local Git app
-- Create a folder for the organization on your local computer
 - Clone your .github.io repository
 - Do your work locally, commit frequently, and push to the server when it's ready
 - If using Jekyll on GitHub, it can take 15-20 minutes after pushing changes before they are reflected on the website
 - I have one page for each class meeting
 - For assignments requiring distribution of code/materials/data, consider creating a new repository for the assignment, and then link to this repository from your course page
+- Create a routine directory structure / template for assignments with data, metadata, procedure, and report directories.
 
 ## Student Assignments
 

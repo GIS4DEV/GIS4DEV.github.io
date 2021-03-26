@@ -15,8 +15,6 @@ title: Using GitHub in Academics
   - Do not allow any of the Admin repository permissions
 - You may want to expand priviledges for trusted teaching assistants to create & modify repositories
 
-a small change
-
 ## Team
 
 - Create a new [Team](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/creating-a-team) for each **class** / **semester**

@@ -40,7 +40,8 @@ Considering data error and accuracy, can you get some insight into the data youâ
 
 You may work individually or in pairs on the analysis in this lab assignment, but please post the final product to both GitHub accounts so that you each have your own copy.Please try your queries on small samples of data first, by using the LIMIT clause or using a WHERE clause to apply a condition to select a small sample of features. Remember to add indices to accelerate time-consuming queries. 
 
-### Possilble Questions
+### Possible Questions
+
 Your research question may include any of these proposed topics, or something new:
 
 - Accessibility of residential buildings to roads passable by service/emergency vehicles 

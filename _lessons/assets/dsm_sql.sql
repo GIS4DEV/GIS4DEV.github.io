@@ -265,3 +265,17 @@ It looks good, so let's make it a new table named ward_flood. Try this on your o
 UPDATE ward_census
 SET pctflood = 0
 WHERE floodarea IS NULL;
+-- or you can also use a CASE statement 
+
+/* solution to the two questions in one query, starting with original three layers: flood, wards, census  */
+CREATE TABLE wardflood AS
+SELECT b.*, totalpop/warea AS popdens, CASE WHEN farea>0 THEN farea/warea ELSE 0 END AS pctflood
+FROM
+	(SELECT a.*, ST_Area(a.geom)/1000000 AS warea, ST_Area(ST_Intersection(a.geom,f.ugeom))/1000000 AS farea FROM
+		(SELECT wards.id AS id, ST_Transform(wards.geom,32737)::geometry(multipolygon,32737) AS geom, wards.ward_name AS wname, wards.district_n AS dname, total_both AS totalpop, total_male AS male, total_fema AS female
+		FROM wards LEFT JOIN census
+		ON wards.ward_name = census.ward_name AND wards.district_n = census.dis_name) AS a
+	LEFT OUTER JOIN
+		(SELECT ST_Union(ST_Makevalid(geom)) AS ugeom FROM flood) AS f
+	ON
+	ST_Intersects(a.geom, f.ugeom)) AS b;

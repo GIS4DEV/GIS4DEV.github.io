@@ -25,7 +25,8 @@ Take a look at the [OSM2PGSQL](https://osm2pgsql.org/) program to understand how
 
 ## Exploration of OSM data with SQL
 
-- tutorial to be posted here.
+- See how OSM data is imported into PostGIS and get some tips for querying OSM data on the webmap, copying tables out of your database, and building spatial queries with the continuation of our [PostGIS Video Playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=beda027d-3b8e-4700-9ae7-acf4012bdc0e) (Middlebury College only)
+- Learn some [more SQL](assets/osm_sql.sql) to investigate the social context of OpenStreetMap data and to identify college bars.
 
 ## Develop a Spatial Urban Resilience Question and Investigate Data Sources
 
@@ -52,3 +53,8 @@ Your research question may include any of these proposed topics, or something ne
 - Conditions of drains and culverts in each locality, and potentially co-location of drain conditions and flood conditions 
 - Proximity of residential & commercial buildings to floodplains and to drains
 - Contrast the flood risk layer from ResilienceAcademy with presence of water bodies, rivers, wetlands, and tidal areas in OpenStreetMap
+
+## For Wednesday
+- Complete the video set and new SQL queries
+- Brainstorm a spatial question related to urban resilience and sustainability in the context of rapid urbanization, flood risk, sea level rise, urban heat, terrorism, or other hazards.
+- Investigate spatial data layers from ResilienceAcademy and from OpenStreetMap that you can use to answer the question.

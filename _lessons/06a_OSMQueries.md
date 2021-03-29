@@ -8,21 +8,6 @@ Monday, March 29
 
 Take a look at the [OSM2PGSQL](https://osm2pgsql.org/) program to understand how it translates OpenStreetMap data into PostGIS. 
   
-## OpenStreetMap and Ramani Huria / Resilience Academy
-
-- [OpenStreetMap](https://www.openstreetmap.org/#map=12/-6.8162/39.2203)
-- [Ramani Huria](http://ramanihuria.org/)
-- Ramani Huria open street map [wiki guide](https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria)
-- There are several stories about Ramani Huria [here](https://opendri.org/tag/tanzania/)
-- [Resilience Academy](https://resilienceacademy.ac.tz/), a Ramani Huria project with WMS raster and WFS feature services at https://geonode.resilienceacademy.ac.tz/geoserver/ows
-
-**Question:** What do you want to know about this data before you start using it for analysis? Start taking notes for / writing up a review of data sources for an analytical report on flood risk in Dar es Salaam... What data is available with regards to the following issues, and how was that data created? How are the features we want to use for analysis tagged in OpenStreetMap, and how were they created?
-
-- flood risk
-- flood risk management, e.g. stormwater drains / dams, etc.
-- characteristics of urban residential settlements (e.g. location vis a vis risk, poverty/wealth, crowding or population density, accessibility for emergency vehicles)
-- resources for emergencies, e.g. hospitals, fire stations, police stations, shelters...
-
 ## Exploration of OSM data with SQL
 
 - See how OSM data is imported into PostGIS and get some tips for querying OSM data on the webmap, copying tables out of your database, and building spatial queries with the continuation of our [PostGIS Video Playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=beda027d-3b8e-4700-9ae7-acf4012bdc0e) (Middlebury College only)
@@ -36,6 +21,7 @@ Please develop spatial questions about resilience and vulnerability in Dar es Sa
 - Other input(s) may come from ResilienceAcademy.
 - The question should require a level of GIS analysis analagous to a GEOG 0120 lab or exam. Be aware that seemingly simple questions may actually require quite a few spatial analysis steps to prepare the data.
 - At least one final step to your question should be to quantify a dimension of resilience or vulnerability in each ward or subward of Dar es Salaam, so that your findings could be translated back into policy action consistent with existing administrative hierarchies and geographic regions.
+- Information on the available data sources is included at the end of this page.
 
 Considering data error and accuracy, can you get some insight into the data you’re using by querying osm_user, osm_uid, osm_version and/or osm_timestamp? These metadata, associated with every feature, are explained [here](https://wiki.openstreetmap.org/wiki/Elements)
 
@@ -58,3 +44,20 @@ Your research question may include any of these proposed topics, or something ne
 - Complete the video set and new SQL queries
 - Brainstorm a spatial question related to urban resilience and sustainability in the context of rapid urbanization, flood risk, sea level rise, urban heat, terrorism, or other hazards.
 - Investigate spatial data layers from ResilienceAcademy and from OpenStreetMap that you can use to answer the question.
+
+## OpenStreetMap and Ramani Huria / Resilience Academy
+
+Know your data sources.
+
+- [OpenStreetMap](https://www.openstreetmap.org/#map=12/-6.8162/39.2203)
+- [Ramani Huria](http://ramanihuria.org/)
+- Ramani Huria open street map [wiki guide](https://wiki.openstreetmap.org/wiki/Dar_es_Salaam/Ramani_Huria)
+- There are several stories about Ramani Huria [here](https://opendri.org/tag/tanzania/)
+- [Resilience Academy](https://resilienceacademy.ac.tz/), a Ramani Huria project with WMS raster and WFS feature services at https://geonode.resilienceacademy.ac.tz/geoserver/ows
+
+**Question:** What do you want to know about this data before you start using it for analysis? Start taking notes for / writing up a review of data sources for an analytical report on flood risk in Dar es Salaam... What data is available with regards to the following issues, and how was that data created? How are the features we want to use for analysis tagged in OpenStreetMap, and how were they created?
+
+- flood risk
+- flood risk management, e.g. stormwater drains / dams, etc.
+- characteristics of urban residential settlements (e.g. location vis a vis risk, poverty/wealth, crowding or population density, accessibility for emergency vehicles)
+- resources for emergencies, e.g. hospitals, fire stations, police stations, shelters...

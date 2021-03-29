@@ -64,3 +64,12 @@ title: Open Source GIScience
 ~ [cameronw-16](https://cameronw-16.github.io)
 ~ [kgrantsasson](https://github.com/kgrantsasson/kgrantsasson.github.io)
 ~ [derrickburt](https://derrickburt.github.io)
+
+## Spring 2021 Posts
+<ul>
+  {% for post in site.posts %}
+    <li>
+      {{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a>{% if post.purpose %}: {{ post.purpose }} {% endif %}
+    </li>
+  {% endfor %}
+</ul>

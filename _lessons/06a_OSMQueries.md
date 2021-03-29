@@ -55,9 +55,4 @@ Know your data sources.
 - There are several stories about Ramani Huria [here](https://opendri.org/tag/tanzania/)
 - [Resilience Academy](https://resilienceacademy.ac.tz/), a Ramani Huria project with WMS raster and WFS feature services at https://geonode.resilienceacademy.ac.tz/geoserver/ows
 
-**Question:** What do you want to know about this data before you start using it for analysis? Start taking notes for / writing up a review of data sources for an analytical report on flood risk in Dar es Salaam... What data is available with regards to the following issues, and how was that data created? How are the features we want to use for analysis tagged in OpenStreetMap, and how were they created?
-
-- flood risk
-- flood risk management, e.g. stormwater drains / dams, etc.
-- characteristics of urban residential settlements (e.g. location vis a vis risk, poverty/wealth, crowding or population density, accessibility for emergency vehicles)
-- resources for emergencies, e.g. hospitals, fire stations, police stations, shelters...
+**Question:** What do you want to know about this data before you start using it for analysis? Start taking notes for / writing up a review of data sources for an analytical report on flood risk in Dar es Salaam... What data is available, and how was that data created? How are the features we want to use for analysis tagged in OpenStreetMap, and how were they created?

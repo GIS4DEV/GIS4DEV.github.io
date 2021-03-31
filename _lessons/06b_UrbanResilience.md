@@ -41,3 +41,7 @@ The question prompt for this analysis is posted on the previous page. Expectatio
 - Almost everything involving two tables/layers is best accomplished with a `join`, including attribute joins, spatial joins, select by location, overlay analysis and distance analysis.
 - OpenStreetMap can be surprising because the data is volunteered: different volunteers might use different tags, tag values, and geometries (points or polygons). Super-users *tend* to edit these things for consistency.
 
+## Additional SQL Examples
+
+- [more.sql](assets/more.sql)
+

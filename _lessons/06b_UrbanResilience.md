@@ -15,7 +15,7 @@ The question prompt for this analysis is posted on the previous page. Expectatio
 - **Due Wednesday April 7**
 - Work independently or in pairs, but publish the final results to both students' GitHub pages.
 - Publish final result in the form of an interactive Leaflet map.
-- If working in pairs, complement the Leaflet map with a static PDF map designed for printing.
+- If working in pairs, complement the Leaflet map with a static map designed for a static web view or and/for printing.
 - Layers with large numbers of features will have difficulty displaying in a Leaflet map, so you might want to focus on displaying results aggregated by Ward or Subward, and for illustrative purposes select underlying features for particularly interesting wards for display.
 - The lab report should include the following sections:
   - Question

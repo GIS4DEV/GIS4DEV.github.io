@@ -181,7 +181,7 @@ ADD COLUMN female int;
 /* update fields based on a join */
 UPDATE wards
 SET totalpop = census.total_both,  male = census.total_male, female = census.total_fema
-FROM wards, census
+FROM wards, census  --re-reading this, I think it should be just "FROM census". SQL already knows the wards table is involved based on the first line, "UPDATE wards"
 WHERE wards.ward_name = census.ward_name AND wards.district_n = census.dis_name;
 
 /* It's time to examine geometry metadata and transform wards from WGS 1984 to the proper UTM zone used by flood */

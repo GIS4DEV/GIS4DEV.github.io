@@ -16,3 +16,8 @@ select geom, wname,  min(std) as minstd
 from wardflood left outer join unipoint
 on st_dwithin(wardflood.geom, unipoint.geom, 10000)) as a
 group by wname, geom
+
+
+/* add a unique integer ID to a table */
+
+ALTER TABLE <table name> ADD COLUMN id SERIAL PRIMARY KEY;

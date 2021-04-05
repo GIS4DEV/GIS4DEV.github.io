@@ -3,11 +3,10 @@
 ### Questions
 - Restrictions about redistribution to a) class, b) public
 - Was this data ever publically available?
-- How available is this data for other countries? More recent surveys?
+- How available is this data for other countries? More recent surveys? Malcomb et al states that it is available in 23 countries.
 
 
 ### Variables
-- **Livelihood Sensitivity**
 - based on interviews with MVAC and data created in partership with FEWSNET
 - in 2003, MVAC conducted a livelihood rezoning exercise and Household Economy Approach (HEA) baseline survey for 11 livelihood zones
 - wealth groups of POOR, MIDDLE, and BETTER-OFF created

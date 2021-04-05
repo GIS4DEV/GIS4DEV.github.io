@@ -1,4 +1,8 @@
-## Malcomb et al FEWSnet Notes
+---
+layout: page
+title: Malcomb et al FEWSnet Data
+---
+
 
 ### Questions
 - Restrictions about redistribution to a) class, b) public

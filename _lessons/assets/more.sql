@@ -25,7 +25,11 @@ ALTER TABLE <table name> ADD COLUMN id SERIAL PRIMARY KEY;
 /* count points in polygons */
 
 SELECT id, count( field from points )
-
+FROM
+   ( SELECT points.*, polygons.id as id
+   FROM points INNER JOIN polygons
+   ON st_within(points.geom, polygons.geom) ) AS a
+GROUP BY id;
 
 
 /* Suggestion for a GIS UNION operation on two layers

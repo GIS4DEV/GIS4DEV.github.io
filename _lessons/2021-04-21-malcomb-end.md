@@ -1,7 +1,7 @@
 ---
 layout: lesson
-title: Georeferencing and Digitizing
-purpose: "use a tutorial to georeference and digitize PDF maps"
+title: Finalizing Malawi Climate Vulnerability Reproduction
+purpose: "complete, compare and interpret the replication study"
 ---
 
 ## Lecture

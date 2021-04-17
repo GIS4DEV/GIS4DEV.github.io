@@ -4,9 +4,14 @@ title: Georeferencing and Digitizing
 purpose: "use a tutorial to georeference and digitize PDF maps"
 ---
 
-This lesson time will be devoted to digitizing the maps in Malcomb et al (2014) so that they can be compared with our own results.
-
 Please learn how to georeference & digitize the maps by following [this playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=9e5891dc-42ab-405e-833b-ad0c0154f900)
+
+In general, the workflow is to:
+1. Save a digital map image
+1. Georeference the map
+1. Create a vector data layer matching the regions in the study (traditional authorities or raster grids, which can be made with `raster pixels to polygons`)
+1. Extract values from the map with `zonal statistics`
+1. Classify and visualize the results
 
 ## Prepare by Wednesday...
 

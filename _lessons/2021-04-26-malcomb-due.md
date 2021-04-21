@@ -13,6 +13,4 @@ Prior to Monday's class, you should have:
 
 During class, we have one final opportunity to troubleshoot, confer about results and interpretation, and publish the findings. The report is due by the end of the day.
 
-## Set up Twitter Developer API Account
-
-**Important!** To proceed with the next GIS analysis, you will need a Twitter Developer API Account. Apply for this account today! 
+The final report is due any time on Tuesday, April 17.

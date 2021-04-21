@@ -16,10 +16,10 @@ W | Date | Monday | Wednesday | Friday
 6 | Mar 29 | PostGIS Spatial SQL | Dar es Salaam Resiliency | GIS Discourses
 7 | Apr 5 | Complete DSM Resiliency | Malawi Climate Vulnerability | **break**
 8 | Apr 12 | Spatial R Tutorial | Malcomb et al Reproduction | Uncertainty in Vulnerability Models
-9 | Apr 19 | Twitter API | Malcomb et al Reproduction | Humanitarian GIS
-10 | Apr 26 | Spatial Python | Twitter Disasters | Getis Ord Statistic
-11 | May 3 | **break** | Twitter Disasters | Ethics/Privacy & Humanitarian GIS
-12 | May 10 | Hour of CI Python Tutorial | COVID Health Care Reproduction | fri
+9 | Apr 19 | Malcomb et al Data | Malcomb et al Reproduction | Comparing Choropleth Maps
+10 | Apr 26 | Malcomb et al Due | Twitter & Disasters |  Humanitarian GIS
+11 | May 3 | **break** | Getis Ord Statistic & Twitter Disasters | Spatial COVID Webinar
+12 | May 10 | Hour of CI Python Tutorial | COVID Health Care Reproduction | Reproducibility *vs* Ethics
 13 | May 17 | Spatial Python Tutorial | COVID Health Care Replication | Peer GitHub Site Review
 fín | May 24 | Complete Portfolio Revisions |  | 
 

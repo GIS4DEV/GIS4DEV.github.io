@@ -1,20 +1,18 @@
 ---
 layout: lesson
-title: Spatial Twitter Analysis
-purpose: "study popular spatial twitter analysis with a wildfire case"
+title: Comparing Choropleth Maps
+purpose: "learn methods to quantitatively assess Choropleth map agreement and accuracy"
 ---
 
-For Wednesday, April 28
+Friday, April 23
 
-Please read:
+Prior to Friday's class, you should have:
 
-Wang, Z., X. Ye, and M. H. Tsou. 2016. Spatial, temporal, and content analysis of Twitter for wildfire hazards. *Natural Hazards* 83 (1):523–540. DOI:[10.1007/s11069-016-2329-6](https://doi.org/10.1007/s11069-016-2329-6)
+* complete reproduction of Malcomb et al in R
+* digital replicas of Malcomb et al's published maps in R
 
-When reading, focus on:
+Today, we'll investigate the question of how to compare choropleth maps for agreement between the maps or for assessment of accuracy.
 
-* What are the main benefits and challenges of working with spatial Twitter data?
-* What types of analysis were applied and how were the results presented? (i.e. types of graphs, statistics, tables)
-* Do you think the reserach is *reproducible*? (same data, same results)
-* Do you think the research is *replicable*? (new case and data, verified findings)
-
-Please summarize your thoughts in a blog post.
+* Wikipedia [Spearman's Rank Correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
+* STHDA [Correlation Tests in R] (http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
+* R [corr function](https://www.rdocumentation.org/packages/emulator/versions/1.2-20/topics/corr)

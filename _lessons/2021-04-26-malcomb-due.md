@@ -13,4 +13,4 @@ Prior to Monday's class, you should have:
 
 During class, we have one final opportunity to troubleshoot, confer about results and interpretation, and publish the findings. The report is due by the end of the day.
 
-The final report is due any time on Tuesday, April 17.
+The final report is due any time on **Tuesday, April 17**.

@@ -15,12 +15,12 @@ W | Date | Monday | Wednesday | Friday
 5 | Mar 22 | PostGIS Spatial SQL | Dar es Salaam Resiliency | Database Ethnography
 6 | Mar 29 | PostGIS Spatial SQL | Dar es Salaam Resiliency | GIS Discourses
 7 | Apr 5 | Complete DSM Resiliency | Malawi Climate Vulnerability | **break**
-8 | Apr 12 | Spatial R | Climate Vulnerability | Ethics/Privacy vs Reproducibility
-9 | Apr 19 | Twitter API | Twitter Disasters | Humanitarian GIS
-10 | Apr 26 | Spatial Python | COVID Health Care | fri
-11 | May 3 | **break** | COVID Health Care | fri
-12 | May 10 | Peer GitHub Site Review | Independent Project | fri
-13 | May 17 | mon | Independent Project | fri
-fín | May 24 | Complete Revisions |  | 
+8 | Apr 12 | Spatial R Tutorial | Malcomb et al Reproduction | Uncertainty in Vulnerability Models
+9 | Apr 19 | Twitter API | Malcomb et al Reproduction | Humanitarian GIS
+10 | Apr 26 | Spatial Python | Twitter Disasters | Getis Ord Statistic
+11 | May 3 | **break** | Twitter Disasters | Ethics/Privacy & Humanitarian GIS
+12 | May 10 | Hour of CI Python Tutorial | COVID Health Care Reproduction | fri
+13 | May 17 | Spatial Python Tutorial | COVID Health Care Replication | Peer GitHub Site Review
+fín | May 24 | Complete Portfolio Revisions |  | 
 
 *For many very obvious reasons, we need to be flexible this semester!

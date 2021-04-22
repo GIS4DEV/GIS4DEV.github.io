@@ -11,6 +11,8 @@ Prior to Friday's class, you should have:
 * complete reproduction of Malcomb et al in R
 * digital replicas of Malcomb et al's published maps in R
 
+Universally applicable tips for revising GitHub profiles are being compiled [here](99_theend)
+
 ## Comparing Choropleth Maps
 
 Today, we'll investigate the question of how to compare choropleth maps for agreement between the maps or for assessment of accuracy.

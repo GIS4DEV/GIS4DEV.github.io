@@ -17,9 +17,21 @@ Universally applicable tips for revising GitHub profiles are being compiled [her
 
 Today, we'll investigate the question of how to compare choropleth maps for agreement between the maps or for assessment of accuracy.
 
-* Wikipedia [Spearman's Rank Correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
-* STHDA [Correlation Tests in R] (http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
-* R [corr function](https://www.rdocumentation.org/packages/emulator/versions/1.2-20/topics/corr)
+Let's connect back to concepts in the Longley et al chapter on *Uncertainty* as well as E Tate's (2013) Uncertainty Analysis for a Social Vulnerability Index
+
+- Real world ~U1~ Conception ~U2~ Measurement & Representation ~U3~ Analysis :: consider these both in terms of geographic features and in terms of attributes
+- Internal Validation, Monte Carlo simulation
+- External Validation & Ground Truthing
+- Discrete vs Continuous (fuzzy) representations of space and of categories
+- Nominal Data: Confusion Matrix and derived statistics: producer's accuracy, consumer's accuracy, and Kappa
+- Interval and Ratio Data: precision, accuracy, and Root Mean Square Error
+- Modifiable Areal Unit Problem (MAUP)
+
+What about *ordinal* data, which is every choropleth map?
+
+- Wikipedia [Spearman's Rank Correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
+- STHDA [Correlation Tests in R] (http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
+- R [corr function](https://www.rdocumentation.org/packages/emulator/versions/1.2-20/topics/corr)
 
 ## What is an API?
 

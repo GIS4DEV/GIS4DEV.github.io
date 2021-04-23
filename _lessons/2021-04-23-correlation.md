@@ -11,7 +11,10 @@ Prior to Friday's class, you should have:
 * complete reproduction of Malcomb et al in R
 * digital replicas of Malcomb et al's published maps in R
 
-Universally applicable tips for revising GitHub profiles are being compiled [here](99_theend)
+## Important Announcements
+
+- Universally applicable tips for revising GitHub profiles are being compiled [here](99_theend)
+- To proceed with the next GIS analysis, you will need a Twitter Developer API Account. Apply for this account today! Sometimes the application is initially rejected... so don't delay. See instructions [here](2021-04-28-twitter)
 
 ## Comparing Choropleth Maps
 
@@ -30,8 +33,8 @@ Let's connect back to concepts in the Longley et al chapter on *Uncertainty* as 
 What about *ordinal* data, which is every choropleth map?
 
 - Wikipedia [Spearman's Rank Correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
-- STHDA [Correlation Tests in R] (http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
-- R [corr function](https://www.rdocumentation.org/packages/emulator/versions/1.2-20/topics/corr)
+- STHDA [Correlation Tests in R](http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
+- R [cor function](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor)
 
 ## What is an API?
 
@@ -53,7 +56,36 @@ If an API is useful for data science, it's common to find an R package allowing 
 - [rqgis](https://github.com/r-spatial/RQGIS)
 - [rgrass7](https://cran.r-project.org/web/packages/rgrass7/index.html)
 
-## Set up Twitter Developer API Account
+Additionally, if a data course is useful for data science, it's common to find an R package specific to loading that data source. For example:
 
-**Important!** To proceed with the next GIS analysis, you will need a Twitter Developer API Account. Apply for this account today! Sometimes the application is initially rejected... so don't delay. See instructions [here](2021-04-28-twitter)
+- [GADMTools](https://cran.r-project.org/package=GADMTools) for [GADM](https://gadm.org/)
+- [rnaturalearth](https://cran.r-project.org/package=rnaturalearth) for [Natural Earth](https://www.naturalearthdata.com/)
 
+## Sample Code for Comparing Choropleth Maps
+
+```r
+or_fig4 = 
+  read_sf(here("data", "derived", "public", "georeferencing.gpkg"), layer="ta_resilience") %>% # load ta_resilience layer from georeferencing geopackage
+  st_drop_geometry() %>%  # remove the geometry data because R will not let you join two tables if both have geometries
+  select(c(ID_2,resilience)) %>%  # select only the ID_2 and resilience columns
+  na.omit()  # remove records with null values
+
+rp_fig4 = ta_2010 %>% 
+  select(c(ID_2,capacity_2010)) %>%  # select only the ID_2 and resilience columns (geometry columns are 'sticky' so the geometry will still be included)
+  na.omit()  %>%  # remove records with null values
+  mutate(rp_res = case_when(
+  capacity_2010 <= ta_brks[2] ~ 1,
+  capacity_2010 <= ta_brks[3] ~ 2,
+  capacity_2010 <= ta_brks[4] ~ 3,
+  capacity_2010 >  ta_brks[4] ~ 4
+)) # code the capacity scores as integers, as we see them classified on the map. ta_brks was the result of a Jenks classification, as noted on Malcomb et al's maps
+
+fig4compare = inner_join(rp_fig4,or_fig4,by="ID_2") %>%  #inner join on field ID_2 keeps only matching records
+  filter(rp_res>0 & rp_res<5 & resilience > 0 & resilience < 5)  #keep only records with valid resilience scores
+
+table(fig4compare$resilience,fig4compare$rp_res) # crosstabulation table
+
+cor.test(fig4compare$resilience,fig4compare$rp_res,method="spearman") # Spearman's Rho correlation test
+
+fig4compare = mutate(fig4compare, difference = rp_res - resilience) # Calculate difference between the maps so that you can create a difference map
+```

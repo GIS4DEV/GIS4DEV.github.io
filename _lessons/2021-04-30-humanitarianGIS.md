@@ -13,3 +13,11 @@ Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethic
 Prepare a blog post of two paragraphs answering:
 
 1. prompts TBD!
+
+
+## Volunteered Geographic Information Examples
+
+        eBird: https://ebird.org/hotspots 
+        Hot OSM: https://www.hotosm.org/ 
+        Waze: https://www.waze.com/
+        Ushahidi: https://www.ushahidi.com/ 

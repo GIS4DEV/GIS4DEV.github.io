@@ -37,21 +37,23 @@ What about *ordinal* data, which is every choropleth map?
 
 Application Program Interface! Examples:
 
-- https://api.dhsprogram.com
-- https://www.census.gov/data/developers/data-sets.html
-- https://developer.twitter.com/en/docs/twitter-api
+- [DHS Surveys](https://api.dhsprogram.com)
+- [Census](https://www.census.gov/data/developers/data-sets.html)
+- [OpenStreetMap Overpass](https://wiki.openstreetmap.org/wiki/Overpass_API)
+- [QGIS](https://qgis.org/api/3.10/)
+- [GRASS](https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs)
+- [Twitter](https://developer.twitter.com/en/docs/twitter-api)
 
 If an API is useful for data science, it's common to find an R package allowing you to connect to that API
 
-- https://cran.r-project.org/package=rdhs
-- https://cran.r-project.org/package=tidycensus
-- https://cran.rstudio.com/package=rtweet
+- [rdhs](https://cran.r-project.org/package=rdhs)
+- [tidycensus](https://cran.r-project.org/package=tidycensus)
+- [osmdata](https://cran.r-project.org/web/packages/rgrass7/index.html)
+- [rtweet](https://cran.rstudio.com/package=rtweet)
+- [rqgis](https://github.com/r-spatial/RQGIS)
+- [rgrass7](https://cran.r-project.org/web/packages/rgrass7/index.html)
 
 ## Set up Twitter Developer API Account
 
-**Important!** To proceed with the next GIS analysis, you will need a Twitter Developer API Account. Apply for this account today! Sometimes the application is initially rejected... so don't delay.
-
-## Using Releases, Tags and Compare in GitHub
-
-* Will post a short video on how to take advantage of these features to help in report-writing.
+**Important!** To proceed with the next GIS analysis, you will need a Twitter Developer API Account. Apply for this account today! Sometimes the application is initially rejected... so don't delay. See instructions [here](2021-04-28-twitter)
 

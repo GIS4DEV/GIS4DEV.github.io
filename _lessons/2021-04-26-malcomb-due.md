@@ -14,3 +14,7 @@ Prior to Monday's class, you should have:
 During class, we have one final opportunity to troubleshoot, confer about results and interpretation, and publish the findings. The report is due by the end of the day.
 
 The final report is due any time on **Tuesday, April 17**.
+
+## Using Releases, Tags and Compare in GitHub
+
+* Will post a short video on how to take advantage of these features to help in report-writing.

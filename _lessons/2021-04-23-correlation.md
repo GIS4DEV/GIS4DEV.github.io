@@ -170,7 +170,7 @@ To finalize the study, make the following figures:
 - map of your reproduction results for figure 4
 - map of your reproduction results for figure 5
 - map to visualize the difference of results for figure 4
-- map to visualize teh difference of results for figure 5
+- map to visualize the difference of results for figure 5
 - table to quantify the difference of results for figure 4
 - scatterplot graph to visualize the difference of results for figure 5
 - spearman's *rho* correlation results for figure 4 and for figure 5 

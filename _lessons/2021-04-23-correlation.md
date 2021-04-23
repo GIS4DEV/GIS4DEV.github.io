@@ -176,4 +176,5 @@ To finalize the study, make the following figures:
 - spearman's *rho* correlation results for figure 4 and for figure 5 
 - the sample size is so large that the *p-value* is not very meaningful for either correlation test
 
-You can save all of these figures as `.png` files into your repository's `results` folder using R code
+You can save all of these figures as `.png` files into your repository's `results` folder using R code.
+One great thing about doing cartography in R is that you can repurpose code from one map to the next!

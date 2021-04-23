@@ -71,7 +71,7 @@ Additionally, if a data course is useful for data science, it's common to find a
 - [GADMTools](https://cran.r-project.org/package=GADMTools) for [GADM](https://gadm.org/)
 - [rnaturalearth](https://cran.r-project.org/package=rnaturalearth) for [Natural Earth](https://www.naturalearthdata.com/)
 
-## Sample Code for Comparing Choropleth Maps
+## Sample Code for Comparing Discrete Choropleth Maps
 
 ```r
 or_fig4 = # load original figure 4 data
@@ -114,3 +114,66 @@ cor.test(fig4compare$resilience,fig4compare$rp_res,method="spearman")
 fig4compare = mutate(fig4compare, difference = rp_res - resilience) 
 # Calculate difference between the maps so that you can create a difference map
 ```
+
+## Sample Code for Comparing Continuous Raster Maps
+
+```r
+orfig5vect = 
+  read_sf(here("data", "derived", "public", "georeferencing.gpkg"), 
+          layer="vulnerability_grid")
+# load original figure 5 data
+
+orfig5rast = st_rasterize(orfig5vect["bmean"], template=ta_final)
+# convert mean of blue values into a raster using ta_final as a reference for raster
+# extent, cell size, CRS, etc.
+
+orfig5rast = orfig5rast %>% 
+  mutate(or = 1-
+           (bmean - min(orfig5rast[[1]], na.rm= TRUE)) /
+           (max(orfig5rast[[1]], na.rm= TRUE) -
+            min(orfig5rast[[1]], na.rm= TRUE)
+        )
+)  # or is Re-scaled from 0 to 1 with (value - min)/(max - min)
+# it is also inverted, because higher blue values are less red
+
+
+ta_final = ta_final %>% 
+  mutate(rp =
+           (capacity_2010 - min(ta_final[[1]], na.rm= TRUE)) /
+           (max(ta_final[[1]], na.rm= TRUE) -
+            min(ta_final[[1]], na.rm= TRUE)
+        )
+)  # rp is Re-scaled from 0 to 1 with (value - min)/(max - min)
+
+fig5comp = c( select(ta_final,"rp"), select(orfig5rast,"or"))
+# combine the original (or) fig 5 and reproduced (rp) fig 5
+
+fig5comp = fig5comp %>% mutate( diff = rp - or )
+# calculate difference between the original and reproduction,
+# for purposes of mapping
+
+fig5comppts = st_as_sf(fig5comp)
+# convert raster to vector points to simplify plotting and correlation testing
+
+plot(fig5comppts$or, fig5comppts$rp, xlab="Original Study", ylab="Reproduction")
+# create scatterplot of original results and reproduction results
+
+cor.test(fig5comppts$or, fig5comppts$rp, method="spearman")
+# Spearman's Rho correlation test
+```
+
+## Finalizing the Reproduction Study
+
+The code blocks above will help you to integrate your georeferenced results from QGIS with your final results from the study in R. Of course, you may have to modify the file names, layer names, and column names to match the data as you created it in QGIS and R.
+
+To finalize the study, make the following figures:
+- map of your reproduction results for figure 4
+- map of your reproduction results for figure 5
+- map to visualize the difference of results for figure 4
+- map to visualize teh difference of results for figure 5
+- table to quantify the difference of results for figure 4
+- scatterplot graph to visualize the difference of results for figure 5
+- spearman's *rho* correlation results for figure 4 and for figure 5 
+- the sample size is so large that the *p-value* is not very meaningful for either correlation test
+
+You can save all of these figures as `.png` files into your repository's `results` folder using R code

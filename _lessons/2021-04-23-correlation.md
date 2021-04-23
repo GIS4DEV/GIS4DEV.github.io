@@ -64,28 +64,43 @@ Additionally, if a data course is useful for data science, it's common to find a
 ## Sample Code for Comparing Choropleth Maps
 
 ```r
-or_fig4 = 
-  read_sf(here("data", "derived", "public", "georeferencing.gpkg"), layer="ta_resilience") %>% # load ta_resilience layer from georeferencing geopackage
-  st_drop_geometry() %>%  # remove the geometry data because R will not let you join two tables if both have geometries
-  select(c(ID_2,resilience)) %>%  # select only the ID_2 and resilience columns
-  na.omit()  # remove records with null values
+or_fig4 = # load original figure 4 data
+  read_sf(here("data", "derived", "public", "georeferencing.gpkg"), 
+          layer="ta_resilience") %>% 
+  # load ta_resilience layer from georeferencing geopackage
+  st_drop_geometry() %>%
+  # remove the geometry data because two geometries cannot be joined
+  select(c(ID_2,resilience)) %>%  
+  # select only the ID_2 and resilience columns
+  na.omit()
+  # remove records with null values
 
-rp_fig4 = ta_2010 %>% 
-  select(c(ID_2,capacity_2010)) %>%  # select only the ID_2 and resilience columns (geometry columns are 'sticky' so the geometry will still be included)
-  na.omit()  %>%  # remove records with null values
+rp_fig4 = ta_2010 %>% # prepare our reproduction of figure 4 data
+  select(c(ID_2,capacity_2010)) %>%  
+  # select only the ID_2 and resilience columns
+  # note: geometry columns are 'sticky' -- only way to remove is st_drop_geometry()
+  na.omit()  %>%
+  # remove records with null values
   mutate(rp_res = case_when(
   capacity_2010 <= ta_brks[2] ~ 1,
   capacity_2010 <= ta_brks[3] ~ 2,
   capacity_2010 <= ta_brks[4] ~ 3,
   capacity_2010 >  ta_brks[4] ~ 4
-)) # code the capacity scores as integers, as we see them classified on the map. ta_brks was the result of a Jenks classification, as noted on Malcomb et al's maps
+))
+# code the capacity scores as integers, as we see them classified on the map. 
+#ta_brks was the result of a Jenks classification, as noted on Malcomb et al's maps
 
-fig4compare = inner_join(rp_fig4,or_fig4,by="ID_2") %>%  #inner join on field ID_2 keeps only matching records
-  filter(rp_res>0 & rp_res<5 & resilience > 0 & resilience < 5)  #keep only records with valid resilience scores
+fig4compare = inner_join(rp_fig4,or_fig4,by="ID_2") %>%  
+  #inner join on field ID_2 keeps only matching records
+  filter(rp_res>0 & rp_res<5 & resilience > 0 & resilience < 5)
+  # keep only records with valid resilience scores
 
-table(fig4compare$resilience,fig4compare$rp_res) # crosstabulation table
+table(fig4compare$resilience,fig4compare$rp_res)
+# crosstabulation with frequencies
 
-cor.test(fig4compare$resilience,fig4compare$rp_res,method="spearman") # Spearman's Rho correlation test
+cor.test(fig4compare$resilience,fig4compare$rp_res,method="spearman")
+# Spearman's Rho correlation test
 
-fig4compare = mutate(fig4compare, difference = rp_res - resilience) # Calculate difference between the maps so that you can create a difference map
+fig4compare = mutate(fig4compare, difference = rp_res - resilience) 
+# Calculate difference between the maps so that you can create a difference map
 ```

@@ -15,6 +15,16 @@ Prior to Friday's class, you should have:
 
 - Universally applicable tips for revising GitHub profiles are being compiled [here](99_theend)
 - To proceed with the next GIS analysis, you will need a Twitter Developer API Account. Apply for this account today! Sometimes the application is initially rejected... so don't delay. See instructions [here](2021-04-28-twitter)
+- Recall the handout and reading from [last Friday](2021-04-16-tate) and the [uncertainty topic](03b_uncertainty): they will help you interpret your reproduction results. You were not asked for a blog post because the reading should contribute to your reproduction report.
+
+## Research Skills
+
+- Critical reading of scientific literature
+- Investigation of metadata & data sources
+- Reading a [research compendium](https://arxiv.org/abs/1806.09525)
+- Assessing and visualizing error and uncertainty
+- Knowledge of complete research process
+- Doing and publishing reproducible research
 
 ## Comparing Choropleth Maps
 

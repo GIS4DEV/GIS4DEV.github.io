@@ -160,6 +160,9 @@ plot(fig5comppts$or, fig5comppts$rp, xlab="Original Study", ylab="Reproduction")
 
 cor.test(fig5comppts$or, fig5comppts$rp, method="spearman")
 # Spearman's Rho correlation test
+
+# Hint for mapping raster results: refer to the diff raster attribute
+# in the fig5comp stars object like this: fig5comp["diff"]
 ```
 
 ## Finalizing the Reproduction Study

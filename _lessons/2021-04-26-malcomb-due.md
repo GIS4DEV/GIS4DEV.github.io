@@ -23,7 +23,7 @@ The final report is due any time on **Tuesday, April 17**.
 
 Here are a few worked examples & tutorials of using the ggplot package for mapping in R, for reference, debugging, and creative inspiration
 
-- [making maps with R](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html#map-making-in-R)
+- [Reproducible Research Course: making maps with R](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html#map-making-in-R)
 - [ggplot2 book chapter on mapping](https://ggplot2-book.org/maps.html)
 - [r-spatial guilde to ggplot2](https://r-spatial.org/r/2018/10/25/ggplot2-sf.html)
 - [blog post on thematic maps in ggplot2](https://timogrossenbacher.ch/2016/12/beautiful-thematic-maps-with-ggplot2-only/)

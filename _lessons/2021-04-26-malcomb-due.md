@@ -15,9 +15,11 @@ During class, we have one final opportunity to troubleshoot, confer about result
 
 The final report is due any time on **Tuesday, April 17**.
 
-## Using Releases, Tags and Compare in GitHub
+## Using and Comparing Releases in GitHub
 
-* Will post a short video on how to take advantage of these features to help in report-writing.
+- [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3c84a23-1053-498f-9450-ad16000384c6)
+- [demo repository](https://github.com/GIS4DEV/releasecompare)
+- Note: I've noticed that if you use automatic list or outline numbering and make a revision in an early line, you wind up having a change tracked for every line because of renumbering. Additionally, it will be easier for GitHub to track changes for many short lines, rather than long paragraphs.
 
 ## Mapping with ggplot
 

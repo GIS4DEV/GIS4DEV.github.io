@@ -27,3 +27,5 @@ This type of analysis is highly dependent on trending twitter activity over the 
 ## Lab
 
 Complete a spatial analysis of clustering in Twitter data with your own search data!
+
+Ideas for further (introductory-level) Twitter analysis, Michael Kearney's [intro to rtweet](https://mkearney.github.io/blog/2017/06/01/intro-to-rtweet/)

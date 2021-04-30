@@ -19,6 +19,7 @@ Consider the Craford & Finn (2014) article and any of the crowd-sourced / volunt
 - Or, do you think that there are ethical concerns in using VGI that complicate uncertainty?
 
 - [slides for geog 323 students only](https://github.com/GIS4DEV/literature/blob/master/twitter.pdf)
+- [merge changes from main branch to your copy on GitHub](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=584ec2bf-b7af-4aab-aa25-acef0043a9db)
 
 
 ## Examples of Volunteered Geographic Information (VGI)

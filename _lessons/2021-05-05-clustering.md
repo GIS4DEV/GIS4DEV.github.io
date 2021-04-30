@@ -8,14 +8,11 @@ Wednesday, May 5
 
 ## Lecture
 
-- Getis Ord handout
-- Getis Ord spreadsheet
-- Standardizing Twitter data
-
-        https://rdrr.io/rforge/spdep/man/localG.html 
-        https://www.rdocumentation.org/packages/spdep/versions/1.1-3/topics/localG
-        https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/h-how-hot-spot-analysis-getis-ord-gi-spatial-stati.htm
-        https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html#fig:localgearyclus01
+- Getis Ord [handout](https://github.com/GIS4DEV/literature/blob/master/G.pdf)
+- Getis Ord [spreadsheet](assets/GetisOrd.xlsx)
+- spdep package [localG man](https://rdrr.io/rforge/spdep/man/localG.html) and [localG page](https://www.rdocumentation.org/packages/spdep/versions/1.1-3/topics/localG)
+- ArcGIS [Getis Ord](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/h-how-hot-spot-analysis-getis-ord-gi-spatial-stati.htm)
+- GeoDa [Local G](https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html#fig:localgearyclus01)
 
 ## Before Lab   
 
@@ -29,4 +26,4 @@ This type of analysis is highly dependent on trending twitter activity over the 
 
 ## Lab
 
-Complete a spatial analysis of clustering in Twitter data.
+Complete a spatial analysis of clustering in Twitter data with your own search data!

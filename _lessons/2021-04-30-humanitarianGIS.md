@@ -18,6 +18,8 @@ Consider the Craford & Finn (2014) article and any of the crowd-sourced / volunt
 - Do you think that there is any ethical obligation in relation to uncertainty?
 - Or, do you think that there are ethical concerns in using VGI that complicate uncertainty?
 
+- [slides for geog 323 students only](https://github.com/GIS4DEV/literature/blob/master/twitter.pdf)
+
 
 ## Examples of Volunteered Geographic Information (VGI)
 

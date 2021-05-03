@@ -18,7 +18,8 @@ Wednesday, May 5
 
 ### Reference
 
-Ord, J. K., and A. Getis. 1995. Local Spatial Autocorrelation Statistics: Distributional Issues and an Application. *Geographical Analysis* 27 (4):286–306. DOI:[10.1111/j.1538-4632.1995.tb00912.x](https://doi.org/10.1111/j.1538-4632.1995.tb00912.x)
+- Ord, J. K., and A. Getis. 1995. Local Spatial Autocorrelation Statistics: Distributional Issues and an Application. *Geographical Analysis* 27 (4):286–306. DOI:[10.1111/j.1538-4632.1995.tb00912.x](https://doi.org/10.1111/j.1538-4632.1995.tb00912.x)
+- Rogerson, P. A. 2006. Statistical Methods for Geography: A Student’s Guide. SAGE Publications. (this has a new addition, 2020)
 
 ## Before Lab   
 

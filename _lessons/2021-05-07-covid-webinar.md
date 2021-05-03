@@ -23,7 +23,7 @@ In the debates, some of you will focus on **Xun Shi**'s talk, and some on **Mei-
 Some of you will **introduce** the content of the talk from a **neutral** point of view and then **moderate** the debate.
 Some of you will debate in favor of **expansion** of capabilities and applications for spatial big data research.
 Others will debate in favor of **curtailing** and limiting spatial big data research.
-In your arguments, be sure to raise theoretically-informed arguments about **ethics** and **reproducibility**.
+In your arguments, be sure to raise theoretically-informed arguments about **ethics** *and* **reproducibility**.
 
 ## Debate Assignments
 

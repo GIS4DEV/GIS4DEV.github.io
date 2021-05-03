@@ -28,7 +28,7 @@ In your arguments, be sure to raise theoretically-informed arguments about **eth
 ## Debate Assignments
 
 | Student | Presentation | Position |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | Alitzel | Xun Shi | intro |
 | Arielle | Xun Shi | intro |
 | Brooke | Xun Shi | expand |

@@ -23,18 +23,18 @@ Wednesday, May 5
 
 ## Before Lab   
 
-Before next Lab, make a copy of the `01-search-dorian.r` script in your `RE-Dorian` repository and modify it to query your own set of data from Twitter and prepare it for mapping just as we have done here!
-
-You may modify both the search terms and the geographic extent of the search.
-
-Remember that you may have to let the query run for a few hours if there are a high number of results.
-
-This type of analysis is highly dependent on trending twitter activity over the past week. Create a query that will result in many thousands of tweets in the United States.
-
-You may also want a second query to establish a baseline of normal twitter activity not related to your search. This could be an identical query that simply removes the search term constraints, or an identical query that finds the inverse of the search terms (i.e. all tweets that *do not* contain any of the keyword search terms). This second query will enable you to calculate a normalized tweet difference index.
+- Before next Lab, make a copy of the `01-search-dorian.r` script in your `RE-Dorian` repository and modify it to query your own set of data from Twitter and prepare it for mapping just as we have done here!
+- You may modify both the search terms and the geographic extent of the search.
+- Remember that you may have to let the query run for a few hours if there are a high number of results.
+- This type of analysis is highly dependent on trending twitter activity over the past week. Create a query that will result in many thousands of tweets in the United States.
+- You may also want a second query to establish a baseline of normal twitter activity not related to your search. This could be an identical query that simply removes the search term constraints, or an identical query that finds the inverse of the search terms (i.e. all tweets that *do not* contain any of the keyword search terms). This second query will enable you to calculate a normalized tweet difference index.
 
 ## Lab
 
 Complete a spatial analysis of clustering in Twitter data with your own search data!
+
+I suggest either copying the entire DE-Dorian repository for your new case, or copying all of the R scripts within that repository to contain code specific for your analysis.
+
+**Due: Tuesday May 11**
 
 Ideas for further (introductory-level) Twitter analysis, Michael Kearney's [intro to rtweet](https://mkearney.github.io/blog/2017/06/01/intro-to-rtweet/)

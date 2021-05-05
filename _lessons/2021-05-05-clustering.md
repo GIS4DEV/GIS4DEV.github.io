@@ -31,9 +31,18 @@ Wednesday, May 5
 
 ## Lab
 
-Complete a spatial analysis of clustering in Twitter data with your own search data!
+New Dorian-RE Repository has been updated, including:
+- Code to complete the full analysis in R
+- Sample code for saving and loading `.RDS` files for peace of mind and reproducibility
+- Spatially joining Twitter data to counties
+- Calculating and mapping the Getis-Ord statistic
+- Template report for the GIS analysis
 
-I suggest either copying the entire DE-Dorian repository for your new case, or copying all of the R scripts within that repository to contain code specific for your analysis.
+I suggest that you:
+- Fork/clone a new copy of the new repository (either change the name of the old one, or change the name of the fork while creating it
+- Run through the analysis to refresh your memory and understand the new code
+- Note any code parameters that may need to change to suit your own Twitter search data
+- Implement your own version of spatial Twitter anlaysis and write up a report
 
 **Due: Tuesday May 11**
 

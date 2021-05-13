@@ -61,13 +61,14 @@ To be honest, I'm excited to learn and share new open source GIS technologies wi
   - Peer review of GitHub portfolios
   - Periodic self-reflection on your learning and participation
 - **GIScience Analyses** `0.5` (each analysis will be our primary focus for one to two weeks)
-  1. QGIS Spatial Interaction `0.07`
-  1. GRASS Hydrology `0.07`
-  1. PostGIS Urban Resiliency `0.07`
-  1. RStudio/PostGIS Climate Vulnerability `0.07`
-  1. RStudio Twitter Disasters `0.07`
-  1. Python COVID-19 Access to Healthcare Resources `0.07`
-  1. Independent Project `0.08`(equivalent in duration, difficulty, and deliverables to any of the directed analyses; due with final GitHub Profile)
+  1. QGIS Spatial Interaction `0.08`
+  1. GRASS Hydrology `0.08`
+  1. PostGIS Urban Resiliency `0.08`
+  1. RStudio/PostGIS Climate Vulnerability `0.08`
+  1. RStudio Twitter Disasters `0.08`
+  1. Python COVID-19 Access to Healthcare Resources `0.08`
+  1. ~~Independent Project `0.08`~~ (equivalent in duration, difficulty, and deliverables to any of the directed analyses; due with final GitHub Profile)
+  1. Bonus Credit `0.02`
 - **Final GitHub Profile** `0.3`
   - As the course concludes, you have a final opportunity to revise your GitHub portfolio content.
   - Final revisions due to GitHub by **May 25** (any time).

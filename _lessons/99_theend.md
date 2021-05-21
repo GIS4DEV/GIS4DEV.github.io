@@ -7,7 +7,7 @@ title: The End
 
 This is the end of the lesson deck!
 
-Final revisions are due at any time on **May 25**.
+Final revisions are due at any time on **May 25**, together with a [short reflection](https://forms.gle/fBYadzPPsbwBbFss7) on peer-to-peer learning and collaboration
 
 ## Final Revision Suggestions
 

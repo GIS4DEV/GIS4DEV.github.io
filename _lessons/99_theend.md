@@ -48,3 +48,4 @@ Dar es Salaam:
 - Remember in your interpretation of results that OpenStreetMap is *volunteered geographic information* in which quantity and quality of edits varies over space and time and for which concepts related to error are always an issue, including: completeness, location accuracy,  attribute accuracy, and internal consistency, and semantic heterogeneity.
 - Adequately cite the OpenStreetMap and Resilience Analysis data sources, specifying which source provided which data layers.
 - The OpenStreetMap data provided for you in PostGIS was imported using the OSM2PGSQL program.
+- Don't forget to reference the souce of traditional authorities geographic data in your data section!

@@ -10,10 +10,10 @@ title: Using GitHub in Academics
 - Associate a university email with the Organization
 - If your university partners with GitHub or you complete the GitHub for Education training, you can enroll in [teacher benefits](https://education.github.com/discount_requests/teacher_application) for your organization, including large file storage and unlimited private repositories
 - In Organization Settings
-  - Set Member Priviledges Base permissions to **Read**
+  - Set Member Privileges Base permissions to **Read**
   - Do not allow forking of private repositories
   - Do not allow any of the Admin repository permissions
-- You may want to expand priviledges for trusted teaching assistants to create & modify repositories
+- You may want to expand privileges for trusted teaching assistants to create & modify repositories
 
 ## Team
 
@@ -22,7 +22,7 @@ title: Using GitHub in Academics
 
 ## Student Enrollment
 
-- Students must create a free GitHub account and send you their GitHub user name (I suggest creating a google form for this which saves the user's authenticated email, allowing you to build a course roster of university emails and github names that can be joined with official course rosters by email address)
+- Students must create a free GitHub account and send you their GitHub user name (I suggest creating a google form for this which saves the user's authenticated email, allowing you to build a course roster of university emails and GitHub names that can be joined with official course rosters by email address)
 - Invite students into the [organization & team](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/inviting-users-to-join-your-organization)
 - Students must accept your invitation, so check them off from your roster as they accept
 - Once students are in the organization, you can administratively change their team assignments or remove them.
@@ -44,7 +44,7 @@ title: Using GitHub in Academics
 ## Literature or other Proprietary / Copyright Material
 
 - Create a literature repository for storing copyright-protected readings to share with the class under fair educational use.
-- Protect this repository by making it **private** 
+- Protect this repository by making it **private**
 - In the settings, you can Manage Access and choose to allow a Base Role of "Read" (the default for the organization), or "None". If you choose none, you can **Invite** the class *team* with *read access*.
 - Organization-wide settings prevent *forking* this repository to other GitHub repositories which may or may not be public, but students can *clone* it to their local computer or download content one file at a time. I just tell students what the naming convention is on the files and remind them a few times where to find this repository.
 
@@ -66,9 +66,9 @@ title: Using GitHub in Academics
 
 ## Student Assignments
 
-- It's actually not to difficult to get students publishing their work on github pages. Feel free to use my [instructions & resources](https://gis4dev.github.io/lessons/01_githubpages.html) It will take a couple of hours of their time to get up and running at the beginning of the semester, and minimal support thereafter.
-- As long as the assignment can be public, they should first **fork** the assigment repository to their own GitHub account and then **clone** the repository to their local computer
-- This way, if you need to revise the assignment, students can use Github Desktop to [merge your changes into their own version](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=584ec2bf-b7af-4aab-aa25-acef0043a9db).
+- It's actually not to difficult to get students publishing their work on GitHub pages. Feel free to use my [instructions & resources](https://gis4dev.github.io/lessons/01_githubpages.html) It will take a couple of hours of their time to get up and running at the beginning of the semester, and minimal support thereafter.
+- As long as the assignment can be public, they should first **fork** the assignment repository to their own GitHub account and then **clone** the repository to their local computer
+- This way, if you need to revise the assignment, students can use GitHub Desktop to [merge your changes into their own version](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=584ec2bf-b7af-4aab-aa25-acef0043a9db).
 - Essentially, you have a system to provide all of the assignment materials to students at once and to allow them to sync any updates to their assignment.
 - Either ask students to **commit** and **push** their work back into their own forked version of the assignment repository, or to post solutions as a new page in their GitHub pages.
 - Decide as a class to hold communication about an assignment in the assignment repository Issues or in the main course GitHub Issues

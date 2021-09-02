@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Open Source GIScience Spring 2021
 ---
 

@@ -9,7 +9,8 @@ Most of the questions and solutions this semester were posted in the
 [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) feature for this
 pages repository.
 
-##Lessons
+## Lessons
+
 <ul>
   {% for lesson in site.lessons %}
     <li>

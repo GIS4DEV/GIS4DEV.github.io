@@ -26,9 +26,14 @@ For assistance outside of office hours, your resources include:
 
 ## Course Description
 
-In this course we will study geographic information science (GIS) with open-source software and critical GIS scholarship. In labs, we will practice techniques to include: data acquisition and preparation for analysis, spatial SQL database queries, automating analysis, spatial interpolation, testing sensitivity to error and uncertainty, and data visualization. We will read and apply critical research of GIS as a subject and with GIS as a methodology. Spatial data sources for labs and independent research projects may include remote sensing, micro-data, smart cities and open government data, and volunteered geographic information (e.g. OpenStreetMap and social media).
+In this course we will study geographic information science (GIS) with open-source software and critical GIS scholarship.
+In labs, we will practice techniques to include: data acquisition and preparation for analysis, spatial SQL database queries, automating analysis, spatial interpolation, testing sensitivity to error and uncertainty, and data visualization.
+We will read and apply critical research of GIS as a subject and with GIS as a methodology.
+Spatial data sources for labs and independent research projects may include remote sensing, micro-data, smart cities and open government data, and volunteered geographic information (e.g. OpenStreetMap and social media).
 
-Prerequisite: GEOG0120 *Human Geography with GIS*. Programming experience is *not assumed or required*! You just need to be willing to learn how to translate the spatial analysis that you know from desktop GIS (QGIS, ArcGIS, etc.) into code.
+Prerequisite: GEOG0120 *Human Geography with GIS*.
+Programming experience is *not assumed or required*!
+You just need to be willing to learn how to translate the spatial analysis that you know from desktop GIS (QGIS, ArcGIS, etc.) into code.
 
 ## Learning Goals
 
@@ -43,9 +48,9 @@ Prerequisite: GEOG0120 *Human Geography with GIS*. Programming experience is *no
 ## Expectations
 
 - **Inclusivity**: Consciously and actively include yourself and others in learning, participation, collaboration, and discussions. Inclusivity may be achieved through [academic accomodations](https://www.middlebury.edu/office/disability-resource-center/accommodations-and-resources/academic-accommodations) and/or [student resources](https://www.middlebury.edu/office/teaching-learning-research/student-resources) for learning and research. Accommodations and correspondence about them are confidential.
-- **Academic Honesty**: Open source and open science have a different ethos about intellectual property and its value than most of us are accustomed to. In the first two weeks of class, we will discuss and update our expectations for the [honor code and academic honesty](00c_honorcode.md) in a course focused on open science.
+- **Academic Honesty**: Open source and open science have a different ethos about intellectual property and its value than most of us are accustomed to. In the first two weeks of class, we will discuss and update our expectations for the [honor code and academic honesty](2021-09-13-b-honorcode) in a course focused on open science.
 - **Deadlines**: You must always commit the progress that you have made on assignments by the assignment deadline. In case unforeseen challenges or delays have prevented full completion of an assignment, you are required to record the progress that you have made, describe the barrier(s) encountered and anything you have learned about it/them, and propose a solution.
-- **End of Semester**: With many seniors in a spring course, it is not possible to accept late assignment submissions during or after finals week. [Incomplete grades](http://www.middlebury.edu/about/handbook/iv.-policies-for-the-institute/a.-academic-policies/a.6.-grades-credits-and-academic-policies/a.6.e.-incomplete-grades) can only be considered if extreme/unexpected circumstances arise in the final weeks of the semester and if the majority of assignments have already been satisfactorily completed.
+- **End of Semester**: Your body of work for the course must be complete on GitHub Pages by the end of finals week. [Incomplete grades](http://www.middlebury.edu/about/handbook/iv.-policies-for-the-institute/a.-academic-policies/a.6.-grades-credits-and-academic-policies/a.6.e.-incomplete-grades) can only be considered if extreme/unexpected circumstances arise in the final weeks of the semester and if the majority of assignments have already been satisfactorily completed.
 
 ## Student Work & Evaluation
 

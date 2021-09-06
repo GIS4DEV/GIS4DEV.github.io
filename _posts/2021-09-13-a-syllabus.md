@@ -43,12 +43,16 @@ You just need to be willing to learn how to translate the spatial analysis that 
 -	Critically reflect on emerging opportunities and ethical dilemmas in open-source geographic information science.
 -	Learn how to reproduce existing geographic research and to produce geographic research that is open, reproducible and replicable.
 -	Design and communicate research effectively in multiple media, including digital media, reports, presentations, maps, graphs, tables, data, and code.
--	Become competent and confident in conducting research, learning new methods, and overcoming errors, uncertainty, and technical difficulties. Learn to "debug" problems and teach yourself new techniques through structured experimentation.
+-	Become competent and confident in conducting research, learning new methods, and overcoming errors, uncertainty, and technical difficulties.
+Learn to "debug" problems and teach yourself new techniques through structured experimentation.
 
 ## Expectations
 
-- **Inclusivity**: Consciously and actively include yourself and others in learning, participation, collaboration, and discussions. Inclusivity may be achieved through [academic accomodations](https://www.middlebury.edu/office/disability-resource-center/accommodations-and-resources/academic-accommodations) and/or [student resources](https://www.middlebury.edu/office/teaching-learning-research/student-resources) for learning and research. Accommodations and correspondence about them are confidential.
-- **Academic Honesty**: Open source and open science have a different ethos about intellectual property and its value than most of us are accustomed to. In the first two weeks of class, we will discuss and update our expectations for the [honor code and academic honesty](b-honorcode) in a course focused on open science.
+- **Inclusivity**: Consciously and actively include yourself and others in learning, participation, collaboration, and discussions.
+Inclusivity may be achieved through [academic accomodations](https://www.middlebury.edu/office/disability-resource-center/accommodations-and-resources/academic-accommodations) and/or [student resources](https://www.middlebury.edu/office/teaching-learning-research/student-resources) for learning and research.
+Accommodations and correspondence about them are confidential.
+- **Academic Honesty**: Open source and open science have a different ethos about intellectual property and its value than most of us are accustomed to.
+In the first two weeks of class, we will discuss and update our expectations for the [honor code and academic honesty](c-honorcode) in a course focused on open science.
 - **Deadlines**: You must always commit the progress that you have made on assignments by the assignment deadline. In case unforeseen challenges or delays have prevented full completion of an assignment, you are required to record the progress that you have made, describe the barrier(s) encountered and anything you have learned about it/them, and propose a solution.
 - **End of Semester**: Your body of work for the course must be complete on GitHub Pages by the end of finals week. [Incomplete grades](http://www.middlebury.edu/about/handbook/iv.-policies-for-the-institute/a.-academic-policies/a.6.-grades-credits-and-academic-policies/a.6.e.-incomplete-grades) can only be considered if extreme/unexpected circumstances arise in the final weeks of the semester and if the majority of assignments have already been satisfactorily completed.
 
@@ -89,8 +93,7 @@ We will not install or sign up for all of these programs/services at once, but p
 
 ## General Expectations for GIScience Analyses
 
-Expectations applying to all seven analyses:
-
 - Write up a summary and interpretation of the analysis.
-- Include methods documentation to support full reproducibility. This is most easily achieved by having a model and/or code with good comments.
-- Visualize results with maps and/or graphs.
+- Include methods documentation to support full reproducibility.
+This is most easily achieved by having legible code with good comments.
+- Visualize results with maps and/or graphs and interpret findings.

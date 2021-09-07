@@ -19,8 +19,7 @@ very good preview of the fall 2021 content.
 <ul>
   {% for post in site.posts reversed %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {% if post.format %},
+      <a href="{{ post.url }}">{{ post.title }}</a>{% if post.format %},
         {{ post.date | date: '%b-%d' }} {{ post.format }}
       {% endif %}
       {% if post.purpose %}

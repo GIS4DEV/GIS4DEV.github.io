@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Publishing GitHub Pages
-purpose: publish a website with GitHub, Jekyll, and Markdown
+title: "Lab 1: Publishing GitHub Pages"
+purpose: "publish a website with GitHub, Jekyll, and Markdown"
 format: lab
 ---
 

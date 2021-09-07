@@ -13,8 +13,8 @@ Sept 20 | What is GIS? Science and Discourse | Structured Query Language (SQL) D
 Sept 27 | Reproducibility and Replicability in Geography | OpenStreetMap; Libraries & Standards | PostGIS Practice Analysis
 Oct 4 | Case for Metadata: Provenance &  Database Ethnography | Resilience Academy & Ramani Huria | OpenStreetMap, PostGIS & Leaflet for Resilience
 Oct 11 | CyberGIS & Reproducible Research Compendia | Spatial Python: *Geopandas* | Python *Geopandas* Introduction
-Oct 18 | **break** | COVID Spatial Accessibility Reading/Discussion | COVID Spatial Accessibility Reproduction
-Oct 25 | Hour of Cyberinfrastructure | COVID Spatial Accessibility Pre-analysis plan | COVID Spatial Accessibility Replication / Reanalysis
+Oct 18 | **break** | COVID Spatial Accessibility Reading/Discussion | COVID Spatial Accessibility Reproduction with Hour of CI
+Oct 25 | Error and Uncertainty | COVID Spatial Accessibility Pre-analysis plan | COVID Spatial Accessibility Replication / Reanalysis
 Nov 1 | Malawi Climate Vulnerability | R *sf* Introduction | R Malawi Climate Vulnerability Reproduction
 Nov 8 | Twitter for Wildfire Hazards | Twitter API and Hotspot Analysis | R Twitter Disaster Application
 Nov 15 | Ethics of Humanitarian GIS | R COVID Disability; Spatial Epidemic Detection | R COVID Disability Reproduction & Replication

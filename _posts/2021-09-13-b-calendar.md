@@ -1,13 +1,13 @@
 ---
-layout: post
+layout: lesson
 title: Calendar
 purpose: see an overview of topics
 ---
 
 ## Spring 2021*
 
-Week Of | Tuesday | Thursday | Lab
-:-----: | :-----: | :------: | :-:
+Week | Tuesday | Thursday | Lab
+:--- | :-----: | :------: | :-:
 Sept 13 | Introductions | Open Source/Science | GitHub and Jekyll
 Sept 20 | What is GIS? Science and Discourse | Structured Query Language (SQL) Databases | PostGIS Introduction
 Sept 27 | Reproducibility and Replicability in Geography | OpenStreetMap; Libraries & Standards | PostGIS Practice Analysis

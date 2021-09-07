@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: lesson
 title: Syllabus
 purpose: get an introduction and overview for the course
 format: admin

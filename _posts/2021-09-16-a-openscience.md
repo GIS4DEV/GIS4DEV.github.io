@@ -1,10 +1,10 @@
 ---
 layout: lesson
 title: What is Open GIScience?
-purpose: learn about Open GIScience
+purpose: "learn about Open GIScience"
 ---
 
-Please read some background on open source in Geography for class discussion on Friday, February 26.
+This lecture will be based on the following two articles:
 
 - Rey, S. J. 2009. Show me the code: spatial analysis and open source. *Journal of Geographical Systems 11* (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
 - Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework for Open Geographic Information science. *International Journal of Geographical Information Science* 30 (8):1507–1521. http://dx.doi.org/10.1080/13658816.2015.1137579
@@ -25,11 +25,9 @@ While you read these, consider:
   - government?
   - private businesses?
 
-Please write a response/reaction to this material on your GitHub site. GitHub site and Open GIScience post are due on *Monday March 1*.
-
 Short additional resources on open source / free software licensing:
 - The Open Source Geospatial Foundation (OSGeo) take on [open source](https://www.osgeo.org/about/what-is-open-source/)
-- The MIT License: https://opensource.org/licenses/MIT 
+- The MIT License: https://opensource.org/licenses/MIT
 - Creative Commons Licensing: https://creativecommons.org/licenses/
 - GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
@@ -41,5 +39,7 @@ Resources from the slides:
 - High-profile coronavirus retractions raise concerns about data oversight, [Nature](https://www.nature.com/articles/d41586-020-01695-w)
 - NSF Project to create a [geospatial virtual data enclave](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1832465&HistoricalAwards=false) and Doug Richardson's [short article about it](https://www.esri.com/about/newsroom/arcnews/dealing-with-geoprivacy-and-confidential-geospatial-data/)
 - Ord, J. K., and A. Getis. 1992. The Analysis of Spatial Association. *Geographical analysis* 24 (3):189–206. [DOI:10.1111/j.1538-4632.1992.tb00261.x](https://doi.org/10.1111/j.1538-4632.1992.tb00261.x)
-- Python spatial analysis library [PySAL](https://pysal.org/) 
+- Python spatial analysis library [PySAL](https://pysal.org/)
 - [Rocky Moutain Research Data Center](https://www.census.gov/about/adrm/fsrdc/locations/rocky-mountain.html)
+
+We can debate this in the context of this ESRI tool for [managing COVID testing sites](https://www.esri.com/en-us/covid-19/response)

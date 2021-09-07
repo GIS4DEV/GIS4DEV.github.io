@@ -20,8 +20,8 @@ very good preview of the fall 2021 content.
   {% for post in site.posts reversed %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {% if post.format %}
-        , {{ post.date | date: '%b-%d' }} {{ post.format }}
+      {% if post.format %},
+        {{ post.date | date: '%b-%d' }} {{ post.format }}
       {% endif %}
       {% if post.purpose %}
         : {{ post.purpose }}

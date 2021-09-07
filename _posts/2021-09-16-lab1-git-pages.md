@@ -9,13 +9,13 @@ format: lab
 
 ## Git
 
-Lost documents? Nightmares from merging sloppy revisions from your team? Group member accidentally ruins your project the night before a presentation? Documents proliferating with names like `thesis_final_final2_final3_soseriouslythefinaldraft.docx`? Can't reproduce your own research when your thesis committee asks a question about what you did? "GO ON, [GIT!](https://git-scm.com/)", rediculously outdated document file systems and recycle bin fail-safe let-downs, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way [outta here!](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
+Lost documents? Nightmares from merging sloppy revisions from your team? Group member accidentally ruins your project the night before a presentation? Documents proliferating with names like `thesis_final_final2_final3_soseriouslythefinaldraft.docx`? Can't reproduce your own research when your thesis committee asks a question about what you did? "GO ON, [GIT!](https://git-scm.com/)", ridiculously outdated document file systems and recycle bin fail-safe let-downs, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way [outta here!](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
 
 - [Git](https://git-scm.com/) is open-source software code for using version control for digital repositories and facilitating collaboration.
 - [Git](https://git-scm.com/) can be run from a command line shell or from a simple GUI (graphical user interface), or from a third-party program.
 - [GitHub](https://github.com) is one of many proprietary companies offering services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
   - [GitHub](https://github.com) is a popular platform for hosting open-source software projects, including [QGIS](https://github.com/qgis/QGIS).
-  - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any sofware.
+  - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any software.
   - GitHub also has its own [Desktop Application](https://desktop.github.com/).
 - RStudio allows you to manage projects with [Git version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).
 - Software Carpentry has a free workshop, [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
@@ -33,7 +33,7 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
 
 ## Text Editors
 
-There is are huge up-side to using a ncie text editor:
+There is are huge up-side to using a nice text editor:
 - keeps files simple (without adding formatting marks like Word does)
 - format text as code to better see what you're doing and find errors
 

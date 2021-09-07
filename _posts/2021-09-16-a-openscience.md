@@ -2,6 +2,7 @@
 layout: lesson
 title: What is Open GIScience?
 purpose: "learn about Open GIScience"
+format: lecture
 ---
 
 ## Reading

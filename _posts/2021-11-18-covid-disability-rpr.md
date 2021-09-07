@@ -2,6 +2,7 @@
 layout: lesson
 title: "Lab 10: Disability and COVID-19"
 purpose: "research county-level association of disability and COVID-19"
+format: lab
 ---
 
 Reproduction of:  

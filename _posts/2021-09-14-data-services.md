@@ -2,6 +2,7 @@
 layout: lesson
 title: Data and Services
 purpose: "register for data and services required for the course"
+format: admin
 ---
 
 ## Free and Secret

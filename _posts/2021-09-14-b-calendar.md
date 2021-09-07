@@ -4,7 +4,7 @@ title: Calendar
 purpose: see an overview of topics
 ---
 
-## Spring 2021*
+## Fall 2021*
 
 Week | Tuesday | Thursday | Lab
 :--- | :-----: | :------: | :-:
@@ -20,7 +20,7 @@ Nov 8 | Twitter for Wildfire Hazards | Twitter API and Hotspot Analysis | R Twit
 Nov 15 | Ethics of Humanitarian GIS | R COVID Disability; Spatial Epidemic Detection | R COVID Disability Reproduction & Replication
 Nov 22 | GitHub Site Review & Revisions | **break** | **break**
 Nov 29 | Project: Search & Workflow a Study | Project: Pre-analysis Plan & Metadata | Project: Reproduction
-Dec 6 | Project: Reproduction Report | Project: Data / Metadata | Project: Replication / Reanalysis
+Dec 6 | Project: Replication Pre-analysis Plan | Final Lecture | Project: Replication / Reanalysis
 Dec 13 | **finals** | **finals** | **Dec 19**: Complete Projects & GitHub Sites
 
 *Schedule subject to change

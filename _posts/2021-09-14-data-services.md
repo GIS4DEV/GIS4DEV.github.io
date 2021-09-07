@@ -4,13 +4,27 @@ title: Data and Services
 purpose: "register for data and services required for the course"
 ---
 
-## GitHub
+## Free and Secret
 
-## Twitter Developer API
+The following resources are all **free** for you to access.  
+They each require **passwords** and/or **secret keys**, and may require **user names**, **project names** or **app names**.  
+**Remember** these passwords, secret keys, and names!!!  
+**Never** include them in a public post, website, or GitHub repository code.  
+Seriously, **remember** them, and **do not make them public**.  
+Seriously.
 
-## Census API
+### GitHub
 
-## Demographic and Health Surveys Data
+### Twitter Developer API
+
+In order to query Twitter data for geospatial research, you will need an approved Twitter **developer account** and a Twitter **app**.
+
+1. See instructions here: [Creating a Twitter App](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+2. The purpose of your `app` can be to research and visualize spatial clustering of Twitter activity during natural disasters, e.g. coastal storms, pandemics, and earthquakes.
+
+### Census API
+
+### Demographic and Health Surveys Data
 
 Note: these instructions are for **current course students only**, whose email addresses have been shared with the DHS Survey program. The instructions will be removed once all the current students have gained access.
 

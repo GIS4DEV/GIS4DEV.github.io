@@ -9,7 +9,6 @@ purpose: "develop and debate a vision for a CyberGIS community practicing open s
 1. Nüst, D., and E. Pebesma. 2021. Practical Reproducibility in Geography and Geosciences. *Annals of the American Association of Geographers* 111 (5):1300–1310. DOI:[10.1080/24694452.2020.1806028](https://doi.org/10.1080/24694452.2020.1806028).
 2. Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI:[10.22224/gistbok/2019.2.4](https://doi.org/10.22224/gistbok/2019.2.4).
 
-
 ## Reflecting
 
 1. We have Big Data. Is it time for [Big Code](https://aag.secure-abstracts.com/AAG%20Annual%20Meeting%202021/sessions-gallery/27052)?

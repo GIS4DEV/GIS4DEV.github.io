@@ -1,8 +1,7 @@
 ---
 layout: lesson
-title: Data and Services
+title: "Required Data & Services"
 purpose: "register for data and services required for the course"
-format: admin
 ---
 
 ## Free and Secret
@@ -16,6 +15,15 @@ Seriously.
 
 ### GitHub
 
+We will use GitHub to organize and publish all of our work in this course.
+Please sign up for free account and share the account information with me ASAP.
+
+1. Choose an email address for your GitHub account that you check regularly. Important course updates and communications will be sent to that email. The account is flexible for adding or changing email addresses later.
+2. Please sign up for a free GitHub account at [github.com](https://github.com).
+3. Add your GitHub name to a this Google Sheet [class roster](https://docs.google.com/spreadsheets/d/1vN8Oks6utWWLtSN9WnaAZlECQyHlyzW_gUngMY4hwk4/edit?usp=sharing) (Middlebury access only)
+4. Once I have your GitHub name, I will invite you to the [GIS4DEV](https://github.com/GIS4DEV) GitHub Organization.
+5. Accept the invitation!
+
 ### Twitter Developer API
 
 In order to query Twitter data for geospatial research, you will need an approved Twitter **developer account** and a Twitter **app**.
@@ -25,9 +33,16 @@ In order to query Twitter data for geospatial research, you will need an approve
 
 ### Census API
 
-### Demographic and Health Surveys Data
+In order to use R and Python packages for querying Census data, you need an API Key.
 
-Note: these instructions are for **current course students only**, whose email addresses have been shared with the DHS Survey program. The instructions will be removed once all the current students have gained access.
+1. Sign up for an API key at [api.census.gov/data/key_signup.html](https://api.census.gov/data/key_signup.html)
+2. The organization name should be `Middlebury College` and email should be your Middlebury account.
+2. Documentation for the Census API's is here: [www.census.gov/data/developers.html](https://www.census.gov/data/developers.html)
+
+### USAID Demographic and Health Surveys Data
+
+*Note*: These instructions are for **current course students only**.
+Anyone can request access to DHS Program data, but you should not copy the information below unless you are currently registered in Dr. Holler's course.
 
 1. Go to [https://dhsprogram.com/Data/](https://dhsprogram.com/Data/)
 1. Create an account with your college e-mail address

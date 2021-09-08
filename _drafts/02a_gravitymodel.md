@@ -6,14 +6,14 @@ purpose: "review the gravity model of spatial interaction and automate it in QGI
 
 Do you remember the gravity model of spatial interaction from *human geography with GIS*? If not, you may review the model here:
 
-- [Concept Handout](assets/gravity_model.pdf)
+- [Concept Handout](/assets/gravity_model.pdf)
 - [Concept Video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=20d7f901-2934-4e46-83d7-aba401081120)
 - [Worked Example Video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2cb54be6-c56c-486f-a3ea-aba4010a2520)
 - [Sample Data](https://geography.middlebury.edu/jholler/data/k_healthgeog.zip)
 
 ## Afternoon Lecture
 
-Reminder: it's best if we keep all of our technical questions in one place: [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) There are already some useful questions! I recieve an email notificaton when a new question is posted, and you can as well if you watch the respository: ![watch repository](assets/watch.png)
+Reminder: it's best if we keep all of our technical questions in one place: [issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues) There are already some useful questions! I recieve an email notificaton when a new question is posted, and you can as well if you watch the respository: ![watch repository](/assets/watch.png)
 - Discuss the purpose / benefit of creating models
 - Sketch up what the GUI (graphical user interface) for a gravity model should look like
 - You already have practice thinking programmatically about GIS problems by drawing workflow diagrams!
@@ -86,7 +86,7 @@ And create an output in which target features have been grouped by the input pol
 
 ### Data sources
 
-- I have seperately compiled population by town in New England and Middle Atlantic states using [TidyCensus](https://walker-data.com/tidycensus/) in R based on the American Community Survey 2018 5-year Average. The file is in the geopackage format here: [netown.gpkg](assets/netown.gpkg)
+- I have seperately compiled population by town in New England and Middle Atlantic states using [TidyCensus](https://walker-data.com/tidycensus/) in R based on the American Community Survey 2018 5-year Average. The file is in the geopackage format here: [netown.gpkg](/assets/netown.gpkg)
 - Hospital Data: [Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
   - download directly, or look at the data source: [services1.arcgis.com](https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer/0) 
   - ultimately the server link is: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer 

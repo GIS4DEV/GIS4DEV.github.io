@@ -37,5 +37,5 @@ If you want to analyze a different region, feel free to do so! You'll just have 
 
 **Challenge**: As you finalize your analysis, try to use your tool to customize the gravity model parameters in order to make your hospital catchments more closely match the Dartmouth Atlas of Health Care Hospital Service Areas.
 
-Here is an *old* [instruction sheet](assets/qgis2web.pdf)
+Here is an *old* [instruction sheet](/assets/qgis2web.pdf)
 A newer version of everything is show in the QGIS Model [video playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=324cb720-6901-48e2-b57a-acdf014ab826), starting with [finalizing results](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e55c4d2-8072-4049-bb9d-ace201042448)

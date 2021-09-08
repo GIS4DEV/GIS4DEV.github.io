@@ -43,5 +43,5 @@ The question prompt for this analysis is posted on the previous page. Expectatio
 
 ## Additional SQL Examples
 
-- [more.sql](assets/more.sql)
+- [more.sql](/assets/more.sql)
 

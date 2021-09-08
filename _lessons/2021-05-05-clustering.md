@@ -9,7 +9,7 @@ Wednesday, May 5
 ## Lecture
 
 - Getis Ord [handout](https://github.com/GIS4DEV/literature/blob/master/G.pdf)
-- Getis Ord [spreadsheet](assets/GetisOrd.xlsx)
+- Getis Ord [spreadsheet](/assets/GetisOrd.xlsx)
 - spdep package [localG man](https://rdrr.io/rforge/spdep/man/localG.html) and [localG page](https://www.rdocumentation.org/packages/spdep/versions/1.1-3/topics/localG)
 - ArcGIS [Getis Ord](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/h-how-hot-spot-analysis-getis-ord-gi-spatial-stati.htm)
 - GeoDa [Local G](https://geodacenter.github.io/workbook/6b_local_adv/lab6b.html#getis-ord-statistics) caution: this page appears to give an incorrect simpler version of the statistic from 1992. The software implements the full 1995 formula.

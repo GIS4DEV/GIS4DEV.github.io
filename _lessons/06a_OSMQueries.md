@@ -11,7 +11,7 @@ Take a look at the [OSM2PGSQL](https://osm2pgsql.org/) program to understand how
 ## Exploration of OSM data with SQL
 
 - See how OSM data is imported into PostGIS and get some tips for querying OSM data on the webmap, copying tables out of your database, and building spatial queries with the continuation of our [PostGIS Video Playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=beda027d-3b8e-4700-9ae7-acf4012bdc0e) (Middlebury College only)
-- Learn some [more SQL](assets/osm_sql.sql) to investigate the social context of OpenStreetMap data and to identify college bars.
+- Learn some [more SQL](/assets/osm_sql.sql) to investigate the social context of OpenStreetMap data and to identify college bars.
 
 ## Develop a Spatial Urban Resilience Question and Investigate Data Sources
 

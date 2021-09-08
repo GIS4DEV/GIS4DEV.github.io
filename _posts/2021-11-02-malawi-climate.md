@@ -9,7 +9,7 @@ purpose: "read and critique a model of climate vulnerability in Malawi in light 
 1. Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An operationalized approach in Malawi. *Applied Geography* 48:17–30. DOI:[10.1016/j.apgeog.2014.01.004](https://doi.org/10.1016/j.apgeog.2014.01.004)
 2. Tate, E. 2013. Uncertainty Analysis for a Social Vulnerability Index. *Annals of the Association of American Geographers* 103 (3):526–543. DOI:[10.1080/00045608.2012.700616](https://doi.org/10.1080/00045608.2012.700616).
 
-Handout: [vulnerability-model-uncertainty](assets/vulnerability-model-uncertainty.pdf)
+Handout: [vulnerability-model-uncertainty](/assets/vulnerability-model-uncertainty.pdf)
 
 ## Reading
 

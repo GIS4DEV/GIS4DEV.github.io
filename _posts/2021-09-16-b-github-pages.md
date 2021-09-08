@@ -5,19 +5,36 @@ purpose: "publish a website with GitHub, Jekyll, and Markdown"
 format: lab
 ---
 
-[video tutorial](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=42703aa9-d7bd-4189-bb1d-acd800ef84b5)
-- versioning...
+## Learning Goals
+
+- Understand purpose and concepts for Git version control
+- Learn to write in markdown
+- Learn to set up and manage a GitHub Pages repository with Jekyll
+
+## Expectations
+
+- Publish a GitHub pages site
+
+## Instructions
+
+- [video tutorial playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=42703aa9-d7bd-4189-bb1d-acd800ef84b5)
 - [merge changes from main branch to your copy on GitHub](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=584ec2bf-b7af-4aab-aa25-acef0043a9db)
+- *note*: I need to review/revise this playlist to integrate branches, diffs, versioning
 
 ## Git
 
 Lost documents? Nightmares from merging sloppy revisions from your team? Group member accidentally ruins your project the night before a presentation? Documents proliferating with names like `thesis_final_final2_final3_soseriouslythefinaldraft.docx`? Can't reproduce your own research when your thesis committee asks a question about what you did? "GO ON, [GIT!](https://git-scm.com/)", ridiculously outdated document file systems and recycle bin fail-safe let-downs, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way [outta here!](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
 
+
+![Failing to print THESISFINALV2.pdf](/assets/thesis-final-v2.jpg) |
+ :-: |
+*Don't be this student failing to print FINAL V2 overnight during finals week* |
+
 - [Git](https://git-scm.com/) is open-source software code for using version control for digital repositories and facilitating collaboration.
 - [Git](https://git-scm.com/) can be run from a command line shell or from a simple GUI (graphical user interface), or from a third-party program.
 - [GitHub](https://github.com) is one of many proprietary companies offering services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
   - [GitHub](https://github.com) is a popular platform for hosting open-source software projects, including [QGIS](https://github.com/qgis/QGIS).
-  - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any sofware.
+  - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any software.
   - GitHub also has its own [Desktop Application](https://desktop.github.com/).
 - RStudio allows you to manage projects with [Git version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).
 - Software Carpentry has a free workshop, [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
@@ -31,15 +48,26 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
   - Here is GitHub's documentation on [Working with GitHub Pages](https://docs.github.com/en/github/working-with-github-pages)
 - GitHub pages are formatted into websites using [Jekyll](https://jekyllrb.com/) themes
   - Here's a [list of themes](https://github.com/pages-themes) supported by GitHub without even copying the theme's files to your own repository. Each theme has a repository with additional documentation on how to use and customize the theme.
-- **FYI:** GitHub's servers rebuild your website every time you commit changes to your `.github.io` repository. This usually happens very quickly, but sometimes takes *up to ten minutes*. GitHub Pages makes it very easy to publish websites, but it does take some patience to see your commits reflected in the website.
+- **FYI:** GitHub's servers rebuild your website every time you commit changes to your `.github.io` repository. This usually happens very quickly, but sometimes takes *up to ten minutes*. GitHub Pages makes it very easy to publish websites, but it does take some patience to see your commits reflected in the website. 'F5' is for *refresh*!
 
 ## Text Editors
 
 There is are huge up-side to using a nice text editor:
 - keeps files simple (without adding formatting marks like Word does)
 - format text as code to better see what you're doing and find errors
+- I highly recommend [Atom](https://atom.io/) for the best Markdown editing and GitHub integration
+- Start every sentence or major sentence clause on a new line for clarity in Git version control
+- Line break: two spaces at the end of a line
+- New paragraph: blank line
+- Use the Markdown Preview package to preview rendered markdown with `Ctrl + Shift + M`
+  - Disable the break on single new line option
+  - Enable the Use GitHub style option
 
-I highly recommend [Atom](https://atom.io/).
+## Template Customization
+
+Virtually every aspect of a Jekyll template can be customized.
+If you want to do so, copy individual files that you want to customize from the original Jekyll repository, so that your local copy will override the template.
+Alternatively, clone the entire repository to your own local version and customize from there.
 
 ## Fancier Options
 

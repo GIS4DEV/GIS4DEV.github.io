@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: What is Open GIScience?
+title: Open GIScience
 purpose: "learn about Open GIScience"
 format: lecture
 ---
@@ -27,13 +27,6 @@ While you read these, consider:
   - government?
   - private businesses?
 
-Short additional resources on open source / free software licensing:
-- The Open Source Geospatial Foundation (OSGeo) take on [open source](https://www.osgeo.org/about/what-is-open-source/)
-- The MIT License: https://opensource.org/licenses/MIT
-- Creative Commons Licensing: https://creativecommons.org/licenses/
-- GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
-- How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
-
 ## Slides
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrspcy_84-p4gkNj5I1QLfVtiDdSub7Z8PHRU-pfjJaozepUzG8KLUhZqBELSgOG-XJ-eZa7O5JCMz/embed?start=false&loop=false&delayms=15000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br>
@@ -48,11 +41,20 @@ Short additional resources on open source / free software licensing:
 
 We can debate this in the context of this ESRI tool for [managing COVID testing sites](https://www.esri.com/en-us/covid-19/response)
 
-## An Example: Distance Matrix in QGIS
+### Additional resources on open science and licensing
+
+- Stodden, V. 2014. What computational scientists need to know about intellectual property law: A primer. In *Implementing Reproducible Research*, eds. V. Stodden, F. Leisch, and R. D. Peng, 325–340. Boca Raton: CRC Press.
+- The Open Source Geospatial Foundation (OSGeo) take on [open source](https://www.osgeo.org/about/what-is-open-source/)
+- The MIT License: https://opensource.org/licenses/MIT
+- Creative Commons Licensing: https://creativecommons.org/licenses/
+- GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
+- How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
+
+## A 'Show Me the Code' Example: Distance Matrix in QGIS
 
 The `Distance Matrix` [algorithm documentation](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html#distance-matrix) says nothing about how it calculates distances!
 
-Watch a [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855206e6-2da2-4879-b86a-acdf016865e4) of the issue.
+Watch a [video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=855206e6-2da2-4879-b86a-acdf016865e4) of the issue, and/or follow the notes below.
 
 ### Reading code to understand an algorithm
 

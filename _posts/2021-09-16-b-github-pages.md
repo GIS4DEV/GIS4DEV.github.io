@@ -2,10 +2,11 @@
 layout: lesson
 title: GitHub as a Research and Publishing Tool
 purpose: "publish a website with GitHub, Jekyll, and Markdown"
+format: lab
 ---
 
 [video tutorial](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=42703aa9-d7bd-4189-bb1d-acd800ef84b5)
-- versioning... 
+- versioning...
 - [merge changes from main branch to your copy on GitHub](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=584ec2bf-b7af-4aab-aa25-acef0043a9db)
 
 ## Git

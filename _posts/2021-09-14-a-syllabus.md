@@ -60,10 +60,25 @@ In the first two weeks of class, we will discuss and update our expectations for
 Open science requires researchers, universities, and publishers to change the way they value intellectual work and intellectual property, and the same goes for instructors and students.
 Traditional means of evaluating and grading student work that are based on individualism, competition, and secrecy are counterproductive to an open science learning environment.
 
-Throughout this course you will develop a set of your own personal pages and repositories on GitHub.
-Those personal pages will also contain intellectual contributions from your classmates, instructors, other researchers, and even students from previous classes.
+Throughout this course you will develop a set of your own personal pages and repositories on GitHub, containing all of your work for the course. You will receive qualitative feedback on your GitHub portfolio work from peers and from your professor throughout the semester, and you will be given  opportunities to self-evaluate as well. My goal and expectation for your work is that through revision based on feedback, most students should develop a portfolio suitable to show potential employers or graduate schools, earning at least a B+ or A-. Your qualitative feedback throughout the semester serves as your roadmap to this level of achievement. I prefer for us to re-evaluate your portfolio in whole at the end of the semester for one final grade. However, if there are extenuating circumstances, I can also fall back on a more traditional weighted average of grades for each assignment. Qualities for your work are graded as follows:
 
->> new grading policy
+Gr | Description
+-- | --
+A | Work is excellent, complete, and timely. Your work is ready to show to employers or graduate schools. In addition, you have contributed positively to the collective learning and knowledge base of the class.*
+A- | Work is excellent, complete, and timely. Your work is ready to show to employers or graduate schools with *very* minor revisions.
+B+ | High quality work. Your work is ready to show to parents and friends, and almost ready to show employers or graduate schools&mdash;pending minor revisions.
+B | Good work. Your work needs a fair amount of revision to remedy errors and/or full effort to some more cursory components. You could use one more round of feedback and revision before sharing with employers.
+B- | Decent work. There are a few significant errors and/or gaps that need addressing before you can share the work with a potential employer.
+C | You have demonstrated learning and intellectual growth, but important components of your GitHub portfolio are not working or in need of complete revisions.
+D | Work is incomplete and/or cursory
+F | Not attempted
+
+*There's no public record of your contributions in chats, GroupMe, or similar communication channels. If you're using these, I suggest posting a summary in a GitHub Issue.
+
+If you need a more traditional weighted grading arrangement, the weights will be:
+- `20%` Participation, including blog-style posts, discussions, debates, tutorials, workshops, etc.
+- `20%` Final project
+- `60%` 5 Major labs
 
 ## Typical Rhythm
 

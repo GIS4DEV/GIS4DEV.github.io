@@ -12,7 +12,7 @@ purpose: establish professional conduct in Open GIScience
    1. Overcoming stigma about asking for assistance to model real-world interactions in this open-source field by having a platform available to resolve issues when we get “stuck”
    1. Implicit consent, as a class there should be an underlying trust that we should be able to use others code/tools without directly asking
    1. Many suggestions for a collaborative communication channel.
-      1. GitHub has [Team Discussion](https://github.com/orgs/GIS4DEV/teams/spring2021/discussions), [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues), and [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) to share problems and solutions.
+      1. GitHub has [Issues](https://github.com/GIS4DEV/GIS4DEV.github.io/issues), and [Wiki](https://github.com/GIS4DEV/GIS4DEV.github.io/wiki) to share problems and solutions.
       1. Open to suggestions on using other channels, but whatever you use should be *inclusive*.
 1. Citation and documentation of work
    1. In collaboration, document what you contribute/what others contributed. Giving credit helps lift everyone up.
@@ -38,7 +38,7 @@ purpose: establish professional conduct in Open GIScience
 1. Citation / Acknowledgement
    1. Acknowledging and citing others’ work if used or referenced either by linking directly or otherwise
 1. Community
-   1. Actively share helpful resources that you used with your classmates 
+   1. Actively share helpful resources that you used with your classmates
    1. Building a collaborative/shared data clearinghouse
    1. Sharing is caring
    1. Be willing to share resources (code, explanations of concepts, papers, etc) with the rest of the class
@@ -49,9 +49,5 @@ purpose: establish professional conduct in Open GIScience
       1. Even if others discover solutions first, there is always more to do in terms of organization, documentation, testing, replicating, etc.
 1. Options for group workflows as well as individual
    1. Yes, there definitely will be some collaboration by design in the analyses.
-  
+
 This honor code statement is the product of collaborative discussion by the class in breakout groups on March 1, 2021, with some organization and additions by Professor Holler.
-
-
-
-

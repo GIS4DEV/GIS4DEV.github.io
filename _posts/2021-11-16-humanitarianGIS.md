@@ -2,6 +2,7 @@
 layout: lesson
 title: Humanitarian GIS
 purpose: "debate applications, limitations, and ethical issues in Humanitarian GIS"
+format: lecture
 ---
 
 ## Reading
@@ -10,7 +11,7 @@ Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethic
 
 ## Discussion
 
-Consider the Craford & Finn (2014) article and any of the crowd-sourced / volunteered geographic information (VGI) you have already worked with personally (e.g. Twitter, OpenStreetMap) in relation to Longley et al's framework of uncertainty filters in the process of geograaphic research.
+Consider the Crawford & Finn (2014) article and any of the crowd-sourced / volunteered geographic information (VGI) you have already worked with personally (e.g. Twitter, OpenStreetMap) in relation to Longley et al's framework of uncertainty filters in the process of geographic research.
 
 - What types of uncertainty are most prevalent in the use of VGI for research on disasters and humanitarian crises?
 - Do you think that there is any ethical obligation in relation to uncertainty?

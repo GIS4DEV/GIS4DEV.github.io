@@ -13,9 +13,6 @@ title: Open Source GIScience
 
 ## Fall 2021 Syllabus and Lessons
 
-**this is just a placeholder for now**: see [Spring 2021](2021-spring) for a
-very good preview of the fall 2021 content.
-
 <ul>
   {% for post in site.posts reversed %}
     <li>

@@ -25,7 +25,6 @@ format: lab
 
 Lost documents? Nightmares from merging sloppy revisions from your team? Group member accidentally ruins your project the night before a presentation? Documents proliferating with names like `thesis_final_final2_final3_soseriouslythefinaldraft.docx`? Can't reproduce your own research when your thesis committee asks a question about what you did? "GO ON, [GIT!](https://git-scm.com/)", ridiculously outdated document file systems and recycle bin fail-safe let-downs, and go back to the floppy disks and CD-RW drives where you came from. Try not to hit `SHIFT + DEL` on your way [outta here!](https://www.youtube.com/c/fallontonight/search?query=go%20on%20git)
 
-
 ![Failing to print THESISFINALV2.pdf](/assets/thesis-final-v2.jpg) |
  :-: |
 *Don't be this student failing to print FINAL V2 overnight during finals week* |
@@ -37,6 +36,7 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
   - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any software.
   - GitHub also has its own [Desktop Application](https://desktop.github.com/).
 - RStudio allows you to manage projects with [Git version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).
+- Atom integrates [GitHub for Atom](https://github.atom.io/)
 - Software Carpentry has a free workshop, [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
 
 ## GitHub Pages
@@ -77,3 +77,26 @@ You can develop a more advanced sites customized for portfolios, blogging, docum
 - A quick [magazine article](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) introduction and start-up guide
 - The [Jekyll Now](https://github.com/barryclark/jekyll-now) theme is easy to fork to start your own pages repository, and the readme contains step-by-step instructions for doing so
 - [Yihui Xie's Blogdown book](https://bookdown.org/yihui/blogdown/) explains the R Blogdown / Hugo / Netlify stack for GitHub pages using RStudio and integrating visualizations and apps built in R. Bonus: it's very similar to [Bookdown](https://bookdown.org/) for creating publications with your research in R.
+
+## Essential Git Commands
+
+- Command line Git [cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- GitHub [cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+
+- `Stage`
+- `Commit`
+- `Revert changes`
+- `Push`
+- `Pull`
+- `Branch`
+- `Clone`
+- `Fork`
+- `.gitignore`
+
+## Cautions with Git
+
+- Git and GitHub are not designed to handle large files `>100mb`
+- Before working, always make sure that you have `pulled` the most recent `commits`
+- Once `staged` changes are `committed` together, they are bundled for purposes of `pushing` and `reverting`. In other words, to undo one of the changes, you must undo them all.
+- Therefore, `commit` frequently.
+- Once finished, always remember to `push` your latest commits.

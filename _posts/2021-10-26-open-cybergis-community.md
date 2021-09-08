@@ -1,13 +1,17 @@
 ---
 layout: lesson
-title: Reproducible Research Compendia and CyberGIS
-purpose: "develop and debate a vision for a CyberGIS community practicing open science with reproducible research compendia"
+title: Open CyberGIS Community
+purpose: "develop and debate a vision for a CyberGIS community practicing open science"
+format: lecture
 ---
 
 ## Reading
 
-1. Nüst, D., and E. Pebesma. 2021. Practical Reproducibility in Geography and Geosciences. *Annals of the American Association of Geographers* 111 (5):1300–1310. DOI:[10.1080/24694452.2020.1806028](https://doi.org/10.1080/24694452.2020.1806028).
-2. Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI:[10.22224/gistbok/2019.2.4](https://doi.org/10.22224/gistbok/2019.2.4).
+1. Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI:[10.22224/gistbok/2019.2.4](https://doi.org/10.22224/gistbok/2019.2.4).
+
+## Webinar
+
+1. To be posted: lecture on CyberGISX and Reproducibility
 
 ## Reflecting
 

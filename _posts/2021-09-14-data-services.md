@@ -24,6 +24,8 @@ Please sign up for free account and share the account information with me ASAP.
 4. Once I have your GitHub name, I will invite you to the [GIS4DEV](https://github.com/GIS4DEV) GitHub Organization.
 5. Accept the invitation!
 
+**note:** add information about new security tokens for command-line Git
+
 ### Twitter Developer API
 
 In order to query Twitter data for geospatial research, you will need an approved Twitter **developer account** and a Twitter **app**.
@@ -58,3 +60,21 @@ Anyone can request access to DHS Program data, but you should not copy the infor
 1. Save selection
 1. Read and agree to the conditions of use for the DHS Program datasets and save these conditions for your metadata records.
 1. Enter a **Justification for using DHS Program Geographic Datasets:** The research aim is to reproduce Malcomb et al (2014) in which GPS Datasets are used to spatially join DHS Survey data to Malawi's Districts for the purpose of sub-national climate change vulnerability mapping. Therefore, the research will not be reproducible without the geographic datasets.
+
+## Hour of CI
+
+TBD...
+
+## CyberGISX
+
+**note**: this has changed to using Google login...
+
+- go to [CyberGISX Login](https://cybergisx.cigi.illinois.edu/hub/login)
+- [Create an account](https://cybergisxhub.cigi.illinois.edu/registration/)
+- Full name: you know who you are
+- Organizational Email: use your `@middlebury.edu` address
+- Organization: Middlebury College
+- Github Username: your GitHub user name
+- Personal Webiste Link: your `.github.io` GitHub pages address
+- Role: student
+- What class: `geog 0323 spring 2021 open source GIScience`

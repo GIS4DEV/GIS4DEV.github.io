@@ -35,12 +35,20 @@
       {% if page.date %}
         {% if page.next.url %}
           <p align="center">
-            <a href="{{page.next.url}}">{{page.next.title}} &#9655;&#9655;</a> 
+            <a href="{{page.next.url}}">{{page.next.title}} &#9655;&#9655;</a>
+          </p>
+        {% else %}
+          <p align="center" style="min-height:5em;">
+            <a href="{{site.url}}">Main Page &#9655;&#9655;</a>
           </p>
         {% endif %}
         {% if page.previous.url %}
           <p align="center" style="min-height:5em;">
             <a href="{{page.previous.url}}">&#9665;&#9665; {{page.previous.title}}</a>
+          </p>
+        {% else %}
+          <p align="center" style="min-height:5em;">
+          <a href="{{site.url}}">&#9665;&#9665; Main Page</a>
           </p>
         {% endif %}
       {% endif %}

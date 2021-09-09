@@ -33,16 +33,15 @@
 
       <footer>
       {% if page.date %}
-        {% if page.previous.url %}
-          <p align=left>
-            <a href="{{page.previous.url}}">{{page.previous.title}}</a>&#9665;&nbsp;
-          </p>
-        {% endif %}
+      <p align=center>
         {% if page.next.url %}
-          <p align=right>
-            &nbsp;&#9655;<a href="{{page.next.url}}">{{page.next.title}}</a>
-          </p>
+            <a href="{{page.next.url}}">{{page.next.title}}</a>&#9655;&#9655;
         {% endif %}
+        {% if page.previous.url %}
+            <br>
+            &#9665;&#9665;<a href="{{page.previous.url}}">{{page.previous.title}}</a>
+        {% endif %}
+      </p>
       {% endif %}
 
       <p>

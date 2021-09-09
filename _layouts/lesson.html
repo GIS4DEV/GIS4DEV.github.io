@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <p>
-{{ page.date | date: '%b-%d' }}<br>
+{{ page.date | date: '%b-%d' }} {{ page.format }}<br>
 {% if page.purpose %}
 In this lesson, we will {{ page.purpose }}.</p>
 {% endif %}

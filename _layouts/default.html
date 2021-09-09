@@ -35,12 +35,12 @@
       {% if page.date %}
 
         {% if page.next.url %}
-          <p align="center">
+          <p align="center" style="min-height:3m; vertical-align:bottom;" >
             <a href="{{page.next.url}}">{{page.next.title}}</a> &#9655;&#9655;
           </p>
         {% endif %}
         {% if page.previous.url %}
-          <p align="center">
+          <p align="center" style="min-height:3m;">
             &#9665;&#9665; <a href="{{page.previous.url}}">{{page.previous.title}}</a>
           </p>
         {% endif %}

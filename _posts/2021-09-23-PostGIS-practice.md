@@ -1,8 +1,9 @@
 ---
 layout: lesson
-title:  PostGIS Introduction
-purpose: "practice spatial analysis with PostGIS SQL"
+title:  PostGIS Introduction Practice
+purpose: "practice spatial analysis with PostGIS"
 format: lab
+date: 2021-09-23 13:30
 ---
 
 ## Question

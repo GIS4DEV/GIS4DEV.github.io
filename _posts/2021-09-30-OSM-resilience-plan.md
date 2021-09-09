@@ -1,8 +1,9 @@
 ---
 layout: lesson
 title:  Querying OpenStreetMap
-purpose: "investigate OpenStreetMap data with SQL queries"
+purpose: "design research of urban resilience using OpenStreetMap and PostGIS"
 format: lecture
+date: 2021-09-30 09:30
 ---
 
 Take a look at the [OSM2PGSQL](https://osm2pgsql.org/) program to understand how it translates OpenStreetMap data into PostGIS.

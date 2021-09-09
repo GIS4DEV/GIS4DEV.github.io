@@ -1,25 +1,10 @@
 ---
 layout: lesson
-title: COVID-19 Spatial Accessibility
-purpose: "study COVID-19 spatial accessibility of health care"
-format: lecture
+title: COVID-19 Spatial Accessibility Reproduction
+purpose: "reproduce COVID-19 spatial accessibility"
+format: lab
+date: 2021-10-07 13:30
 ---
-
-## Reading
-
-Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. *International Journal of Health Geographics* 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://doi.org/10.1186/s12942-020-00229-x).
-
-## Analysis
-
-To the best of your ability, draw or outline a workflow for this analysis. You may work in partners or small groups on this task.
-
-- The paper describes the analysis and cyberinfrastructure behind the spatial access component of this [Where COVID-19 dashboard for Illinois](https://wherecovid19.cigi.illinois.edu/spatialAccess.html)
-- Derrick Burt and Kufre Udoh completed a [reproduction and replication](https://cybergisxhub.cigi.illinois.edu/blog/middlebury-college-students-reproduce-and-replicate-covid-19-health-care-resource-accessibility-study/) of the study
-- Since that time, the authors have continued to update the code in the [Jupyter notebook for the study](https://cybergisxhub.cigi.illinois.edu/notebook/rapidly-measuring-spatial-accessibility-of-covid-19-healthcare-resources-a-case-study-of-illinois-usa/) on CyberGISX
-- [CyberGISX](https://cybergisx.cigi.illinois.edu) is a geospatial cyberinfrastructure project at the [CyberGIS Center for Advanced Digital and Spatial Studies](https://cybergis.illinois.edu/) at the University of Illinois at Urbana-Champaign, funded by the National Science Foundation and directed by Dr. Shaowen Wang. It is set up to run [Juypter notebooks](https://jupyter.org/) using [Python](https://www.python.org/) with a suite of pre-installed packages for data science and spatial analysis.
-- CyberGISX is a prime example of [geospatial cyberinfrastructure](https://gistbok.ucgis.org/bok-topics/cyberinfrastructure)
-
-## Lab
 
 The goal of this lab is to get accustomed to working in a cyberinfrastructure environment with Python, Jupyter notebooks, and GitHub integration. We will do so with the Jupyter notebook published to accompany [Kang et al (2020)](https://doi.org/10.1186/s12942-020-00229-x). The notebook has been published on [CyberGISX](https://cybergisxhub.cigi.illinois.edu/notebook/rapidly-measuring-spatial-accessibility-of-covid-19-healthcare-resources-a-case-study-of-illinois-usa/) and maintained in a [GitHub repository](https://github.com/cybergis/COVID-19AccessibilityNotebook)
 
@@ -48,6 +33,13 @@ Below I will outline three workflows. Geog 323 students, please just follow the 
 1. Cloning a GitHub repository into CyberGISX
 1. Making changes on CyberGISX and pushing them to GitHub
 1. Pushing a CyberGISX project to a new GitHub repository
+
+**note:** update instructions below with:
+- suggestions from Derrick
+- new security token Information
+- up arrow for previous lines
+- `Ctrl+Insert` and `Shift+Insert` key to paste
+- concept of using two local machines and GitHub, where 2nd local machine is CyberGISX
 
 ### Cloning a GitHub repository into CyberGISX
 
@@ -114,7 +106,6 @@ Now the harder part: connecting the CyberGISX notebook to your GitHub repository
 - `git push origin` : push your changes to GitHub! The command line will ask for your username and password.
 - You may get a warning from GitHub that command-line authentication will be deprecated. Until then, forge ahead!
 
-
 ## Helpful References
 
 - Git Commands: [Importing projects to GitHub with command line](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
@@ -122,3 +113,7 @@ Now the harder part: connecting the CyberGISX notebook to your GitHub repository
 - Python package for vector features & analysis: [geopandas](https://geopandas.org/)
 - Python package for OpenStreetMap and specifically for network data in OSM: osmnx [documents](https://osmnx.readthedocs.io/en/stable/), [repository](https://github.com/gboeing/osmnx) and [examples repository](https://github.com/gboeing/osmnx-examples), and repository for version [0.11.4](https://github.com/gboeing/osmnx/releases/tag/v0.11.4)
 - Python package for network analysis: [networkx](https://networkx.org/)
+
+## Reference
+
+Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. *International Journal of Health Geographics* 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://doi.org/10.1186/s12942-020-00229-x).

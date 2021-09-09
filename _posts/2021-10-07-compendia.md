@@ -3,6 +3,7 @@ layout: lesson
 title: Reproducible Research Compendia
 purpose: "lean how to enhance reproducibility with a research compendium"
 format: lecture
+date: 2021-10-07 09:30
 ---
 
 ## Reading

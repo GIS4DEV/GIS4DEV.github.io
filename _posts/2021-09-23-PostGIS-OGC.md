@@ -1,8 +1,9 @@
 ---
 layout: lesson
-title:  PostGIS and Open Standards and Libraries
+title:  "PostGIS and Open Standards & Libraries"
 purpose: "gain familiarity with open standards, libraries, and databases for spatial analysis"
 format: lecture
+date: 2021-09-23 09:30
 ---
 
 ## Software

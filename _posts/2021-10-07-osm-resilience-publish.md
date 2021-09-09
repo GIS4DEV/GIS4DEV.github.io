@@ -3,6 +3,7 @@ layout: lesson
 title: OSM Urban Resilience
 purpose: "publish a spatial urban resilience analysis"
 format: lab
+date: 2021-10-07 13:30
 ---
 
 ## Expectations for Spatial Urban Resilience Analysis of Dar es Salaam

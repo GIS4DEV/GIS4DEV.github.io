@@ -1,17 +1,15 @@
 ---
 layout: lesson
 title: OSM Urban Resilience
-purpose: "execute a spatial urban resilience analysis"
+purpose: "implement research of urban resilience using OpenStreetMap and PostGIS"
 format: lab
+date: 2021-09-30 13:30
 ---
-
-Take a look at the [OSM2PGSQL](https://osm2pgsql.org/) program to understand how it translates OpenStreetMap data into PostGIS.
 
 ## Expectations for Spatial Urban Resilience Analysis of Dar es Salaam
 
 The question prompt for this analysis is posted on the previous page. Expectations for the analysis are:
 
-- **Due Wednesday April 7**
 - Work independently or in pairs, but publish the final results to both students' GitHub pages.
 - Publish final result in the form of an interactive Leaflet map.
 - If working in pairs, complement the Leaflet map with a static map designed for a static web view or and/for printing.
@@ -39,5 +37,3 @@ The question prompt for this analysis is posted on the previous page. Expectatio
 - Remember to type-cast any geometries created from spatial functions `::geometry(geometry_type,EPSG_code)`
 - Almost everything involving two tables/layers is best accomplished with a `join`, including attribute joins, spatial joins, select by location, overlay analysis and distance analysis.
 - OpenStreetMap can be surprising because the data is volunteered: different volunteers might use different tags, tag values, and geometries (points or polygons). Super-users *tend* to edit these things for consistency.
-
-## Additional SQL Examples

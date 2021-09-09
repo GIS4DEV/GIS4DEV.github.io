@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: "Disability and COVID-19"
-purpose: "research county-level association of disability and COVID-19"
+purpose: "reproduce county-level association of disability and COVID-19"
 format: lab
 ---
 

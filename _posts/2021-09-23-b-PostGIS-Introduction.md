@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title:  PostGIS Introduction
-purpose: "Spatial analysis with PostGIS SQL"
+purpose: "practice spatial analysis with PostGIS SQL"
 format: lab
 ---
 

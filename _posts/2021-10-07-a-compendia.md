@@ -1,7 +1,7 @@
 ---
 layout: lesson
-title: Reproducible Research Compendia and CyberGIS
-purpose: "develop and debate a vision for a CyberGIS community practicing open science with reproducible research compendia"
+title: Reproducible Research Compendia
+purpose: "lean how to enhance reproducibility with a research compendium"
 format: lecture
 ---
 

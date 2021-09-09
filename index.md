@@ -17,7 +17,7 @@ title: Open Source GIScience
   {% for post in site.posts reversed %}
     <li>
       {% if post.format %}
-        {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }}:
+        {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} :
       {% endif %}
       <a href="{{ post.url }}">{{ post.title }}</a>
       {% if post.purpose %}

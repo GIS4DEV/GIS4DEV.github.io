@@ -34,13 +34,13 @@
       <footer>
       {% if page.date %}
         {% if page.next.url %}
-          <p align="center" style="min-height:5em; vertical-align:bottom;" >
-            <a href="{{page.next.url}}">{{page.next.title}}</a> &#9655;&#9655;
+          <p align="center">
+            <a href="{{page.next.url}}">{{page.next.title}} &#9655;&#9655;</a> 
           </p>
         {% endif %}
         {% if page.previous.url %}
           <p align="center" style="min-height:5em;">
-            &#9665;&#9665; <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+            <a href="{{page.previous.url}}">&#9665;&#9665; {{page.previous.title}}</a>
           </p>
         {% endif %}
       {% endif %}

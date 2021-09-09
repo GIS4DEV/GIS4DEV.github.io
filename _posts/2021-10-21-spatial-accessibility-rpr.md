@@ -3,7 +3,7 @@ layout: lesson
 title: COVID-19 Spatial Accessibility Reproduction
 purpose: "reproduce COVID-19 spatial accessibility"
 format: lab
-date: 2021-10-07 13:30
+date: 2021-10-21 13:30
 ---
 
 The goal of this lab is to get accustomed to working in a cyberinfrastructure environment with Python, Jupyter notebooks, and GitHub integration. We will do so with the Jupyter notebook published to accompany [Kang et al (2020)](https://doi.org/10.1186/s12942-020-00229-x). The notebook has been published on [CyberGISX](https://cybergisxhub.cigi.illinois.edu/notebook/rapidly-measuring-spatial-accessibility-of-covid-19-healthcare-resources-a-case-study-of-illinois-usa/) and maintained in a [GitHub repository](https://github.com/cybergis/COVID-19AccessibilityNotebook)

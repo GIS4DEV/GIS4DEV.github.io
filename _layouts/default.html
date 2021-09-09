@@ -33,20 +33,26 @@
 
       <footer>
       {% if page.date %}
-        <p align=center>
         {% if page.previous.url %}
-            <a href="{{page.previous.url}}">&#9754;&nbsp;{{page.previous.title}}</a>
-        {% endif %}
-        {% if page.previous.url and page.next.url %}
-            &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
+          <p align=left>
+            <a href="{{page.previous.url}}">{{page.previous.title}}</a>&#9665;&nbsp;
+          </p>
         {% endif %}
         {% if page.next.url %}
-            <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#9755;</a>
+          <p align=right>
+            &nbsp;&#9655;<a href="{{page.next.url}}">{{page.next.title}}</a>
+          </p>
         {% endif %}
-        </p>
       {% endif %}
 
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> based on the <a href="https://github.com/pages-themes/dinky">Dinky</a> theme</small></p>
+      <p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br>
+      <small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></small>.
+      </p>
+
+      <p><small>
+        Hosted on <a href="https://pages.github.com">GitHub Pages</a> based on the <a href="https://github.com/pages-themes/dinky">Dinky</a> theme
+      </small></p>
       </footer>
 
     </div>

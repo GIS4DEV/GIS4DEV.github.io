@@ -5,24 +5,12 @@ layout: default
 <p>
 {{ page.date | date: '%b-%d' }}<br>
 {% if page.purpose %}
-In this lesson, we will {{ page.purpose }}</p>
+In this lesson, we will {{ page.purpose }}.</p>
 {% endif %}
 
 {{ content }}
 
-<footer>
-<p align=center>
-{% if page.previous.url %}
-    <a href="{{page.previous.url}}">&#9754;&nbsp;{{page.previous.title}}</a>
-{% endif %}
-{% if page.previous.url and page.next.url %}
-    &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
-{% endif %}
-{% if page.next.url %}
-    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#9755;</a>
-{% endif %}
-</p>
-</footer>
+
 
 <p align=center><a href="https://GIS4DEV.github.io">Main Page</a></p>
 

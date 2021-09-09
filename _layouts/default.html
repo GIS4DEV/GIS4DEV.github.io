@@ -32,8 +32,23 @@
       </section>
 
       <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/pages-themes/dinky">Dinky theme</a></small></p>
+      {% if page.date %}
+        <p align=center>
+        {% if page.previous.url %}
+            <a href="{{page.previous.url}}">&#9754;&nbsp;{{page.previous.title}}</a>
+        {% endif %}
+        {% if page.previous.url and page.next.url %}
+            &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
+        {% endif %}
+        {% if page.next.url %}
+            <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#9755;</a>
+        {% endif %}
+        </p>
+      {% endif %}
+
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> based on the <a href="https://github.com/pages-themes/dinky">Dinky</a> theme</small></p>
       </footer>
+
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>

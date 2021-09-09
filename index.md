@@ -15,8 +15,11 @@ title: Open Source GIScience
 
 Meeting | Lesson | Purpose
 ------- | ------ | -------
+bla | bla | bla | bro
+
 {% for post in site.posts reversed %}
 {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} | <a href="{{ post.url }}">{{ post.title }}</a> | {{ post.purpose }}
+
 {% endfor %}
 
 

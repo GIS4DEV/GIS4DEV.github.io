@@ -62,6 +62,7 @@ There is are huge up-side to using a nice text editor:
 - Use the Markdown Preview package to preview rendered markdown with `Ctrl + Shift + M`
   - Disable the break on single new line option
   - Enable the Use GitHub style option
+- When writing narrative, autocomplete can become annoying. Go to File --> Settings --> Packages --> Core Packages --> autocomplete-plus --> disable `show suggestions on keystroke`. You can still get suggestions with keyboard shortcut `Ctrl+Space`
 
 ## Template Customization
 

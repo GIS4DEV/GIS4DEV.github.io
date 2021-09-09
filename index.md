@@ -17,7 +17,7 @@ Meeting | Lesson | Purpose
 ------- | ------ | -------
 {% for post in site.posts reversed -%}
 {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} | <a href="{{ post.url }}">{{ post.title }}</a> | {{ post.purpose }}
-{%- endfor -%}
+{% endfor %}
 
 
 <ul>

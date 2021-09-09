@@ -2,6 +2,7 @@
 layout: lesson
 title: Syllabus
 purpose: get an introduction and overview for the course
+format: introductions
 ---
 
 ## Welcome to Open Source Geographic Information Science!
@@ -75,17 +76,20 @@ F | Not attempted
 
 *There's no public record of your contributions in chats, GroupMe, or similar communication channels. If you're using these, I suggest posting a summary in a GitHub Issue.
 
+**revisit this weighting**
 If you need a more traditional weighted grading arrangement, the weights will be:
 - `20%` Participation, including blog-style posts, discussions, debates, tutorials, workshops, etc.
 - `20%` Final project
 - `60%` 5 Major labs
 
-## Typical Rhythm
+## Approach to learning
 
-- **Tuesday Lecture**: Learn and practice new GIScience techniques or review/revise techniques from previous challenges.
-- **Wednesday Lecture/Discussion**: Set up a lab problem by discussing the problem and its context, significance, implications, etc. This may include assigned reading or research tasks in preparation of a lab problem.
-- **Wednesday Evening Lab**: Work together on GIScience analyses.
-- **Friday Discussion**: Read and discuss GIScience research/literature and discuss findings from lab problems.
+- **Theory** and **context** in which open GIScience research is practiced
+- **Introduction** workshop/tutorial to research tools/platforms
+- **Study** the research paper and compendium of a GIScience research project
+- **Reproduce** the project by acquiring the same data and executing the same procedures
+- **Reanalyze** the project by adjusting and improving some components of the research design
+- **Replicate** the project by applying it to a new context (thematic, geographic, or temporal)
 
 ## Materials & Resources
 

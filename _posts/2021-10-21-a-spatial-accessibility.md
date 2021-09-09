@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: COVID-19 Spatial Accessibility
-purpose: "study the research paper and implementation of a COVID-19 accessibility analysis"
+purpose: "study COVID-19 spatial accessibility of health care"
 format: lecture
 ---
 

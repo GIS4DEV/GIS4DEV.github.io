@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: COVID-19 Spatial Accessibility Reproduction
-purpose: "reproduce a COVID-19 spatial accessibility analysis"
+purpose: "reproduce COVID-19 spatial accessibility"
 format: lab
 ---
 

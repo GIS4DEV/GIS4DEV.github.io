@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Open CyberGIS Community
-purpose: "develop and debate a vision for a CyberGIS community practicing open science"
+purpose: "envision a CyberGIS community practicing open science"
 format: lecture
 ---
 

@@ -13,6 +13,13 @@ title: Open Source GIScience
 
 ## Fall 2021 Syllabus and Lessons
 
+Meeting | Lesson | Purpose
+------- | ------ | -------
+{% for post in site.posts reversed %}
+{{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} | <a href="{{ post.url }}">{{ post.title }}</a> | {{ post.purpose }}
+{% endfor %}
+
+
 <ul>
   {% for post in site.posts reversed %}
     <li>

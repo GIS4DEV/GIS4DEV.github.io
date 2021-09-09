@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title:  PostGIS and Open Standards and Libraries
-purpose: "learn the landscape and concepts of open source standards, libraries, and databases for spatial analysis"
+purpose: "gain familiarity with open standards, libraries, and databases for spatial analysis"
 format: lecture
 ---
 

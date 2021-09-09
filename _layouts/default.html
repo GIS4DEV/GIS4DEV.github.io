@@ -33,20 +33,22 @@
 
       <footer>
       {% if page.date %}
-      <p align=center>
+
         {% if page.next.url %}
+          <p align="center">
             <a href="{{page.next.url}}">{{page.next.title}}</a> &#9655;&#9655;
+          </p>
         {% endif %}
         {% if page.previous.url %}
-            <br>
+          <p align="center"
             &#9665;&#9665; <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+          </p>
         {% endif %}
-      </p>
       {% endif %}
 
-      <p>
+      <p align="center">
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br>
-      <small><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution NonCommercial ShareAlike License</a></small>.
+      <small><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution NonCommercial ShareAlike License</a></small>
       </p>
 
       <p><small>

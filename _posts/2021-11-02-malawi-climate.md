@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Climate Vulnerability in Malawi
-purpose: "read and critique a model of climate vulnerability in Malawi in light of theory on uncertainty"
+purpose: "study climate vulnerability model of Malawi and its uncertainty"
 format: lecture
 ---
 

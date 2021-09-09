@@ -3,6 +3,7 @@ layout: lesson
 title: COVID-19 Spatial Accessibility Replication
 purpose: "improve upon the COVID-19 accessibility analysis"
 format: lab
+date: 2021-10-28 13:30
 ---
 
 Two suggestions/reminders:

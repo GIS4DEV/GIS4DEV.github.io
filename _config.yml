@@ -4,3 +4,4 @@ description: Joseph Holler's Open Source GIScience Resources at Middlebury Colle
 collections:
   lessons:
     output: true
+timezone: America/New_York

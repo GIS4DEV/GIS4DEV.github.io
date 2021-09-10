@@ -3,6 +3,7 @@ layout: lesson
 title: "Disability and COVID-19 Study"
 purpose: "study county-level association of disability and COVID-19"
 format: lecture
+date: 2021-12-02 09:30
 ---
 
 ## Reading

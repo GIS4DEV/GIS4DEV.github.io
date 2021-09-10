@@ -1,8 +1,9 @@
 ---
 layout: lesson
-title: Spatial Twitter Analysis
-purpose: "explore methods for verifying the accuracy of choropleth maps"
+title: Twitter Data and Disasters
+purpose: "study Twitter data structure and analytical methods for disaster data"
 format: lecture
+date: 2021-11-11 09:30
 ---
 
 ## Reading

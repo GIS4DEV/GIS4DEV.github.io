@@ -3,6 +3,7 @@ layout: lesson
 title: "Disability and COVID-19 Reproduction"
 purpose: "reproduce county-level association of disability and COVID-19"
 format: lab
+date: 2021-12-02 13:30
 ---
 
 Reproduction of:  

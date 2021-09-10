@@ -1,8 +1,9 @@
 ---
 layout: lesson
-title: Climate Vulnerability in Malawi
-purpose: "study climate vulnerability model of Malawi"
-format: lecture
+title: Malawi Climate Vulnerability Reproduction
+purpose: "reproduce climate vulnerability model of Malawi"
+format: lab
+date: 2021-11-04 13:30
 ---
 
 ## Investigate Data Sources & Revisit / Discuss Workflow

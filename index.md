@@ -2,16 +2,8 @@
 layout: default
 title: Open Source GIScience
 ---
-# Welcome to Open Source GIScience
 
-- Reproducibility and Replicability in Geography: [HEGSRR.github.io](https://HEGSRR.github.io)
-- Spring 2021 [course syllabus and lessons](2021-spring)
-- Fall 2019 [course syllabus and lab manual](/assets/OpenSourceGIScience2019.pdf) and [worked examples](2019-fall)
-- Open Source GIS for Development (Spring 2014, Spring 2015, and Spring 2018) content can be found in the [GIS4DEV course manual](/assets/GIS4DEV.pdf) and [Q&A respository](https://github.com/GIS4DEV/Q-and-A)
-- University Consortium for GIS (UCGIS) [2020 Symposium](https://www.ucgis.org/symposium-2020) [Presentation Slides](/assets/teachingReproducibility.pdf)
-- Using GitHub for [teaching & research](github-academics)
-
-## Fall 2021 Syllabus and Lessons
+# Fall 2021 Open Source GIScience
 
 Meeting | Lesson | Purpose |
 ------- | ------ | ------- |
@@ -61,3 +53,12 @@ tbd...
 ~ [cameronw-16](https://cameronw-16.github.io)
 ~ [kgrantsasson](https://github.com/kgrantsasson/kgrantsasson.github.io)
 ~ [derrickburt](https://derrickburt.github.io)
+
+## Resources and previous courses
+
+- Reproducibility and Replicability in Geography: [HEGSRR.github.io](https://HEGSRR.github.io)
+- Spring 2021 [course syllabus and lessons](2021-spring)
+- Fall 2019 [course syllabus and lab manual](/assets/OpenSourceGIScience2019.pdf) and [worked examples](2019-fall)
+- Open Source GIS for Development (Spring 2014, Spring 2015, and Spring 2018) content can be found in the [GIS4DEV course manual](/assets/GIS4DEV.pdf) and [Q&A respository](https://github.com/GIS4DEV/Q-and-A)
+- University Consortium for GIS (UCGIS) [2020 Symposium](https://www.ucgis.org/symposium-2020) [Presentation Slides](/assets/teachingReproducibility.pdf)
+- Using GitHub for [teaching & research](github-academics)

@@ -5,6 +5,8 @@ title: Open Source GIScience
 
 # Fall 2021 Open Source GIScience
 
+*note*: There is a placeholder for each day of the semester, but many lessons will still be revised as we approach them.
+
 Meeting | Lesson
 ------- | ------
 {% for post in site.posts reversed -%}

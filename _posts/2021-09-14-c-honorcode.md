@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: lesson
 title: Honor Code
 purpose: establish professional conduct in Open GIScience
 ---

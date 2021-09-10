@@ -6,4 +6,4 @@ format: lab
 date: 2021-12-09 13:30
 ---
 
-TBD
+We will use lab time to finalize independent projects and share peer review on GitHub portfolios.

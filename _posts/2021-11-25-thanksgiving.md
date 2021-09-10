@@ -1,6 +1,6 @@
 ---
 layout: lesson
 title: Thanksgiving
-purpose: rest and appreciate
-format: break
 ---
+
+Rest and share appreciation and good food!

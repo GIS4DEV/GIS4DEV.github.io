@@ -1,14 +1,14 @@
 ---
 layout: lesson
 title: Open GIScience
-purpose: "learn about Open GIScience"
+purpose: "read and debate the motivations and visions for Open GIScience"
 format: lecture
 date: 2021-09-16 09:30
 ---
 
 ## Reading
 
-- Rey, S. J. 2009. Show me the code: spatial analysis and open source. *Journal of Geographical Systems 11* (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
+- Rey, S. J. 2009. Show me the code: Spatial analysis and open source. *Journal of Geographical Systems* 11 (2):191–207. http://dx.doi.org/10.1007/s10109-009-0086-8
 - Singleton, A. D., S. Spielman, and C. Brunsdon. 2016. Establishing a framework for Open Geographic Information science. *International Journal of Geographical Information Science* 30 (8):1507–1521. http://dx.doi.org/10.1080/13658816.2015.1137579
 - Remember the course [literature repository](https://github.com/GIS4DEV/literature)
 

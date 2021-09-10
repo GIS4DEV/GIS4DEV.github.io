@@ -5,10 +5,10 @@ title: Open Source GIScience
 
 # Fall 2021 Open Source GIScience
 
-Meeting | Lesson | Purpose |
-------- | ------ | ------- |
+Meeting | Lesson
+------- | ------
 {% for post in site.posts reversed -%}
-{%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}">{{ post.title }}</a> | {{ post.purpose }} |
+{%- if post.format -%} {{ post.date | date: '%b-%d' }} {{ post.format | capitalize }} {% endif %} | <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
 
 ## Members of Fall 2021

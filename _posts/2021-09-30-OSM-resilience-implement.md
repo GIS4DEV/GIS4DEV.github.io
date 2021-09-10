@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: OSM Urban Resilience
+title: OSM and PostGIS for Urban Resilience
 purpose: "implement research of urban resilience using OpenStreetMap and PostGIS"
 format: lab
 date: 2021-09-30 13:30

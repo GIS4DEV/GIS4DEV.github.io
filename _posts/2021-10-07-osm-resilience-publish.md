@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: OSM Urban Resilience
+title: Publish an Compendium of Urban Resilience Research
 purpose: "publish a spatial urban resilience analysis"
 format: lab
 date: 2021-10-07 13:30

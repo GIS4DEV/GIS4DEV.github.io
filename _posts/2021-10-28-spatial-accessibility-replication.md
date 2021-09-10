@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: COVID-19 Spatial Accessibility Replication
-purpose: "improve upon the COVID-19 accessibility analysis"
+purpose: "reanalyze/replicate COVID-19 spatial accessibility"
 format: lab
 date: 2021-10-28 13:30
 ---

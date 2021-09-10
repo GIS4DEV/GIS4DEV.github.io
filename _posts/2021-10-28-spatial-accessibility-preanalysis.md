@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: COVID-19 Spatial Accessibility Preanalysis
-purpose: "plan improvements to the COVID-19 spatial accessibility analysis"
+purpose: "plan reanalysis or replication of COVID-19 spatial accessibility"
 format: lecture
 date: 2021-10-28 09:30
 ---

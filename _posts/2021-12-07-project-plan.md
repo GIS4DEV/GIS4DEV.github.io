@@ -1,7 +1,7 @@
 ---
 layout: lesson
-title: "Project Plan"
-purpose: "write pre-analysis plan and gather required data for independent project"
+title: "Independent Replication Study Plan"
+purpose: "write pre-analysis plan and gather required data for independent replication"
 format: lecture
 ---
 

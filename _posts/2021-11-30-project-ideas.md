@@ -1,7 +1,7 @@
 ---
 layout: lesson
-title: "Project Ideas"
-purpose: "generate feasible ideas for a final independent project"
+title: "Independent Replication Ideas"
+purpose: "generate feasible ideas for an independent replication study"
 format: lecture
 ---
 

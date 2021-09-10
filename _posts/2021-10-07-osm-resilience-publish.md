@@ -1,14 +1,14 @@
 ---
 layout: lesson
-title: Publish an Compendium of Urban Resilience Research
+title: Publish an Urban Resilience Research Compendium
 purpose: "publish a spatial urban resilience analysis"
-format: lab
+format: workshop
 date: 2021-10-07 13:30
 ---
 
-## Expectations for Spatial Urban Resilience Analysis of Dar es Salaam
+## Expectations
 
-The question prompt for this analysis is posted on the previous page. Expectations for the analysis are:
+The purpose of this workshop is to help you publish your Urban Resilience project from the previous lab as a research compendium. Therefore, there is no separate deliverable due to be graded for this workshop, as the work is folding into your [OSM and PostGIS for Urban Resilience](OSM-resilience-implement) lab.
 
 **revise the expectations to conform to our research repository format**
 

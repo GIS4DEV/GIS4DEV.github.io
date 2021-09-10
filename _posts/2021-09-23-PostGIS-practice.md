@@ -2,7 +2,7 @@
 layout: lesson
 title:  PostGIS Introduction Practice
 purpose: "practice spatial analysis with PostGIS"
-format: lab
+format: workshop
 date: 2021-09-23 13:30
 ---
 

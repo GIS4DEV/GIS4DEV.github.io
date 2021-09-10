@@ -2,7 +2,7 @@
 layout: lesson
 title: Open GIScience
 purpose: "read and debate the motivations and visions for Open GIScience"
-format: lecture
+format: workshop
 date: 2021-09-16 09:30
 ---
 

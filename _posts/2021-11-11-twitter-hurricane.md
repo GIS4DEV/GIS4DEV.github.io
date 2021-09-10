@@ -2,7 +2,7 @@
 layout: lesson
 title: Twitter Disaster Data Analysis
 purpose: "analyze spatial, temporal, and semantic patterns of Twitter data"
-format: lab
+format: workshop
 date: 2021-11-11 13:30
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Thanksgiving
+title: Thanksgiving Break
 format: break
 ---
 

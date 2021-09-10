@@ -2,7 +2,7 @@
 layout: lesson
 title: COVID-19 Spatial Accessibility Reproduction
 purpose: "reproduce COVID-19 spatial accessibility"
-format: lab
+format: workshop
 date: 2021-10-21 13:30
 ---
 

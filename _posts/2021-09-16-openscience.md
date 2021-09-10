@@ -3,6 +3,7 @@ layout: lesson
 title: Open GIScience
 purpose: "learn about Open GIScience"
 format: lecture
+date: 2021-09-16 09:30
 ---
 
 ## Reading

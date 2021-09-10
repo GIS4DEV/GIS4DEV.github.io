@@ -2,12 +2,17 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p>
-{{ page.date | date: '%b-%d' }} {{ page.format }}<br>
+{% if page.format %}
+  <p>
+    {{ page.date | date: '%b-%d' }} {{ post.format | capitalize }}
+  </p>
+{% endif %}
 {% if page.purpose %}
-In this lesson, we will {{ page.purpose }}.</p>
+  <p>
+    In this lesson, we will {{ page.purpose }}.
+  </p>
 {% endif %}
 
 {{ content }}
 
-<p align=center><a href="https://GIS4DEV.github.io">Main Page</a></p>
+<p align=center><a href="{{ site.url }}">Main Page</a></p>

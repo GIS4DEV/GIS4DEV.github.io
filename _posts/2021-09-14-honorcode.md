@@ -2,6 +2,7 @@
 layout: lesson
 title: Honor Code
 purpose: establish professional conduct in Open GIScience
+date: 2021-09-14 09:40
 ---
 
 ## General Principles
@@ -41,7 +42,7 @@ purpose: establish professional conduct in Open GIScience
    1. Actively share helpful resources that you used with your classmates
    1. Building a collaborative/shared data clearinghouse
    1. Sharing is caring
-   1. Be willing to share resources (code, explanations of concepts, papers, etc) with the rest of the class
+   1. Be willing to share resources (code, explanations of concepts, papers, etc.) with the rest of the class
 1. Balance honest individual effort with collaboration
    1. Time divisions: time to try on your own (take a reasonable crack at it, but once you hit a wall…) → time to discuss with others/pose questions → time to finalize/ look at others’ code
    1. Friendly competition

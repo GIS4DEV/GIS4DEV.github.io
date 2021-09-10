@@ -2,6 +2,7 @@
 layout: lesson
 title: "Required Data & Services"
 purpose: "register for data and services required for the course"
+date: 2021-09-14 09:45
 ---
 
 ## Free and Secret

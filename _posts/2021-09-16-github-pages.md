@@ -2,7 +2,7 @@
 layout: lesson
 title: GitHub as a Research and Publishing Tool
 purpose: "publish a website with GitHub, Jekyll, and Markdown"
-format: lab
+format: workshop
 date: 2021-09-16 13:30
 ---
 

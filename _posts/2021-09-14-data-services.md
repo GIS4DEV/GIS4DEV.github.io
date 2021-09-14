@@ -66,16 +66,12 @@ Anyone can request access to DHS Program data, but you should not copy the infor
 
 TBD...
 
+- [Hour of CI](https://www.hourofci.org/)
+
 ## CyberGISX
 
-**note**: this has changed to using Google login...
-
 - go to [CyberGISX Login](https://cybergisx.cigi.illinois.edu/hub/login)
-- [Create an account](https://cybergisxhub.cigi.illinois.edu/registration/)
-- Full name: you know who you are
-- Organizational Email: use your `@middlebury.edu` address
-- Organization: Middlebury College
-- Github Username: your GitHub user name
-- Personal Webiste Link: your `.github.io` GitHub pages address
-- Role: student
-- What class: `geog 0323 spring 2021 open source GIScience`
+- Sign in with CyberGISX
+- Log on with CILogon
+- Choose `Google` as the identity provider / organization
+- Login in with your `@middlebury.edu` Google account

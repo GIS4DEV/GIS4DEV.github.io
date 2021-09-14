@@ -20,7 +20,7 @@ While you read these, consider:
 - In what way might something be *open source* but not *free*?
 - As we practice Open GIScience in this class, what are the implications for:
   - Learning
-  - The [Honor Code](https://docs.google.com/document/d/1tVzZVTJc_IE5jIMPG5JadQe0j0R_yYPscNzGtqiq3ak/edit?usp=sharing) (link for Middlebury community only)
+  - The [Honor Code](honorcode)
   - Evaluation & Grades
 - Is there space for Open GIScience in an undergraduate liberal arts education?
 - What risks/benefits do you see for use of open source GIS in:
@@ -46,8 +46,8 @@ We can debate this in the context of this ESRI tool for [managing COVID testing 
 
 - Stodden, V. 2014. What computational scientists need to know about intellectual property law: A primer. In *Implementing Reproducible Research*, eds. V. Stodden, F. Leisch, and R. D. Peng, 325–340. Boca Raton: CRC Press.
 - The Open Source Geospatial Foundation (OSGeo) take on [open source](https://www.osgeo.org/about/what-is-open-source/)
-- The MIT License: https://opensource.org/licenses/MIT
-- Creative Commons Licensing: https://creativecommons.org/licenses/
+- The [MIT License](https://opensource.org/licenses/MIT)
+- [Creative Commons Licensing](https://creativecommons.org/licenses/)
 - GNU's Philosophy of [Free Software](https://www.gnu.org/philosophy/free-sw.en.html) and how [open source misses the point](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - How is OpenStreetMap [having a moment](https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01) concurrently with the [death of an open source business model](https://joemorrison.medium.com/death-of-an-open-source-business-model-62bc227a7e9b)?
 

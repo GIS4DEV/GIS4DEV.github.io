@@ -151,6 +151,7 @@ description: short website description
 - enter the following code in `page.html` to add a Title and Main Page link to all of your pages:
 
 ```
+{% raw %}
 ---
 layout: default
 ---
@@ -159,6 +160,7 @@ layout: default
 {{content}}
 
 <p align=center><a href="https://username.github.io">Main Page</a></p>
+{% endraw %}
 ```
 
 - If you're curious, header information in between `---` lines is YAML, code inside `< >` tags is HTML, and code inside `{{ }}` is liquid tags.
@@ -189,9 +191,9 @@ I intend to write a blog post here before next class!
 - Jeckyll looks to an `assets` folder for images and other content, so lets create one now.
 - add an `assets` folder inside your repository's root directory
 - save an image into the `assets` folder, e.g. one of the [github logos](https://github.com/logos)
-- edit your page to include the image, e.g. ``![GitHub Logo](GitHub-Logo.png)``
+- edit your page to include the image, e.g. ``![GitHub Logo](assets/GitHub-Logo.png)``
 
-![GitHub Logo](GitHub-Logo.png)
+![GitHub Logo](assets/GitHub-Logo.png)
 
 ## Template Customization
 

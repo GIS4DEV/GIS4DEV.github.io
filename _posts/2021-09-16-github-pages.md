@@ -64,13 +64,14 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
 - Try typing in some content as follows:
 
 ```markdown
-
-# Heading
 {%- raw -%}
 ---
 layout: default
 title: Main Page
 ---
+
+# This is my page header
+
 Leave blank lines between paragraphs, tables, lists, etc.
 Start sentences on new lines.
 They will render seamlessly into paragraphs.
@@ -86,7 +87,7 @@ if you want a new line.
 The course website is found [here](https://gis4dev.github.io).
 
 Here is some *italicized* text and some **bold text**.
-{% endraw %} 
+{% endraw %}
 ```
 
 - then commit the changes, giving a very brief commit message and description

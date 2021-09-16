@@ -106,14 +106,14 @@ It will be much easier to edit page content on your local computer using a text 
 first column | second column | third column
 :----------- | :-----------: | -----------:
 left justified | centered | right justified
-new row | new day | the end
+new row |  | left blank cell
 ```
 
 - Save the file
 - Return to GitHub Desktop
 - You should notice that GitHub has detected changes in your repository and automatically `staged` the changes in a list. Clicking on individual files shows a `diff` of the changes with deletions in red and additions in green.
 - Down below, type a commit message, then `commit` the changes to the local repository.
-- To sync with your online GitHub content, `Push` the changes.
+- To sync with your online GitHub content, `push` the changes.
 - Revisit or refresh your website in a browser. It may take up to 10 to 15 minutes for the changes you just made to be reflected online.
 
 ## Keeping work in sync between GitHub.com and local repositories
@@ -163,13 +163,14 @@ layout: default
 {% endraw %}
 ```
 
-- If you're curious, header information in between `---` lines is YAML, code inside `< >` tags is HTML, and code inside `{{ }}` is liquid tags.
+- If you're curious, header information in between `---` lines is YAML, code inside `< >` tags is HTML, and code inside `{%- raw -%}{{ }}{% endraw %}` is liquid tags.
 
 ## Add a second page and link it
 
 - create a new file named `open-giscience.md` in the root folder of your site
   - conventionally, Jekyll files lower case letters and dashes for file names
 - add initial code as follows:
+
 ```
 {%- raw -%}
 ---

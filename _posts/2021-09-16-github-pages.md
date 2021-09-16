@@ -100,7 +100,35 @@ It will be much easier to edit page content on your local computer using a text 
 - In the `Packages` --> `Markdown Preview` menu, I suggest:
   - Disable the break on single new line option
   - Enable the Use GitHub style option
+- Try making some revisions to your page, e.g. by creating a table:
 
+```
+first column | second column | third column
+:----------- | :-----------: | -----------:
+left justified | centered | right justified
+new row | new day | the end
+```
+
+- Save the file
+- Return to GitHub Desktop
+- You should notice that GitHub has detected changes in your repository and automatically `staged` the changes in a list. Clicking on individual files shows a `diff` of the changes with deletions in red and additions in green.
+- Down below, type a commit message, then `commit` the changes to the local repository.
+- To sync with your online GitHub content, `Push` the changes.
+- Revisit or refresh your website in a browser. It may take up to 10 to 15 minutes for the changes you just made to be reflected online.
+
+## Keeping work in sync between GitHub.com and local repositories
+
+To see how GitHub works when you are editing with more than one version of a repository, lets return to github.com
+
+- Edit your index.md file
+- add or revise some of the text in a small, irrelevant way
+- commit the change
+- return to GitHub Desktop
+- `Fetch origin`
+- now your local files should be updated!
+- in Github Desktop, go to the `History` of your Repository
+- right-click your most recent commit and `revert changes`
+- You should see that your most recent changes made on GitHub.com have been undone.
 
 - When writing narrative in Atom, autocomplete can become annoying. Go to File --> Settings --> Packages --> Core Packages --> autocomplete-plus --> disable `show suggestions on keystroke`. You can still get suggestions with keyboard shortcut `Ctrl+Space`
 

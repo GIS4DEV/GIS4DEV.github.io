@@ -184,8 +184,14 @@ I intend to write a blog post here before next class!
 - Try saving all files, committing the changes, and pushing to GitHub to see your site!
 - **reminder** you have the Markdown Preview option in Atom for a first guess at how your pages will appear, but without the additional layouts, liquid tags, and template of your full site.
 
+## Add an assets folder
 
+- Jeckyll looks to an `assets` folder for images and other content, so lets create one now.
+- add an `assets` folder inside your repository's root directory
+- save an image into the `assets` folder, e.g. one of the [github logos](https://github.com/logos)
+- edit your page to include the image, e.g. ``![GitHub Logo](GitHub-Logo.png)``
 
+![GitHub Logo](GitHub-Logo.png)
 
 ## Template Customization
 

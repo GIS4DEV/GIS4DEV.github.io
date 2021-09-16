@@ -8,7 +8,7 @@ date: 2021-09-16 13:30
 
 ## Expectations
 
-- Publish a GitHub pages site
+- Publish a GitHub pages site with a main page and one blog post for next Tuesday
 
 ## Instructions
 
@@ -32,6 +32,10 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
   - GitHub also has its own [Desktop Application](https://desktop.github.com/).
 - RStudio allows you to manage projects with [Git version control](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).
 - Atom integrates [GitHub for Atom](https://github.atom.io/)
+- QGIS code is stored in a GitHub Repository: [https://github.com/qgis/QGIS](https://github.com/qgis/QGIS)
+  - including a forum for [Issues](https://github.com/qgis/QGIS/issues) like bug reports and feature requests.
+  - and [pull requests](https://github.com/qgis/QGIS/pulls) containing proposed revisions to the QGIS source code
+  - Issues and Pull Requests are the principle means by which the open source community contributes to the QGIS projects
 - Software Carpentry has a free workshop, [Version Control with GIT](https://swcarpentry.github.io/git-novice/)
 
 ## GitHub Pages
@@ -45,19 +49,60 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
   - Here's a [list of themes](https://github.com/pages-themes) supported by GitHub without even copying the theme's files to your own repository. Each theme has a repository with additional documentation on how to use and customize the theme.
 - **FYI:** GitHub's servers rebuild your website every time you commit changes to your `.github.io` repository. This usually happens very quickly, but sometimes takes *up to ten minutes*. GitHub Pages makes it very easy to publish websites, but it does take some patience to see your commits reflected in the website. 'F5' is for *refresh*!
 
-## Text Editors
+### Create your own GitHub Page
 
-There is are huge up-side to using a nice text editor:
-- keeps files simple (without adding formatting marks like Word does)
-- format text as code to better see what you're doing and find errors
-- I highly recommend [Atom](https://atom.io/) for the best Markdown editing and GitHub integration
-- Start every sentence or major sentence clause on a new line for clarity in Git version control
-- Line break: two spaces at the end of a line
-- New paragraph: blank line
-- Use the Markdown Preview package to preview rendered markdown with `Ctrl + Shift + M`
+- Log in to [GitHub.com](https://github.com)
+- Go to `+` add menu at the top-right, and `New Repository`
+- set the repository name to `username.github.io` where `username` is your GitHub user name
+- set the description to something like "profile of open GIS work"
+- Choose a license so that other students and researchers may use your work. The `BSD` and `MIT` licenses are normal open source licenses, while the `GNU` license is a copyleft license restricting future use to equally open source and free work.
+- `Create repository`
+- Go to the `Settings` menu and `Pages` and then `Choose a theme`
+- Once you choose a theme, this will create a `_config.yml` file in your repository with a `theme` variable indicating which theme you just selected. This can be changed later without re-coding all of your content!
+- Navigate to your repository and use the `Add file` menu to `create new file` named `index.md` (`md` is for markdown)
+  - by default, websites will load an `index` page if you don't specify a file in the address
+- Try typing in some content as follows:
+
+```markdown
+# Heading
+
+Leave blank lines between paragraphs, tables, lists, etc.
+Start sentences on new lines.
+They will render seamlessly into paragraphs.
+Add two blank spaces at the end of a sentence  
+if you want a new line.
+
+- bullet list first item
+- bullet list second item
+
+1. numbered list first item
+1. numbered list second item
+
+The course website is found [here](https://gis4dev.github.io).
+
+Here is some *italicized* text and some **bold text**.
+```
+
+- then commit the changes, giving a very brief commit message and description
+- try to view your website in a browser with the https://username.github.io address.
+
+## GitHub Desktop
+
+It will be much easier to edit page content on your local computer using a text editor. To set this up, we'll use [GitHub Desktop](https://desktop.github.com/) to clone your repository to the local computer and [Atom](https://atom.io/) to edit content. Please install both programs.
+
+- In GitHub Desktop, please go to File --> Options and add your account information.
+- Then go to File --> Clone repository to download your repository to the local computer.
+  - pay attention to the folder to which you are cloning...
+  - Students in geog323 can also clone the `GIS4DEV/literature` repository
+- Once the repository is cloned, open Atom and `add project folder`, choosing your cloned Repository
+- Open up `index.md`
+- Go to `Packages` --> `Markdown Preview` or `Ctrl + Shift + M` to see your markdown stylized.
+- In the `Packages` --> `Markdown Preview` menu, I suggest:
   - Disable the break on single new line option
   - Enable the Use GitHub style option
-- When writing narrative, autocomplete can become annoying. Go to File --> Settings --> Packages --> Core Packages --> autocomplete-plus --> disable `show suggestions on keystroke`. You can still get suggestions with keyboard shortcut `Ctrl+Space`
+
+
+- When writing narrative in Atom, autocomplete can become annoying. Go to File --> Settings --> Packages --> Core Packages --> autocomplete-plus --> disable `show suggestions on keystroke`. You can still get suggestions with keyboard shortcut `Ctrl+Space`
 
 ## Template Customization
 

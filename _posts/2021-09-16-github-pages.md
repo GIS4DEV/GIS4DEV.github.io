@@ -171,12 +171,14 @@ layout: default
   - conventionally, Jekyll files lower case letters and dashes for file names
 - add initial code as follows:
 ```
+{%- raw -%}
 ---
 layout: page
 title: Open GIScience
 ---
 
 I intend to write a blog post here before next class!
+{%- endraw -%}
 ```
 
 - Save the file.
@@ -191,7 +193,7 @@ I intend to write a blog post here before next class!
 - Jeckyll looks to an `assets` folder for images and other content, so lets create one now.
 - add an `assets` folder inside your repository's root directory
 - save an image into the `assets` folder, e.g. one of the [github logos](https://github.com/logos)
-- edit your page to include the image, e.g. ``![GitHub Logo](assets/GitHub-Logo.png)``
+- edit your page to include the image, e.g. `![GitHub Logo](assets/GitHub-Logo.png)`
 
 ![GitHub Logo](assets/GitHub-Logo.png)
 

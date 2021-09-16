@@ -128,9 +128,64 @@ To see how GitHub works when you are editing with more than one version of a rep
 - now your local files should be updated!
 - in Github Desktop, go to the `History` of your Repository
 - right-click your most recent commit and `revert changes`
-- You should see that your most recent changes made on GitHub.com have been undone.
+- You should see that your most recent changes made on GitHub.com have been undone. This may require reloading the markdown document in Atom.
+- **caution** if files are open in Atom, do not delete or rename them outside of Atom.
+- **reminder** always `fetch` changes from GitHub.com before you start working locally, especially if you use multiple computers.
+- **reminder** always remember to `commit` and `push` changes when you are finished working locally
 
 - When writing narrative in Atom, autocomplete can become annoying. Go to File --> Settings --> Packages --> Core Packages --> autocomplete-plus --> disable `show suggestions on keystroke`. You can still get suggestions with keyboard shortcut `Ctrl+Space`
+
+## Add basic customization and navigation to your site
+
+- open `_config.yml` in atom
+- add additional parameters:
+
+```
+theme: minimal
+title: website title
+description: short website description
+```
+
+- create a folder named `_layouts`
+- create new file named `page.html` to serve as a page _layout
+- enter the following code in `page.html` to add a Title and Main Page link to all of your pages:
+
+```
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{{content}}
+
+<p align=center><a href="https://username.github.io">Main Page</a></p>
+```
+
+- If you're curious, header information in between `---` lines is YAML, code inside `< >` tags is HTML, and code inside `{{ }}` is liquid tags.
+
+## Add a second page and link it
+
+- create a new file named `open-giscience.md` in the root folder of your site
+  - conventionally, Jekyll files lower case letters and dashes for file names
+- add initial code as follows:
+```
+---
+layout: page
+title: Open GIScience
+---
+
+I intend to write a blog post here before next class!
+```
+
+- Save the file.
+- Open your `index.md` file.
+- Add a link to your new page with this code: `(Open GIScience)[open-giscience]`
+- You might want to start numbered or bulleted lists as indices for your pages.
+- Try saving all files, committing the changes, and pushing to GitHub to see your site!
+- **reminder** you have the Markdown Preview option in Atom for a first guess at how your pages will appear, but without the additional layouts, liquid tags, and template of your full site.
+
+
+
 
 ## Template Customization
 

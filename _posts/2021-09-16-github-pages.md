@@ -195,11 +195,8 @@ I intend to write a blog post here before next class!
 
 - Open your `index.md` file.
 - Add a link to your new page with this code: `(Open GIScience)[open-giscience]`
-- You might want to start numbered or bulleted lists as indices for your pages.
-
-
-
-- Try saving all files, committing the changes, and pushing to GitHub to see your site!
+- You might want to start an index for your pages as bulleted or numbered lists, or as a table.
+- Try **saving** all files, **committing** the changes, and **pushing** to GitHub to see your site!
 - **reminder** you have the Markdown Preview option in Atom for a first guess at how your pages will appear, but without the additional layouts, liquid tags, and template of your full site.
 
 ## Add an assets folder

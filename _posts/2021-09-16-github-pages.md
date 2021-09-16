@@ -151,7 +151,7 @@ description: short website description
 - enter the following code in `page.html` to add a Title and Main Page link to all of your pages:
 
 ```
-{% raw %}
+{%- raw -%}
 ---
 layout: default
 ---
@@ -160,7 +160,7 @@ layout: default
 {{content}}
 
 <p align=center><a href="https://username.github.io">Main Page</a></p>
-{% endraw %}
+{%- endraw -%}
 ```
 
 - If you're curious, header information in between `---` lines is YAML, code inside `< >` tags is HTML, and code inside `{{ }}` is liquid tags.

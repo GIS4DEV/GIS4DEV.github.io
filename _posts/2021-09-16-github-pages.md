@@ -26,7 +26,7 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
 
 - [Git](https://git-scm.com/) is open-source software code for using version control for digital repositories and facilitating collaboration.
 - [Git](https://git-scm.com/) can be run from a command line shell or from a simple GUI (graphical user interface), or from a third-party program.
-- [GitHub](https://github.com) is one of many proprietary companies offering services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
+- [GitHub](https://github.com) is one of many companies offering services implementing Git, making it more convenient to use and providing web servers for backing up and sharing repositories.
   - [GitHub](https://github.com) is a popular platform for hosting open-source software projects, including [QGIS](https://github.com/qgis/QGIS).
   - The [GitHub](https://github.com) web application provides many of Git's editing and version control features without downloading any software.
   - GitHub also has its own [Desktop Application](https://desktop.github.com/).
@@ -109,7 +109,7 @@ It will be much easier to edit page content on your local computer using a text 
   - Enable the Use GitHub style option
 - Try making some revisions to your page, e.g. by creating a table:
 
-```
+```markdown
 first column | second column | third column
 :----------- | :-----------: | -----------:
 left justified | centered | right justified
@@ -147,7 +147,7 @@ To see how GitHub works when you are editing with more than one version of a rep
 - open `_config.yml` in atom
 - add additional parameters:
 
-```
+```YAML
 theme: minimal
 title: website title
 description: short website description
@@ -157,7 +157,7 @@ description: short website description
 - create new file named `page.html` to serve as a page _layout
 - enter the following code in `page.html` to add a Title and Main Page link to all of your pages:
 
-```
+```markdown
 {%- raw -%}
 ---
 layout: default
@@ -178,7 +178,7 @@ layout: default
   - conventionally, Jekyll files lower case letters and dashes for file names
 - add initial code as follows:
 
-```
+```markdown
 {%- raw -%}
 ---
 layout: page

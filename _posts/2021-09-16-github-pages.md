@@ -195,7 +195,7 @@ I intend to write a blog post here before next class!
 - save an image into the `assets` folder, e.g. one of the [github logos](https://github.com/logos)
 - edit your page to include the image, e.g. `![GitHub Logo](assets/GitHub-Logo.png)`
 
-![GitHub Logo](assets/GitHub-Logo.png)
+![GitHub Logo?](assets/GitHub-Logo.png)
 
 ## Template Customization
 

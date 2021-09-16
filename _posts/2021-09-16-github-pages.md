@@ -64,8 +64,13 @@ Lost documents? Nightmares from merging sloppy revisions from your team? Group m
 - Try typing in some content as follows:
 
 ```markdown
-# Heading
 
+# Heading
+{%- raw -%}
+---
+layout: default
+title: Main Page
+---
 Leave blank lines between paragraphs, tables, lists, etc.
 Start sentences on new lines.
 They will render seamlessly into paragraphs.
@@ -81,6 +86,7 @@ if you want a new line.
 The course website is found [here](https://gis4dev.github.io).
 
 Here is some *italicized* text and some **bold text**.
+{% endraw %} 
 ```
 
 - then commit the changes, giving a very brief commit message and description
@@ -163,7 +169,7 @@ layout: default
 {% endraw %}
 ```
 
-- If you're curious, header information in between `---` lines is YAML, code inside `< >` tags is HTML, and code inside `{%- raw -%}{{ }}{% endraw %}` is liquid tags.
+- If you're curious, header information in between `---` lines is [YAML Front Matter](https://jekyllrb.com/docs/front-matter/), code inside `< >` tags is [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), and code inside `{%- raw -%}{{ }}{% endraw %}` is [liquid](https://jekyllrb.com/docs/liquid/).
 
 ## Add a second page and link it
 
@@ -183,9 +189,15 @@ I intend to write a blog post here before next class!
 ```
 
 - Save the file.
+
+## Add link to your new page
+
 - Open your `index.md` file.
 - Add a link to your new page with this code: `(Open GIScience)[open-giscience]`
 - You might want to start numbered or bulleted lists as indices for your pages.
+
+
+
 - Try saving all files, committing the changes, and pushing to GitHub to see your site!
 - **reminder** you have the Markdown Preview option in Atom for a first guess at how your pages will appear, but without the additional layouts, liquid tags, and template of your full site.
 

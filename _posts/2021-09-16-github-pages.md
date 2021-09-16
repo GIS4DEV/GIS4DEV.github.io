@@ -160,7 +160,7 @@ layout: default
 {{content}}
 
 <p align=center><a href="https://username.github.io">Main Page</a></p>
-{%- endraw -%}
+{% endraw %}
 ```
 
 - If you're curious, header information in between `---` lines is YAML, code inside `< >` tags is HTML, and code inside `{{ }}` is liquid tags.
@@ -178,7 +178,7 @@ title: Open GIScience
 ---
 
 I intend to write a blog post here before next class!
-{%- endraw -%}
+{% endraw %}
 ```
 
 - Save the file.

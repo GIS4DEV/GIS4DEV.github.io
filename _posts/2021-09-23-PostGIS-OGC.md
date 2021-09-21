@@ -8,9 +8,9 @@ date: 2021-09-23 09:30
 
 ## Digital Media
 
-- Podcast: Mapscaping Episode 77 [Spatial SQL - GIS without the GIS](https://mapscaping.com/blogs/the-mapscaping-podcast/spatial-sql-gis-without-the-gis)
-- Blog: [Why you should care about PostGIS](https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b)
-- YouTube: [PostGIS Introduction](https://youtu.be/g4DgAVCmiDE) (skip Q&A and 3D / 4D parts)
+- Please listen to this podcast: Mapscaping Episode 77 [Spatial SQL - GIS without the GIS](https://mapscaping.com/blogs/the-mapscaping-podcast/spatial-sql-gis-without-the-gis)
+- Optional Blog: [Why you should care about PostGIS](https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b)
+- Optional YouTube Presentation: [PostGIS Introduction](https://youtu.be/g4DgAVCmiDE) (skip Q&A and 3D / 4D parts)
 
 ## Software
 

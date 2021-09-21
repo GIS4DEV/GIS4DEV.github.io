@@ -15,7 +15,7 @@ Meeting | Lesson
 
 ## Members of Fall 2021
 
-tbd...
+[emilyzhou112](https://emilyzhou112.github.io/) ~ [emwaugh](https://emwaugh.github.io/) ~ [Liam-W-Smith](https://Liam-W-Smith.github.io/) ~ [stonecastin](https://stonecastin.github.io)
 
 ## Members of Spring 2021
 

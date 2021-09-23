@@ -62,6 +62,11 @@ While answering the question, we'll learn how to check and manage:
   - Import the flood layer with the table name `flood` and use the options to *convert field names to lowercase* and *create spatial index*
   - View table metadata and create spatial indices
   - Repeat the import procedure for the administrative layer, calling the new table `wards`
-- See how OSM data is imported into PostGIS and get some tips for querying OSM data on the webmap, copying tables out of your database, and building spatial queries with the continuation of our [PostGIS Video Playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=beda027d-3b8e-4700-9ae7-acf4012bdc0e) (Middlebury College only)
 - Learn some [more SQL for OSM](/assets/osm_sql.sql) to investigate the social context of OpenStreetMap data and to identify college bars.
 - Miscellaneous notes: [more.sql](/assets/more.sql)
+
+## For next class
+
+- Complete the `dsm_sql` and `osm_sql` queries
+- Write hard copy or digital notes and questions about how SQL works in relation to what you know from QGIS.
+- Complete a new blog post, which may respond to [discussion questions for next class](2021-09-28-r-and-r)

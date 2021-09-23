@@ -47,6 +47,21 @@ While answering the question, we'll learn how to check and manage:
 
 - [SQL Code with Instructions in Comments](/assets/dsm_sql.sql) : open this in Notepad++ or Atom
 - [Panopto Videos](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=beda027d-3b8e-4700-9ae7-acf4012bdc0e) : Available to Middlebury community only. The last video is optional background on how to download OpenStreetMap data and push it into a PostGIS database.
+  - Open QGIS -> Browser Panel -> PostGIS -> New Connection
+  - Name: up to you; Host: `artemis`; port: `5432`; database: `dsm`; User name and password
+  - Browse database contents in Browser Panel and DB Manager Plugin
+  - Query tab: `ALTER USER name PASSWORD 'new_password'`
+  - Reconnect after changing the password
+  - Refresh Database
+  - Resilience Academy at [geonode.resilienceacademy.ac.tz/](https://geonode.resilienceacademy.ac.tz/)
+  - View metadata detail for any vector layer and copy the `OGC WFS geonode service` address
+  - In QGIS, add a WFS connection using the address you just copied
+  - Add `Administrative Wards` and `Flood Scenario 25-200cm` to the QGIS project
+  - FYI, [GeoNode](https://geonode.org/) is an open source geospatial catalog server
+  - In DB Manager, navigate to your personal schema and Import Layer / File
+  - Import the flood layer with the table name `flood` and use the options to *convert field names to lowercase* and *create spatial index*
+  - View table metadata and create spatial indices
+  - Repeat the import procedure for the administrative layer, calling the new table `wards`
 - See how OSM data is imported into PostGIS and get some tips for querying OSM data on the webmap, copying tables out of your database, and building spatial queries with the continuation of our [PostGIS Video Playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=beda027d-3b8e-4700-9ae7-acf4012bdc0e) (Middlebury College only)
-- Learn some [more SQL](/assets/osm_sql.sql) to investigate the social context of OpenStreetMap data and to identify college bars.
-- [more.sql](/assets/more.sql)
+- Learn some [more SQL for OSM](/assets/osm_sql.sql) to investigate the social context of OpenStreetMap data and to identify college bars.
+- Miscellaneous notes: [more.sql](/assets/more.sql)

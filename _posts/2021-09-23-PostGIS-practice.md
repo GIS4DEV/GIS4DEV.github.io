@@ -69,4 +69,4 @@ While answering the question, we'll learn how to check and manage:
 
 - Complete the `dsm_sql` and `osm_sql` queries
 - Write hard copy or digital notes and questions about how SQL works in relation to what you know from QGIS.
-- Complete a new blog post, which may respond to [discussion questions for next class](/2021-09-28-r-and-r)
+- Complete a new blog post, which may respond to [discussion questions for next class](2021-09-28-r-and-r)

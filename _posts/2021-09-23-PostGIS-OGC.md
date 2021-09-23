@@ -23,18 +23,27 @@ date: 2021-09-23 09:30
 
 ## Resources
 
-- Reference and tutorial for non-spatial PostgreSQL: [PostgreSQL Tutorial](http://www.postgresqltutorial.com/)
+- Reference and tutorial for non-spatial PostgreSQL: [Documentation](https://www.postgresql.org/docs/), [Tutorial](http://www.postgresqltutorial.com/), and [cheat sheet](https://www.postgresqltutorial.com/postgresql-cheat-sheet/)
 - PostGIS [reference](https://postgis.net/docs/reference.html), [cheat sheet](https://www.postgis.us/downloads/postgis20_cheatsheet.html), and [Introduction Tutorial](https://postgis.net/workshops/postgis-intro/)
 - CrunchyData Interactive PostgreSQL and PostGIS [Learning Portal](https://learn.crunchydata.com/postgis)
-- Paul Ramsey created PostGIS, and he has a **lot** of [opinions about it](http://blog.cleverelephant.ca/). I'm ok with that, because it looks like he's currently [revamping GEOS](http://blog.cleverelephant.ca/2020/12/waiting-postgis-31-3.html) which runs basically all vector overlay analysis in most any open source GIS software you can find. The implications are huge, because the revision he is describing would fix most of the geometry error problems that arise using overlay tools.
+- Paul Ramsey created PostGIS, and he has a **lot** of [opinions about it](http://blog.cleverelephant.ca/). I'm ok with that, because it looks like he has been [revamping GEOS](http://blog.cleverelephant.ca/2020/12/waiting-postgis-31-3.html) which runs basically all vector overlay analysis in most any open source GIS software you can find. The implications are huge, because the revision he is describing would fix most of the geometry error problems that arise using overlay tools.
 
+## Standards and libraries
+
+- The Open Geospatial Consortium (OGC) created [simple features standards](https://www.ogc.org/standards/sfa)
+- Geometry Engine Open Source (GEOS) is an [open source code library](https://trac.osgeo.org/geos) in C++ for implementing the OGC simple feature standards
+- Who uses GEOS?
+  - [PostGIS](https://postgis.net/) does!
+  - [Shapely](https://pypi.org/project/Shapely/) does, which is in turn used by [GeoPandas](https://geopandas.org/) for spatial data science in Python.
+  - [Simple Features for R](https://r-spatial.github.io/sf/) does, which is the basis of spatial analysis in R.
+  - [QGIS](https://qgis.org/) does!
 
 ## Example of Relational Database Application
 
 - Example of a large public relational database, property in Harris County, Texas [parcel viewer](https://arcweb.hcad.org/parcelviewer/)
 - Behind the scenes, each property's attributes are drawn from [multiple tables](http://pdata.hcad.org/download/index.html), where each .txt file is a single table
 
-### Characteristics & Benefits of Relational Databases
+## Characteristics & Benefits of Relational Databases
 
 - Each table must have a primary key to uniquely identify every row. This may be a single field/column or a combination of them.
 - Foreign keys help connect tables through joins.
@@ -49,7 +58,9 @@ date: 2021-09-23 09:30
 - With the right libraries, you can even connect to PostgreSQL databases with R / RStudio as the client!
 - Finally, relational databases support indexing both attributes and geometries, vastly improving the efficiency of analyzing big data.
 
-So how can you connect, e.g. information about the number of apartments on a parcel of land, when each building may have multiple apartments and each parcel may have multiple buildings?
+## Example analysis
+
+So how can you connect, e.g. information about the number of apartments on a parcel of land, when each building may have multiple apartments and each parcel may have multiple buildings? Try drawing a familiar workflow for QGIS, and then talk through translating that workflow into SQL.
 
 - Buildings must be uniquely identified with a primary key using both the parcel number and a unique building number.
 - Select only the apartment information from building fixtures.

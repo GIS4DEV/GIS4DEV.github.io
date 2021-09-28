@@ -12,6 +12,7 @@ date: 2021-09-30 09:30
 - Learn about the data collected by *Ramani Huria* for Dar es Salaam and the Resilience Academy using the resources below.
 - Take a look at the [OSM2PGSQL](https://osm2pgsql.org/) program to understand how it translates OpenStreetMap data into PostGIS.
 - Brainstorm interesting spatial questions related to safety and resilience using this data!
+- Take notes in the margins of the SQL queries you have used before whenever a query helps implement an algorithm or tool you remember from GIS.
 
 ## Develop a Spatial Urban Resilience Question and Investigate Data Sources
 

@@ -18,6 +18,14 @@ select fid, st_transform(geom, 32737)::geometry(multipolygon,32737) as geom, war
 from wards
 
 /* UNION overlay of wards with flood zones */
+/* this is excrutiatingly slow because of the complexity of Flood zones.
+   a wiser strategy would use st_subdivide to simplify the Flood zones */
+
+create table flood_divide as
+select st_subdivide(geom, 20)::geometry(polygon, 32737) as geom, flood_leve
+from flood
+
+
 SELECT wardsutm.ward_name, flood.flood_leve, ST_INTERSECTION(wardsutm.geom, flood.geom) as geom
 FROM wardsutm INNER JOIN flood ON ST_INTERSECTS(wardsutm.geom, flood.geom)
 

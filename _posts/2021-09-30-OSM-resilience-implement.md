@@ -39,3 +39,7 @@ The question prompt for this analysis is posted on the previous page. Expectatio
 - Almost everything involving two tables/layers is best accomplished with a `join`, including attribute joins, spatial joins, select by location, overlay analysis and distance analysis.
 - OpenStreetMap can be surprising because the data is volunteered: different volunteers might use different tags, tag values, and geometries (points or polygons). Super-users *tend* to edit these things for consistency.
 - The volunteer effort for digitizing and maintaining data on OpenStreetMap is not constant over space or time. Run some queries to test the spatial-temporal completeness of the data you are interested in, and consider limiting the extent of your analysis to a region in which the data seems reliable.
+
+## Nearest Neighbor Searching and UNION overlay in postgis
+
+- [nearest.sql](/assets/nearest.sql)

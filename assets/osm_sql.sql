@@ -140,8 +140,8 @@ SELECT (st_dump(geom)).geom::geometry(polygon,32737)
 FROM unibufferdissolve;
 /* ST_Dump seperates all the parts of a geometry into separate features.
 It's documented here: https://postgis.net/docs/ST_Dump.html
-I'm using this following the documentation, and do not know exactly why there is
-an extra set of parenthesis around st_dump folled by ".geom" which is like using
+I'm using this following the documentation, which shows
+an extra set of parenthesis around st_dump followed by ".geom" which is like using
 AS to rename the output. I presume this is because st_dump() returns a set of
 rows, rather than just one. */
 

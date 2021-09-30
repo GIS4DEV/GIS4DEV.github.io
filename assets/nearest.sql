@@ -6,7 +6,7 @@ FROM planet_osm_point;
 
 /* find the closest university to each POI */
 SELECT osm.*, uniname, st_distance(a.unigeom, osm.geom) AS dist
-FROM osm_points osm CROSS JOIN lateral (
+FROM osm_points AS osm CROSS JOIN lateral (
 	SELECT unipoint.name AS uniname, unipoint.geom AS unigeom
 	FROM unipoint
 	ORDER BY unipoint.geom <-> osm.geom
@@ -21,6 +21,7 @@ from wards
 /* this is excrutiatingly slow because of the complexity of Flood zones.
    a wiser strategy would use st_subdivide to simplify the Flood zones */
 
+/* subdivide the flood layer to get much smaller polygons */
 create table flood_divide as
 select st_subdivide(geom, 20)::geometry(polygon, 32737) as geom, flood_leve
 from flood

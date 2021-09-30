@@ -10,7 +10,7 @@ date: 2021-09-30 13:30
 
 The question prompt for this analysis is posted on the previous page. Expectations for the analysis are:
 
-- Work independently or in pairs, but publish the final results to both students' GitHub pages.
+- While each person should solve their own problem, you are *strongly encouraged* to share code, advice, and support.
 - Publish final result in the form of an interactive Leaflet map.
 - If working in pairs, complement the Leaflet map with a static map designed for a static web view or and/for printing.
 - Layers with large numbers of features will have difficulty displaying in a Leaflet map, so you might want to focus on displaying results aggregated by Ward or Subward, and for illustrative purposes select underlying features for particularly interesting wards for display.
@@ -22,7 +22,7 @@ The question prompt for this analysis is posted on the previous page. Expectatio
 
 ## Wisdom for Spatial SQL and OSM
 
-- Several manuals and tutorial resources were referenced on the first day of SQL
+- Several manuals and tutorial resources were referenced on the [first day of SQL](/2021/09/23/PostGIS-OGC)
 - Use lowercase table names and column names and avoid using SQL keywords or function names for table names and column names
 - Refresh the schema every time you: `ALTER TABLE`, `DROP TABLE`, `CREATE TABLE`, or `addgeometrycolumn()`
 - Remember to alias the results of any function or calculation to a good field name with `AS` or the shorthand `.`

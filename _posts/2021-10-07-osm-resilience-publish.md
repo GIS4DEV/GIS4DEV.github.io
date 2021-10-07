@@ -45,13 +45,13 @@ The published lab is due on **Tuesday, October 12**
 - Include an image of your results early on, to keep your readers' interest!
 - If you have drawn a neat version of a workflow, you may include an image of it to help illustrate your methods.
 - Copy code blocks of SQL into to your report for each part of the analysis. Start blocks with three backticks and sql for the language:
-```md
-{% raw %}
+
+~~~md
 ```sql
 SELECT sql code here;
 ```
-{% endraw %}
-```
+~~~
+
 - You should not need code comments, because your description of the methods should explain enough.
 
 - The lab report should include the following sections:

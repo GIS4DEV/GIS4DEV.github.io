@@ -20,3 +20,8 @@ date: 2021-10-07 09:30
 2. Millman, K. J., and F. Perez. 2014. Developing Open-Source Scientific Practice. In Implementing Reproducible Research, eds. V. Stodden, F. Leisch, and R. D. Peng, 149–183. Boca Raton: CRC Press.
 3. Nüst, D., C. Boettiger, and B. Marwick. 2018. How to Read a Research Compendium. arXiv:[1806.09525](http://arxiv.org/abs/1806.09525).
 4. Wilson, J. P., K. Butler, S. Gao, Y. Hu, W. Li, and D. J. Wright. 2021. A Five-Star Guide for Achieving Replicability and Reproducibility When Working with GIS Software and Algorithms. *Annals of the American Association of Geographers* 111 (5):1311–1317. DOI:[10.1080/24694452.2020.1806026](https://doi.org/10.1080/24694452.2020.1806026).
+
+## Resources
+
+1. Nüst and others are developing infrastructure for containerized executable compendia at [o2r.info/](https://o2r.info/)
+1. Docker containers allow researchers to reproduce and share their research processing environments as docker containers. [www.docker.com/](https://www.docker.com/)

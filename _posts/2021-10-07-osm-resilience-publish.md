@@ -14,8 +14,10 @@ The published lab is due on **Tuesday, October 12**
 
 ## Suggested workflow for research compendium
 
-- Clone the template repository to your local computer from [https://github.com/HEGSRR/HEGSRR-Template](https://github.com/HEGSRR/HEGSRR-Template)
-  - in GitHub desktop, Add -> Clone, use the `URL`, and change the name of the local path to end with a good repository name for this project, e.g. `dsm-resilience`
+- Go to the template repository [https://github.com/HEGSRR/HEGSRR-Template](https://github.com/HEGSRR/HEGSRR-Template)
+  - Use the green `Use this template` button
+  - Create a copy of the template in your own GitHub account using a good repository name for this project, e.g. `dsm-resilience`
+  - Clone your new template to your local computer
 - Save any resilience academy data you are using to the `data\raw\public` folder.
   - GeoJSON is a good file format for GitHub, since it is saved as plain text and is just one file.
   - If the data is `>100mb`, save it to `data\raw\private`

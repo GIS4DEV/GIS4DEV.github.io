@@ -15,7 +15,7 @@ The published lab is due on **Tuesday, October 12**
 ## Suggested workflow for research compendium
 
 - Go to the template repository [https://github.com/HEGSRR/HEGSRR-Template](https://github.com/HEGSRR/HEGSRR-Template)
-  - Use the green `Use this template` button
+  - Use the green `Use this template` button to [create a new repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
   - Create a copy of the template in your own GitHub account using a good repository name for this project, e.g. `dsm-resilience`
   - Clone your new template to your local computer
 - Save any resilience academy data you are using to the `data\raw\public` folder.

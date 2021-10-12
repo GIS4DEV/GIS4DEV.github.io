@@ -62,6 +62,13 @@ SELECT sql code here;
 - You should not need code comments, because your description of the methods should explain enough.
 - Finally, link to your post from the main page!
 
+## Including raw OpenStreetMap data
+
+- The OpenStreetMap data for this lab was downloaded on 2021-03-23 by Joseph Holler
+- It is available for the public to download from https://geography.middlebury.edu/jholler/data/dsmosm.osm
+- Using Windows, it was imported into a PostGIS database using one command line code, saved in the [dsm_import.bat](assets/dsm_import.bat) batch script for Windows
+- This batch script uses the [dsm.style](assets/dsm.style) style file for the [OSM2PGSQL](https://osm2pgsql.org/) program, which must be installed separately 
+
 ## References
 
 - [Leaflet](https://leafletjs.com/)

@@ -42,3 +42,8 @@ Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Sha
 ## Spatial data science with python on your own
 
 What if you want to use Python and Jupyter notebooks to practice spatial data science on your local computer, without access to servers like Hour of CI and CyberGISX? You can install [Anaconda](https://www.anaconda.com/) and create a local conda environment including Jupyter notebooks and packages for spatial data science. The `pandas` package provides the database functions you learned to love in `SQL` while the `geopandas` package provides the spatial functions, analogous to `PostGIS`.
+
+## Cheat Sheets
+
+- [Pandas](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+- [DataCamp Cheat Sheets](https://www.datacamp.com/community/data-science-cheatsheets)

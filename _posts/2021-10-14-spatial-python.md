@@ -21,13 +21,13 @@ Over the next few weeks, we will:
 - Then we [fixed some bugs](https://github.com/cybergis/COVID-19AccessibilityNotebook/pull/1) and reproduced the study in Spring 2021.
 - Finally, Derrick Burt made [significant improvements](https://github.com/HEGSRR/RPr-Kang-2020) for accuracy, reproducibility, and computational efficiency during Summer 2021.
 
-## Enhanced Two Step Floating Catchment
+## Enhanced Two Step Floating Catchment Area
 
-- Two step floating catchment (2SFC) approximates the gravity model
+- Two step floating catchment (2SFCA) approximates the gravity model
   - developed for modeling access to primary care physicians
   - for each service area, calculate the ratio of services (physicians) to population
   - for each location, sum the service:population ratios
-- Enhanced two step floating catchment (E2SFC)
+- Enhanced two step floating catchment (E2SFCA)
   - rather than using a single service area for each point of service, calculate three different service areas
   - multiply each service area "ring" by a weight, starting with 1 for the closest, and decreasing for the two further areas
 

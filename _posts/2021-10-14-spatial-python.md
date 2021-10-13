@@ -21,6 +21,16 @@ Over the next few weeks, we will:
 - Then we [fixed some bugs](https://github.com/cybergis/COVID-19AccessibilityNotebook/pull/1) and reproduced the study in Spring 2021.
 - Finally, Derrick Burt made [significant improvements](https://github.com/HEGSRR/RPr-Kang-2020) for accuracy, reproducibility, and computational efficiency during Summer 2021.
 
+## Enhanced Two Step Floating Catchment
+
+- Two step floating catchment (2SFC) approximates the gravity model
+  - developed for modeling access to primary care physicians
+  - for each service area, calculate the ratio of services (physicians) to population
+  - for each location, sum the service:population ratios
+- Enhanced two step floating catchment (E2SFC)
+  - rather than using a single service area for each point of service, calculate three different service areas
+  - multiply each service area "ring" by a weight, starting with 1 for the closest, and decreasing for the two further areas
+
 ## Technology Context
 
 - [CyberGISX](https://cybergisx.cigi.illinois.edu) is a geospatial cyberinfrastructure project at the [CyberGIS Center for Advanced Digital and Spatial Studies](https://cybergis.illinois.edu/) at the University of Illinois at Urbana-Champaign, funded by the National Science Foundation and directed by Dr. Shaowen Wang. It is set up to run [Juypter notebooks](https://jupyter.org/) using [Python](https://www.python.org/) with a suite of pre-installed packages for data science and spatial analysis.

@@ -14,12 +14,6 @@ Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Sha
 
 To the best of your ability, draw or outline a workflow for this analysis. You may work in partners or small groups on this task.
 
-- The paper describes the analysis and cyberinfrastructure behind the spatial access component of this [Where COVID-19 dashboard for Illinois](https://wherecovid19.cigi.illinois.edu/spatialAccess.html)
-- Derrick Burt and Kufre Udoh completed a [reproduction and replication](https://cybergisxhub.cigi.illinois.edu/blog/middlebury-college-students-reproduce-and-replicate-covid-19-health-care-resource-accessibility-study/) of the study
-- Since that time, the authors have continued to update the code in the [Jupyter notebook for the study](https://cybergisxhub.cigi.illinois.edu/notebook/rapidly-measuring-spatial-accessibility-of-covid-19-healthcare-resources-a-case-study-of-illinois-usa/) on CyberGISX
-- [CyberGISX](https://cybergisx.cigi.illinois.edu) is a geospatial cyberinfrastructure project at the [CyberGIS Center for Advanced Digital and Spatial Studies](https://cybergis.illinois.edu/) at the University of Illinois at Urbana-Champaign, funded by the National Science Foundation and directed by Dr. Shaowen Wang. It is set up to run [Juypter notebooks](https://jupyter.org/) using [Python](https://www.python.org/) with a suite of pre-installed packages for data science and spatial analysis.
-- CyberGISX is a prime example of [geospatial cyberinfrastructure](https://gistbok.ucgis.org/bok-topics/cyberinfrastructure)
-
 ## API: Application Program Interface
 
 This analysis makes use of multiple APIs, including access to data from the Census and from OpenStreetMap.

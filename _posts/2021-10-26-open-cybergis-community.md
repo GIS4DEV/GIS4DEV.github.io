@@ -9,9 +9,9 @@ format: lecture
 
 1. Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI:[10.22224/gistbok/2019.2.4](https://doi.org/10.22224/gistbok/2019.2.4).
 
-## Webinar
+## Lecture and Notes
 
-1. To be posted: lecture on CyberGISX and Reproducibility
+1. Webinar to be posted: lecture on CyberGISX and Reproducibility
 
 ## Reflecting
 

@@ -41,13 +41,11 @@ Over the next few weeks, we will:
 - Much of GeoPandas is based on [Shapely](https://shapely.readthedocs.io) geometry types and functions
 - [PySAL](https://pysal.org/) implements advanced spatial analysis and statistics, building off of the GeoPandas package
 
-## Activity
-
-- [Jupyter Notebooks Quick Start](https://cybergisxhub.cigi.illinois.edu/notebook/jupyter-notebooks-quick-start-2/)
-
-## Reference
+## References
 
 Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. *International Journal of Health Geographics* 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://doi.org/10.1186/s12942-020-00229-x).
+
+Luo, W., and Y. Qi. 2009. An enhanced two-step floating catchment area (E2SFCA) method for measuring spatial accessibility to primary care physicians. Health and Place 15 (4):1100–1107. DOI:[10.1016/j.healthplace.2009.06.002](https://doi.org/10.1016/j.healthplace.2009.06.002).
 
 ## Spatial data science with python on your own
 

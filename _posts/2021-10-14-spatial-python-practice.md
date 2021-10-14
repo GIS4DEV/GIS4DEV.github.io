@@ -8,6 +8,10 @@ date: 2021-10-14 13:30
 
 ## Introductory Spatial Python CyberGISX Tutorials
 
+- From [CyberGISX Hub](cybergisxhub.cigi.illinois.edu/), you can log in to CyberGISX and browse [COVID-19](https://cybergisxhub.cigi.illinois.edu/wherecovid-19) and [Community](https://cybergisxhub.cigi.illinois.edu/notebooks) Notebooks
+- We can gain a solid introduction to spatial analysis in Python with Jupyter notebooks through a series of tutorial notebooks developed by Rebecca Vandewalle.
+- Each notebook has an Open with CyberGISX button, which will copy the notebook contents from its GitHub repository into your personal CyberGISX account and launch the notebook.
+- Let's try four introductory notebooks, in this sequence:
 - [Jupyter Notebooks Quick Start](https://cybergisxhub.cigi.illinois.edu/notebook/jupyter-notebooks-quick-start-2/)
 - [Introduction to Python Programming](https://cybergisxhub.cigi.illinois.edu/notebook/introduction-to-python-programming/)
 - [Python Geovisualization](https://cybergisxhub.cigi.illinois.edu/notebook/python-geovisualization/)

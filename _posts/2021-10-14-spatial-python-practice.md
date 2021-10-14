@@ -14,8 +14,10 @@ date: 2021-10-14 13:30
 - Let's try three introductory notebooks, in this sequence:
 - [Jupyter Notebooks Quick Start](https://cybergisxhub.cigi.illinois.edu/notebook/jupyter-notebooks-quick-start-2/)
 - [Introduction to Python Programming](https://cybergisxhub.cigi.illinois.edu/notebook/introduction-to-python-programming/)
-- [Python file for notetaking](/assets/python-intro.py)
 - [Python Geospatial Libraries](https://cybergisxhub.cigi.illinois.edu/notebook/python-geospatial-libraries/)
+- Python files for the code
+  - [Python Intro](/assets/python-intro.py)
+  - [Geospatial Python](/assets/python-geospatial.py)
 
 ## What's next?
 

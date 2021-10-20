@@ -14,8 +14,7 @@ By the end of lab, you should have:
 - pushed your changed (annotated) version of the notebook back to your own GitHub repository
 
 Advice:
-- Use the [Hour of CI Gateway Lesson](2021-05-10-hourCI) to learn how Jupyter notebooks work and how to use them.
-- Use the [RP-Kang](https://github.com/GIS4DEV/RP-Kang) version of the repository. It contains some bug fixes in a pending [pull request](https://github.com/cybergis/COVID-19AccessibilityNotebook/pull/1) to the authors from yours truly.
+- Use the [RPr-Kang](https://github.com/HEGSRR/RPr-Kang-2020) version of the repository. It contains some bug fixes in a pending [pull request](https://github.com/cybergis/COVID-19AccessibilityNotebook/pull/1) to the authors from yours truly.
 - Use the instructions below to learn how to import a project into CyberGISX and push your changes to GitHub.
 - Feel free to team up, but make sure you also run the code in your own account simultaneously.
 - You may have to make the notebook **trusted** to see all outputs. This button is in the top-right corner of the notebook.

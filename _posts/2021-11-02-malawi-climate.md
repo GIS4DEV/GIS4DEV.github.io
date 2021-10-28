@@ -21,4 +21,4 @@ To this goal, please take notes on:
 
 In addition, you may want to think about the **construct validity** of the paper in terms of the relationship between theoretical concepts and the quantitative/spatial measurements and analytical tools used to represent the concepts in GIS.
 
-In small groups, aim to have a complete workflow for the paper's methodology as a markdown text document by Wednesday, April 14. This workflow should be based on information in the paper only, *without looking at any of the data*.
+Be prepared to draw ***workflow diagrams*** for the analysis in this research paper, especially the data and steps required to produce **figure 4** and **figure 5**.

@@ -6,63 +6,51 @@ format: workshop
 date: 2021-11-04 13:30
 ---
 
-## Investigate Data Sources & Revisit / Discuss Workflow
+In this workshop we will:
 
-Now, it's time to investigate the data sources for the Malcomb et al (2014) study!
+- complete a reproduction of Malcomb et al (2014)
+- compare reproduction results with original results
+- evaluate and critique sources of error and uncertainty in the original study,
+particularly with regards to reproducibility
 
-I suggest you divide up the task of investigating and describing the data sources and, based on what you find, revising the preanalysis plan. One way to slice it would be to use Table 2 to divide the task by:
+The learning goals are to:
 
-- Assets
-- Access
-- Livelihood Sensitivity available [here](https://drive.google.com/file/d/1RKVGitv4HxFuCylYps-gGkt6OK4oAjJa/view?usp=sharing) for Middlebury students only.
-- Physical Exposure
+- gain experience executing spatial research in R / RStudio
+- gain practice reading research publications to understand their methodologies
+- critically review research for error, uncertainty, and reproducibility
 
-As each person finishes their section, join others with more complex data or rotate data sources. Make sure each data source gets a look by at least one person, and by the end, everyone should agree on the new preanalysis plan.
+## Procedure
 
-1. Make amendments to your preanalysis plan markdown document.
-1. It should be possible for different group members to work simultaneously, as long as they work on different sections of the document.
-1. When you are finished, create a second `release` titled `RP-Malcomb-Preanalysis-Plan-Data` and note in the description that this preanalysis plan was amended after investigating all data sources for the study, but prior to starting any analysis.
+- **Fork** the [RPr-Malcomb-2014](https://github.com/HEGSRR/RPr-Malcomb-2014) repository to your own GitHub account
+- **Clone** the repository to your local computer
+- Review the **data sources** and **metadata** for the reproduction study.
+- Review the **pre-analysis plan** for the reproduction study.
+- **Study** and **execute** the reproduction study code using RStudio. **Take notes** for yourself comparing the code to your own workflow for the research paper, identifying similarities and differences between the two.
 
-## Georeferencing Maps
+## Final Product
 
-- Please learn how to georeference & digitize the maps by following [this playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=9e5891dc-42ab-405e-833b-ad0c0154f900)
+Your final product from the workshop should be an extended *blog post* using the results and experience of this reproduction study to evaluate Malcomb et al (2014) in the framework of Tate (2013)'s assessment of error and uncertainty in spatial vulnerability models.
 
-## Comparing Choropleth Maps
+The blog post should make use of:
+- The Malcomb et al (2014) publication
+- The Tate (2013) publication (see [next lesson](/2021/11/09/vulnerability-uncertainty))
+- The Tate (2013) publication (see [next lesson](/vulnerability-uncertainty))
+- The Malcomb et al (2014) https://github.com/HEGSRR/RPr-Malcomb-2014
 
-Today, we'll investigate the question of how to compare choropleth maps for agreement between the maps or for assessment of accuracy.
+### Georeferencing Maps
 
-Let's connect back to concepts in the Longley et al chapter on *Uncertainty* as well as E Tate's (2013) Uncertainty Analysis for a Social Vulnerability Index
+In the spring 2021 semester, we learned how to digitize results from the map figures in the Malcomb et al publication for comparison with our attempted exact reproduction results.
+This is no longer a course requirement, but it does contain useful skills for reference.
 
-- Real world ~U1~ Conception ~U2~ Measurement & Representation ~U3~ Analysis :: consider these both in terms of geographic features and in terms of attributes
-- Internal Validation, Monte Carlo simulation
-- External Validation & Ground Truthing
-- Discrete vs Continuous (fuzzy) representations of space and of categories
-- Nominal Data: Confusion Matrix and derived statistics: producer's accuracy, consumer's accuracy, and Kappa
-- Interval and Ratio Data: precision, accuracy, and Root Mean Square Error
-- Modifiable Areal Unit Problem (MAUP)
+Here is a [video playlist](https://midd.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=9e5891dc-42ab-405e-833b-ad0c0154f900) of the procedure.
 
-What about *ordinal* data, which is every choropleth map?
+The procedure involved:
 
-- Wikipedia [Spearman's Rank Correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
-- STHDA [Correlation Tests in R](http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
-- R [cor function](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor)
-
-## Lab
-
-In lab we will:
-- complete a reproduction of Malcomb et al (2014) !
-- import and map a digital replica of the Malcomb et al published maps
-- adjust our methods to fit the results of Malcomb et al as well as we can
-
-I suggest tackling the challenge as such:
-- as a group, make sure you've got the required data assembled for sensitivity of livelihood zones
-- as a group, discuss a workflow plan for incorporating the livelihood zone data into your analysis
-- transitioning to pairs / independent work, search for examples in the current R code for the operations you need
-- learn through analogy: repurpose the code you find for processing sensitivity of livelihood zones
-- make sure you get the code working on your won computer, but as always this is a collaborative environment in which questions and crosstalk are welcome.
-
-The final report will be due on Tuesday.
-
-Remember to give credit to your peers for their contributions while you finalize your own reproduction study & report independently.
-
-The final analysis will reach the point of completing a reproduction of figures 3 and 4 and quantitatively comparing those results with the published maps in the paper. On Friday, we will discuss a strategy for this quantitative comparison.
+- Save `.jpg` images of maps from the publication. This can be achieved by saving images from the PDF, screen capture, or saving supplementary data files from the online publication.
+- Load reference data in QGIS, and try to reproject the reference data to the same map projection as the published maps.
+- `Georeference` the map images with the [georeferencer plugin](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/georeferencer.html). This procedure involves digitizing a set of control points matching the map image to a spatial reference system, warps the map image to match a spatial reference system, applies spatial reference metadata to the image.
+- Load or create a set of vector polygons equivalent to the spatial units in the map image
+- If necessary, apply a negative buffer distance to avoid confusion from the boundary colors
+- Summarize the color(s) in the map image by spatial units using `Zonal Statistics`
+- Classify the colors using `CASE` statements in `Field Calculator`.
+- Manually correct any misclassified values

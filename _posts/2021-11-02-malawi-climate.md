@@ -22,3 +22,25 @@ To this goal, please take notes on:
 In addition, you may want to think about the **construct validity** of the paper in terms of the relationship between theoretical concepts and the quantitative/spatial measurements and analytical tools used to represent the concepts in GIS.
 
 Be prepared to draw ***workflow diagrams*** for the analysis in this research paper, especially the data and steps required to produce **figure 4** and **figure 5**.
+
+## Comparing Choropleth Maps
+
+Geographic research studies often result in choropleth maps.
+If we want to reproduce those studies and compare our results, then we will need a quantitative method for comparing our reproduced qualitative maps to the originals.
+
+There are many established concepts methods for assessing agreement, error, and uncertainty in maps, including:
+
+- Internal Validation, e.g. with Monte Carlo simulation
+- External Validation & Ground Truthing
+- Nominal (Categorical) Data: Confusion Matrix and derived statistics: producer's accuracy, consumer's accuracy, and Kappa
+- Interval and Ratio Data: precision, accuracy, and Root Mean Square Error
+
+These methods are confounded by:
+- Modifiable Areal Unit Problem (MAUP)
+- Discrete vs Continuous (fuzzy) representations of space and of categories
+- Choropleth maps are *ordinal* data
+
+The **Spearman's Rho** ranked correlation coefficient allows us to compare two sets of ordinal data
+- Wikipedia [Spearman's Rank Correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient)
+- STHDA [Correlation Tests in R](http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r)
+- R [cor function](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/cor)

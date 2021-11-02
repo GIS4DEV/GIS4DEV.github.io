@@ -1,12 +1,12 @@
 :: command to import map2.osm into testDSM postgis database on artemis, by Joseph Holler
 :: assumes that osm2pgsql is installed to c:\osm\osm2pgsql directory and an OpenStreetMap file is from the Overpass API is saved to c:\osm\map2.osm
 
-osm2pgsql -H 140.233.36.33 -P 5432 -d dsm -U holler -S dsm.style -W -l -v -x -p material c:\osm\map2.osm
+osm2pgsql -H 555.555.555.555 -P 5432 -d dsm -U holler -S dsm.style -W -l -v -x -p material c:\osm\map2.osm
 
 pause
 
 :: K:\gg323\osm2pgsql\osm2pgsql is the location of hte osm2pgsql program on Splinter. If you save the program somewhere else, change this address
-:: -H 140.233.36.33 is the IP address for the PostGIS server, artemis. you can determine ip addresses of named network locations with a ping command, e.g. PING ARTEMIS
+:: -H 555.555.555.555 should be the IP address for the PostGIS server. you can determine ip addresses of named network locations with a ping command, e.g. PING ARTEMIS
 :: -P 5432 is the port for connecting to the database
 :: -d database_name is the name of a database.  Change database_name to your own database name!
 :: -U user_name is your user name. Change to your own user name!

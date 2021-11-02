@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Malawi Climate Vulnerability
-purpose: "study climate vulnerability model of Malawi"
+purpose: "study a climate vulnerability model of Malawi"
 format: lecture
 date: 2021-11-04 09:30
 ---

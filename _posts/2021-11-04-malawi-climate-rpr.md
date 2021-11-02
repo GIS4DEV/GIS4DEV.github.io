@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Malawi Climate Vulnerability Reproduction
-purpose: "reproduce climate vulnerability model of Malawi"
+purpose: "reproduce a climate vulnerability model of Malawi"
 format: workshop
 date: 2021-11-04 13:30
 ---
@@ -34,7 +34,6 @@ Your final product from the workshop should be an extended *blog post* using the
 The blog post should make use of:
 - The Malcomb et al (2014) publication
 - The Tate (2013) publication (see [next lesson](/2021/11/09/vulnerability-uncertainty))
-- The Tate (2013) publication (see [next lesson](/vulnerability-uncertainty))
 - The Malcomb et al (2014) https://github.com/HEGSRR/RPr-Malcomb-2014
 
 ### Georeferencing Maps

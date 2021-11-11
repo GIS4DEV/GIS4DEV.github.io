@@ -12,7 +12,7 @@ To begin learning how to analyze Twitter data, we will first focus on executing 
 
 This week, please:
 
-1. `Fork` and then `clone` the `[OE-Dorian](https://github.com/GIS4DEV/OR-Dorian)` repository.
+1. `Fork` and then `clone` the [OE-Dorian](https://github.com/GIS4DEV/OR-Dorian) repository.
 1. Download [dorian_raw.RData](https://github.com/GIS4DEV/geog323data/raw/main/dorian/dorian_raw.RDS) into the `data/raw/private` folder
 1. Download [november_raw.RData](https://github.com/GIS4DEV/geog323data/raw/main/dorian/november_raw.RDS) into the `data/raw/private` folder
 1. Open the `OR-Dorian.Rproj` project in R

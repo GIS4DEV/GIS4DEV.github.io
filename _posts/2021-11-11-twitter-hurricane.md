@@ -10,4 +10,4 @@ Similar to the strategy with Malcomb et al, we'll first focus on executing and s
 
 1. Please fork and then clone the `RE-Dorian` repository.
 1. Download [dorian_raw.RData](https://github.com/GIS4DEV/geog323data/raw/main/dorian/dorian_raw.RDS) into the `data/raw/private` folder
-1. Download [november.RData](https://github.com/GIS4DEV/geog323data/raw/main/dorian/november.RDS) into the `data/derived/private` folder
+1. Download [november_raw.RData](https://github.com/GIS4DEV/geog323data/raw/main/dorian/november_raw.RDS) into the `data/derived/private` folder

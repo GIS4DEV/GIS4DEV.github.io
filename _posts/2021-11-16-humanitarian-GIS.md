@@ -9,6 +9,8 @@ format: lecture
 
 Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal 80 (4):491–502. DOI:[10.1007/s10708-014-9597-z](https://10.1007/s10708-014-9597-z)
 
+[![Seismic Waves xkcd](https://imgs.xkcd.com/comics/seismic_waves.png)](https://xkcd.com/723/)
+
 ## Discussion & Blog Post
 
 Consider the arguments of the Crawford & Finn (2014) article as you interpret your findings from the [Hurricane Dorian](/2021-11-11-tiwtter-hurricane) analysis.
@@ -21,6 +23,7 @@ Consider the arguments of the Crawford & Finn (2014) article as you interpret yo
 
 ## Examples of Volunteered Geographic Information (VGI)
 
+- [Did you feel it?](https://earthquake.usgs.gov/data/dyfi/)
 - [eBird](https://ebird.org/hotspots)
 - [Hot OSM](https://www.hotosm.org/)
 - [Map Kibera](https://mapkibera.org/)

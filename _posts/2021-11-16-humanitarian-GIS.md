@@ -13,7 +13,7 @@ Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethic
 
 ## Discussion & Blog Post
 
-Consider the arguments of the Crawford & Finn (2014) article as you interpret your findings from the [Hurricane Dorian](/2021-11-11-twitter-hurricane) analysis.
+Consider the arguments of the Crawford & Finn (2014) article as you interpret your findings from the [Hurricane Dorian](/2021/11/11/twitter-hurricane) analysis.
 
 - What types of uncertainty are most prevalent in the use of VGI (volunteered geographic information, e.g. geocoded Tweets) for research on disasters and humanitarian crises?
 - Do you think that there is any ethical obligation in relation to uncertainty?

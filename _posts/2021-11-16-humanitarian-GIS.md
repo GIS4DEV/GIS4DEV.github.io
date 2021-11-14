@@ -7,7 +7,7 @@ format: lecture
 
 ## Reading
 
-Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal 80 (4):491–502. DOI:[10.1007/s10708-014-9597-z](https://10.1007/s10708-014-9597-z)
+Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. *GeoJournal* 80 (4):491–502. DOI:[10.1007/s10708-014-9597-z](https://10.1007/s10708-014-9597-z)
 
 [![Seismic Waves xkcd](https://imgs.xkcd.com/comics/seismic_waves.png)](https://xkcd.com/723/)
 

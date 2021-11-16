@@ -5,7 +5,7 @@ purpose: "replicate Twitter disaster analysis in a new context"
 format: lab
 ---
 
-- Modify your `RE-Dorian` repository to query your own set of data from Twitter.
+- Modify your `OR-Dorian` repository to query your own set of data from Twitter.
 - You may modify both the search terms and the geographic extent of the search.
 - Remember that you may have to let the query run for a few hours if there are a high number of results.
 - This type of analysis is highly dependent on trending twitter activity over the past week. Create a query that will result in many thousands of tweets in the United States.

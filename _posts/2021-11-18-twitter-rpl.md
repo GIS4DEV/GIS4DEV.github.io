@@ -29,3 +29,4 @@ The goal of this lab is to replicate analyses of Twitter data in the context of 
 ### Hurricane Ida Replication
 - If you are interested in analyzing Hurricane Ida data, the code for searches is available [here](https://www.github.com/GIS4DEV/OR-Ida) (currently a private repository for Middlebury students) and the data is available [here](https://github.com/GIS4DEV/geog323data/tree/main/ida) (Middlebury students only).
 - This disaster unfolded over a long period of time, requiring multiple Twitter API searches. The searches must be combined without duplicating Tweets, and checking if there are gaps.
+- Retweets are included

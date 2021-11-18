@@ -27,6 +27,14 @@ The goal of this lab is to replicate analyses of Twitter data in the context of 
   - filter content by region, time, and/or scale to refine the semantic and network analysis
 
 ### Hurricane Ida Replication
+
 - If you are interested in analyzing Hurricane Ida data, the code for searches is available [here](https://www.github.com/GIS4DEV/OR-Ida) (currently a private repository for Middlebury students) and the data is available [here](https://github.com/GIS4DEV/geog323data/tree/main/ida) (Middlebury students only).
 - This disaster unfolded over a long period of time, requiring multiple Twitter API searches. The searches must be combined without duplicating Tweets, and checking if there are gaps.
 - Retweets are included
+
+### Saving graphs
+
+- For ggplots, use `ggsave` as seen at the end of the [Malcomb reproduction](https://github.com/HEGSRR/RPr-Malcomb-2014/blob/main/procedure/code/02-Analysis.Rmd)
+- For igraphs, use the [write_graph](https://igraph.org/r/doc/write_graph.html) function
+- To adjust the size of images as show in RMarkdown notebooks, adjust the [code chunk options](https://bookdown.org/yihui/rmarkdown-cookbook/figure-size.html)
+- To save other images, use `png`, `jpeg`, and `pdf` functions

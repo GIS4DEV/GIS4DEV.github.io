@@ -34,6 +34,7 @@ The goal of this lab is to replicate analyses of Twitter data in the context of 
 
 ### Saving graphs
 
+- igraph [documentation](https://igraph.org/r/html/latest/)
 - For ggplots, use `ggsave` as seen at the end of the [Malcomb reproduction](https://github.com/HEGSRR/RPr-Malcomb-2014/blob/main/procedure/code/02-Analysis.Rmd)
 - For igraphs, use the [write_graph](https://igraph.org/r/doc/write_graph.html) function
 - To adjust the size of images as show in RMarkdown notebooks, adjust the [code chunk options](https://bookdown.org/yihui/rmarkdown-cookbook/figure-size.html)

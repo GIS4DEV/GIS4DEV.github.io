@@ -19,9 +19,15 @@ For this lecture, please read Chakraborty's (2021) paper thoroughly with the int
 ### Kulldorff spatial scan statistics
 
 - [SaTScan](https://www.satscan.org) software for spatial scan statistics, including a [user guide](https://www.satscan.org/cgi-bin/satscan/register.pl/SaTScan_Users_Guide.pdf)
-- [SpatialEpi](https://cran.r-project.org/web/packages/SpatialEpi/index.html) R package for spatial epidemiology
+- [SpatialEpi Package](https://cran.r-project.org/package=SpatialEpi) R package for spatial epidemiology, and its [GitHub Repository](https://github.com/rudeboybert/SpatialEpi) and [reference manual](https://cran.r-project.org/web/packages/SpatialEpi/SpatialEpi.pdf)
+- [R Data and Methods for Spatial Epidemiology: the SpatialEpi Package](https://faculty.washington.edu/jonno/SISMIDmaterial/SpatialEpiVignette.pdf)
+
+### Relative Risk
+
+- CDC DSEPD Principles of Epidemiology in Public Health Lesson 3: [Measures of Risk](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section5.html)
 
 ### Generalized Estimating Equations
 
 - University of Virginia Library [GEE Introduction](https://data.library.virginia.edu/getting-started-with-generalized-estimating-equations/)
-- [gee](https://cran.r-project.org/web/packages/gee/index.html)
+- [gee Package](https://cran.r-project.org/web/packages/gee/index.html) and [reference manual](https://cran.r-project.org/web/packages/geepack/vignettes/geepack-manual.pdf)
+- [The R Package geepack for Generalized Estimating Equations](file:///C:/Users/josephh/AppData/Local/Temp/v15i02.pdf) academic paper by the package authors, Halekoh, Højsgaard, and Yan
